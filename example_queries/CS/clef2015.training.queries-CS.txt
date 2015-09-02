@@ -1,0 +1,27 @@
+﻿<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>ztráta vlasů na hlavě o průměru jednoho palce</query>
+        <narr>Dokument by měl obsahovat informace umožňující uživateli pochopit, že mají alopecii.</narr>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>bolavá místa kolem úst</query>
+        <narr>Dokument by měl obsahovat informace umožňující uživateli pochopit, že mají angulární cheilitidu.</narr>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>oteklé,bolavé lýtko</query>
+        <narr>Dokument by měl obsahovat informace umožňující uživateli pochopit, že mají edém.</narr>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>vystupující oční bulby</query>
+        <narr>Dokument by měl obsahovat informace umožňující uživateli pochopit, že mají exoftalmus.</narr>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>bělmo zezelená</query>
+        <narr>Dokument by měl obsahovat informace umožňující uživateli pochopit, že mají žloutenku.</narr>
+    </top>
+</topics>

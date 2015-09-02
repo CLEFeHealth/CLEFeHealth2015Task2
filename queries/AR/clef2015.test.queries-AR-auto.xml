@@ -1,0 +1,331 @@
+<topics>
+    <top>
+        <num>clef2015.test.1</num>
+        <query>علامات حمراء عديدة على الساقين بعد السفر من عندنا</query>
+        <translation>many red marks on the legs after traveling from us</translation>
+    </top>
+    <top>
+        <num>clef2015.test.2</num>
+        <query>كتلة مع بقع دموية على الأنف</query>
+        <translation>block with a bloody nose spots</translation>
+    </top>
+    <top>
+        <num>clef2015.test.3</num>
+        <query>أقدام جافة حمراء ومتوسفة عند الأطفال</query>
+        <translation>feet dry red Mtosevh in children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.4</num>
+        <query>كتل جلدية حاكة</query>
+        <translation>itchy skin blocks</translation>
+    </top>
+    <top>
+        <num>clef2015.test.5</num>
+        <query>ضوضاء الصفير و السعال أثناء النوم + الأطفال</query>
+        <translation>wheezing and coughing noise during sleep + children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.6</num>
+        <query>طفل يصدر صوت فحيح عند التنفس</query>
+        <translation>baby voice hissing sounds when breathing</translation>
+    </top>
+    <top>
+        <num>clef2015.test.7</num>
+        <query>أعراض الوردية</query>
+        <translation>symptoms of rosacea</translation>
+    </top>
+    <top>
+        <num>clef2015.test.8</num>
+        <query>القرنية الغائمة و مشكلة الرؤية</query>
+        <translation>cloudy cornea and vision problem</translation>
+    </top>
+    <top>
+        <num>clef2015.test.9</num>
+        <query>حكة في العيون الحمراء</query>
+        <translation>itchy red eyes</translation>
+    </top>
+    <top>
+        <num>clef2015.test.10</num>
+        <query>علامة عضة بشكل فوهة البركان </query>
+        <translation>bite mark in the crater</translation>
+    </top>
+    <top>
+        <num>clef2015.test.11</num>
+        <query>بقع بيضاء في الفم</query>
+        <translation>white patches in the mouth</translation>
+    </top>
+    <top>
+        <num>clef2015.test.12</num>
+        <query>طفل لديه سعال جاف و لديه مشكلة في بلع اللعاب</query>
+        <translation>child has a dry cough and have trouble swallowing the saliva</translation>
+    </top>
+    <top>
+        <num>clef2015.test.13</num>
+        <query>الحدقة الغائمة تؤثر على الرؤية</query>
+        <translation>iris cloudy affect vision</translation>
+    </top>
+    <top>
+        <num>clef2015.test.14</num>
+        <query>صعوبات التنفس عند الرضيع</query>
+        <translation>breathing difficulties when the infant</translation>
+    </top>
+    <top>
+        <num>clef2015.test.15</num>
+        <query>نوبة ربو</query>
+        <translation>asthma attack</translation>
+    </top>
+        <num>clef2015.test.16</num>
+        <query>كدمات متفاوتة حمراء على الساقين</query>
+        <translation>varying red bruises on the legs</translation>
+    </top>
+    <top>
+        <num>clef2015.test.17</num>
+        <query>طفح جلدي متقشر</query>
+        <translation> scaly rash </translation>
+    </top>
+    <top>
+        <num>clef2015.test.18</num>
+        <query>ضعف في المشي و التوازن مع اهتزاز</query>
+        <translation>weakness in walking and balance with vibration</translation>
+    </top>
+    <top>
+        <num>clef2015.test.19</num>
+        <query>كدمة في ظفر ابهام </query>
+        <translation>bruise in thumbnail</translation>
+    </top>
+    <top>
+        <num>clef2015.test.20</num>
+        <query>صعوبة الحركة مع رجفان اليد اللاإرادي</query>
+        <translation>difficult movement with atrial autonomic Hand</translation>
+    </top>
+    <top>
+        <num>clef2015.test.21</num>
+        <query>الطفوح الجلدية الحاكة الشائعة</query>
+        <translation>itchy skin rashes common</translation>
+    </top>
+    <top>
+        <num>clef2015.test.22</num>
+        <query>خروج مفرزات صفراء سميكة من العين</query>
+        <translation>exit thick yellow discharge from the eye</translation>
+    </top>
+    <top>
+        <num>clef2015.test.23</num>
+        <query>عيون محتقنة بالدم حمراء</query>
+        <translation>congested eyes blood red</translation>
+    </top>
+    <top>
+        <num>clef2015.test.24</num>
+        <query>مادة لزجة صفراء تخرج من عين واحدة حاكة</query>
+        <translation>yellow sticky substance out of one eye itchy</translation>
+    </top>
+    <top>
+        <num>clef2015.test.25</num>
+        <query>طفح أحمر على وجه الطفل</query>
+        <translation>red rash on the face of the child</translation>
+    </top>
+    <top>
+        <num>clef2015.test.26</num>
+        <query>أثار كتل جلدية حمراء</query>
+        <translation>raised red leather blocks </translation>
+    </top>
+    <top>
+        <num>clef2015.test.27</num>
+        <query>العودة من ماوراء البحار مع بقع متوسطة على الساقين</query>
+        <translation>return from overseas with medium patches on the legs</translation>
+    </top>
+    <top>
+        <num>clef2015.test.28</num>
+        <query>فطريات على جلد الطفل</query>
+        <translation>fungi on the baby's skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.29</num>
+        <query>بقعة حمراء على الجلد مع بثرة و قيح جاف</query>
+        <translation>red spot on the skin with pus pimple and dry</translation>
+    </top>
+    <top>
+        <num>clef2015.test.30</num>
+        <query>أصوات غريبة عند التنفس</query>
+        <translation>strange noises when breathing</translation>
+    </top>
+    <top>
+        <num>clef2015.test.31</num>
+        <query>الطفل لديه تنفس صريري</query>
+        <translation>child has breathing Barra</translation>
+    </top>
+    <top>
+        <num>clef2015.test.32</num>
+        <query>جلد متهيج أحمر على وجه طفل</query>
+        <translation>irritated red skin on the face of a child</translation>
+    </top>
+    <top>
+        <num>clef2015.test.33</num>
+        <query>التهاب ابيض في البلعوم</query>
+        <translation>White inflammation of the pharynx</translation>
+    </top>
+    <top>
+        <num>clef2015.test.34</num>
+        <query>الاسنان مشكلة تجويف </query>
+        <translation>dental cavity problem</translation>
+    </top>
+    <top>
+        <num>clef2015.test.35</num>
+        <query>الكثير من التهيج عند وضع العدسات اللاصقة</query>
+        <translation>a lot of irritation when wearing contact lenses</translation>
+    </top>
+    <top>
+        <num>clef2015.test.36</num>
+        <query>ارتعاش في العين</query>
+        <translation>twitching in the eye</translation>
+    </top>
+    <top>
+        <num>clef2015.test.37</num>
+        <query>جلد متوسف</query>
+        <translation>desquamated skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.38</num>
+        <query>أقدام حاكة حمراء متوسفة عند الأطفال</query>
+        <translation>red itchy feet Mtosevh in children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.39</num>
+        <query>اكزيما جلدية مع بثرة و قيح أبيض</query>
+        <translation>leather eczema with pimple pus and white</translation>
+    </top>
+    <top>
+        <num>clef2015.test.40</num>
+        <query>طفل مع علامة كبيرة حمراء على الوجه</query>
+        <translation>kid with a big red mark on the face</translation>
+    </top>
+    <top>
+        <num>clef2015.test.41</num>
+        <query>قزحية عين كبيرة</query>
+        <translation>iris of the eye big</translation>
+    </top>
+    <top>
+        <num>clef2015.test.42</num>
+        <query>بقعة نازفة تحت الجلد</query>
+        <translation>spot bleeding under the skin</translation>
+    </top>
+    <top>
+    <num>clef2015.test.43</num>
+        <query> أثار كدمات حاكة على الجلد</query>
+        <translation>bruises on the skin itchy</translation>
+    </top>
+    <top>
+        <num>clef2015.test.44</num>
+        <query>ظفر عاتم</query>
+        <translation>Zafar Atm</translation>
+    </top>
+    <top>
+        <num>clef2015.test.45</num>
+        <query>ملمس جاف مع تهيج</query>
+        <translation>dry texture with irritation</translation>
+    </top>
+    <top>
+        <num>clef2015.test.46</num>
+        <query>طفل يسعل</query>
+        <translation>child coughs</translation>
+    </top>
+    <top>
+        <num>clef2015.test.47</num>
+        <query>تجاويف</query>
+        <translation>cavities</translation>
+    </top>
+    <top>
+    <num>clef2015.test.48</num>
+    <query>لا استطيع ايقاف تحريك عيني مشكلة طبية </query>
+        <translation>I can not stop moving the eyes of a medical problem</translation>
+    </top>
+    <top>
+    <num>clef2015.test.49</num>
+    <query>الطفل يتنفس دائما والفم مغلق</query>
+        <translation>child always breathing and mouth closed</translation>
+    </top>
+    <top>
+        <num>clef2015.test.50</num>
+        <query> بقعة حمراءعلى وجه طفل </query>
+        <translation>Hmraaly spot baby face</translation>
+    </top>
+    <top>
+        <num>clef2015.test.51</num>
+        <query>أوعية العينين الدموية الحمراء</query>
+        <translation>blood red eyes vessels</translation>
+    </top>
+    <top>
+        <num>clef2015.test.52</num>
+        <query>بقع بيضاءعلى اللثة</query>
+        <translation>spots Whitaaly gums</translation>
+    </top>
+    <top>
+        <num>clef2015.test.53</num>
+        <query>ساقان متورمتان</query>
+        <translation>swollen legs</translation>
+    </top>
+    <top>
+        <num>clef2015.test.54</num>
+        <query>كتل حمراء على الأنف</query>
+        <translation>red lumps on the nose</translation>
+    </top>
+    <top>
+    <num>clef2015.test.55</num>
+    <query>نمط الصندوق علامة في الجلد</query>
+        <translation>fund pattern mark in the skin</translation>
+    </top>
+    <top>
+    <num>clef2015.test.56</num>
+    <query>التراخي أثناء المشي</query>
+        <translation>lax while walking</translation>
+    </top>
+    <top>
+    <num>clef2015.test.57</num>
+    <query>التنفس المجهد عند الرضيع مع سعال وزيزي حاد</query>
+        <translation>breathing strained when the infant with a severe cough and Zizi</translation>
+    </top>
+    <top>
+        <num>clef2015.test.58</num>
+        <query> درجة حرارة 39 وجدري </query>
+        <translation>temperature of 39 and smallpox</translation>
+    </top>
+    <top>
+        <num>clef2015.test.59</num>
+        <query>تنفس ثقيل وحاد</query>
+        <translation>heavy and severe breathing</translation>
+    </top>
+    <top>
+        <num>clef2015.test.60</num>
+        <query>طفل مع نقطة بيضاء في القزحية</query>
+        <translation>child with a white dot in the iris</translation>
+    </top>
+    <top>
+        <num>clef2015.test.61</num>
+        <query>كدمات الأظافر</query>
+        <translation>bruises nails</translation>
+    </top>
+    <top>
+        <num>clef2015.test.63</num>
+        <query>بقع جلدية قاسية</query>
+        <translation>stiff leather patches</translation>
+    </top>
+    <top>
+        <num>clef2015.test.64</num>
+        <query>حركة عين يسار-يمين سريعة لا إرادية</query>
+        <translation>appointed a quick left-right movement involuntarily</translation>
+    </top>
+    <top>
+        <num>clef2015.test.65</num>
+        <query>بقع بنية غريبة على الجلد</query>
+        <translation>spots a strange structure on the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.66</num>
+        <query>علاج السعال عند الأطفال</query>
+        <translation>treat cough in children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.67</num>
+        <query>ضرس أسود</query>
+        <translation>Sprocket Black</translation>
+    </top>
+</topics>

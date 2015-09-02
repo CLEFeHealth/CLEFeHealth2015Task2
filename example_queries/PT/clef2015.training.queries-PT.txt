@@ -1,0 +1,27 @@
+<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>perda de cabelo de forma localizada</query>
+        <narr>O documento deve conter informação permitindo o usuário entender que tem alopécia</narr>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>feridas ao redor da boca</query>
+        <narr>O documento deve conter informação permitindo o usuário entender que tem queilite angular</narr>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>panturrilha inchada</query>
+        <narr>O documento deve conter informação permitindo o usuário entender que tem edema</narr>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>as bolas dos olhos saindo para fora</query>
+        <narr>O documento deve conter informação permitindo o usuário entender que tem exoftalmia</narr>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>a parte branca do olho tornou-se verde</query>
+        <narr>O documento deve conter informação permitindo o usuário entender que tem icterícia</narr>
+    </top>
+</topics>

@@ -1,0 +1,62 @@
+<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>loss of hair on scalp in an inch width round</query>
+        <translation-AR>Hair loss on the scalp in a circular motion by Lynch</translation-AR>
+        <translation-CS>loss of hair on the head with a diameter of one inch</translation-CS>
+        <translation-DE>Hair loss on the scalp inches wide around</translation-DE>
+        <translation-FR>hair loss on the scalp inch circle width</translation-FR>
+        <translation-PT>hair loss localized form</translation-PT>
+        <translation-ES>hair loss on the scalp in small circles of an inch in diameter</translation-ES>
+        <translation-IT>hair loss on the scalp in the form of small circles of a centimeter in diameter</translation-IT>
+        <translation-FA> </translation-FA>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>sores around mouth</query>
+        <translation-AR>Ulceration of the skin around the mouth</translation-AR>
+        <translation-CS>sores around the mouth</translation-CS>
+        <translation-DE>Sore mouth set</translation-DE>
+        <translation-FR>lesions around the mouth</translation-FR>
+        <translation-PT>sores around the mouth</translation-PT>
+        <translation-ES>lesions around the mouth</translation-ES>
+        <translation-IT>wounds to the sides of the mouth</translation-IT>
+        <translation-FA>Sores around the mouth</translation-FA>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>puffy sore calf</query>
+        <translation-AR>Calf painful Almmma</translation-AR>
+        <translation-CS>swollen, sore calf</translation-CS>
+        <translation-DE>Swollen, sore calf</translation-DE>
+        <translation-FR>painful swollen calf</translation-FR>
+        <translation-PT>swollen and sore calf</translation-PT>
+        <translation-ES>wollen and painful calf</translation-ES>
+        <translation-IT>wollen and painful</translation-IT>
+        <translation-FA>Leg swelling</translation-FA>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>eye balls coming out</query>
+        <translation-AR>Protrusion Karti eyes</translation-AR>
+        <translation-CS>protruding Eyeballs</translation-CS>
+        <translation-DE>Emergence of the eyeballs</translation-DE>
+        <translation-FR>eyeballs coming out</translation-FR>
+        <translation-PT>the eye balls sticking out</translation-PT>
+        <translation-ES>leaving eyeballs</translation-ES>
+        <translation-IT>eyeballs coming out</translation-IT>
+        <translation-FA>Protruding Gay</translation-FA>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>white part of eye turned green</query>
+        <translation-AR>Turning white of the eye green color</translation-AR>
+        <translation-CS>whites turn green</translation-CS>
+        <translation-DE>Weiss was green eyes</translation-DE>
+        <translation-FR>white part of the eye become green</translation-FR>
+        <translation-PT>the white of the eye became green</translation-PT>
+        <translation-ES>white part of the eye that turns green</translation-ES>
+        <translation-IT>te part of the eye that turns green</translation-IT>
+        <translation-FA>White green eyes</translation-FA>
+    </top>
+</topics>

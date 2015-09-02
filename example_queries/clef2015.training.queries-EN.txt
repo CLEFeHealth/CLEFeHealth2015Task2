@@ -1,0 +1,27 @@
+<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>loss of hair on scalp in an inch width round</query>
+        <narr>Documents should contain information allowing the user to understand they have alopecia</narr>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>sores around mouth</query>
+        <narr>Documents should contain information allowing the user to understand they have angular cheilitis</narr>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>puffy sore calf</query>
+        <narr>Documents should contain information allowing the user to understand they have an edema</narr>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>eye balls coming out</query>
+        <narr>Documents should contain information allowing the user to understand they have exophthalmos</narr>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>white part of eye turned green</query>
+        <narr>Documents should contain information allowing the user to understand they have jaundice</narr>
+    </top>
+</topics>

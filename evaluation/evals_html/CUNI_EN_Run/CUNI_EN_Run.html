@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Share/CLEF eHealth 2015 TASK 2 Results by relevation - Information Retrieval Relevance Judging System</title>
+   <meta name="description" content="">
+    <meta name="author" content="CLEF 2015 Task 2 Committee">
+    <link rel="stylesheet" href="bootstrap.css">
+    <style type="text/css">
+        body { padding-top: 60px; font-size: 12px; }
+        label, button, .btn { font-size: 12px; }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="./clef_eval_files/jquery.min.js"></script>
+    <script src="./clef_eval_files/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+<style type="text/css">@media print { #feedlyMiniIcon { display: none; } }</style></head>
+
+<body style="zoom: 1;">
+<div class="container">
+<div class="well">
+        <h1>Share/CLEF eHealth 2015 TASK 2 Results - CUNI_EN_Run</h1>
+        <p>This page summarises the results obtained from your submissions. Here, you can find the mean performance of your submissions, for all standard trec_eval measures and for nDCG at different ranks.</br> For this first year, the Share/CLEF eHealth 2015 TASK 2 built result pools from your submissions considering the top 10 documents ranked by your baseline system (run 1), and the two highest priority runs (run 2 and 3); thus all remaining runs were not sampled to form the assessment pool. This was because, unlike in previous years, submissions were greatly differing between each other, and thus lead to very large (and different) pools. As a consequence:<ul><li>the <b>primary measure for this year is precision at 10 (P@10)</b>,</li><li>the <b>secondary measure is Normalised Discounted Cumulative Gain at rank 10</b> (ndcg_cut_10).</li></ul>Per-query performance can be found in the <i>evals</i> folder in the directory containing this HTML page. Note that metrics such as MAP may not be reliable for evaluation due to the limited pool depth.</br>Some of the participant's runs contained formatting errors (the most common was the use of a numeric query id in place of the official qtest2015.XX id); others did not retrieve results for some queries or fail to conform to the TREC result format; finally, some retrieved the same document more than once for the same query (i.e. duplicate documents). To fairly evaluate the runs of every participant, submitted runs containing formatting errors and duplicated documents have been corrected. Duplicate documents have been removed and replaced by a <i>duplicatedid</i> string. Your runs (as evaluated here) are contained in the folder <i>runs</i> - please use these runs if you want to perform further evaluation and analysis.</br></br>Please refer to the <a href="https://sites.google.com/site/clefehealth2015/">ShARe/CLEF 2015 eHealth Evaluation Lab website</a> for additional details on the task.</p></br><p>Relevance assessments are distributed along with this webpage and are also available from the task website. Assessors judged relevance according to a three point scale: Not Relevant (label 0), Somewhat Relevant (label 1), Highly Relevant (label 2). When computing binary relevance measures (e.g. P@10 and MAP), we mapped label 0 to not relevant, and labels 1 and 2 to relevant; this  is encoded in the binary qrels named <i>qrels.clef2015.test.bin.txt</i>. Graded relevance assessments are contained in the <i>qrels.clef2015.test.graded.txt</i> file.</p>
+    </div>
+    <div class="row">
+        <div class="span9">
+            <h2>Evaluation with standard trec_eval metrics</h2>
+        <p>These results have been obtained with the binary relevance assessment, i.e. qrels.clef2015.test.bin.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>. Trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 qrels.clef2015.test.bin.txt runName</pre>
+ <h4>CUNI_EN_Run.1.dat</h4>
+            <pre>
+runid                 	all	DirichletLM
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1703
+map                   	all	0.2353
+gm_map                	all	0.0918
+Rprec                 	all	0.2445
+bpref                 	all	0.2952
+recip_rank            	all	0.5665
+iprec_at_recall_0.00  	all	0.6114
+iprec_at_recall_0.10  	all	0.5138
+iprec_at_recall_0.20  	all	0.4070
+iprec_at_recall_0.30  	all	0.3490
+iprec_at_recall_0.40  	all	0.2743
+iprec_at_recall_0.50  	all	0.2171
+iprec_at_recall_0.60  	all	0.1632
+iprec_at_recall_0.70  	all	0.1258
+iprec_at_recall_0.80  	all	0.0929
+iprec_at_recall_0.90  	all	0.0430
+iprec_at_recall_1.00  	all	0.0159
+P_5                   	all	0.3970
+P_10                  	all	0.3712
+P_15                  	all	0.3444
+P_20                  	all	0.3083
+P_30                  	all	0.2606
+P_100                 	all	0.1480
+P_200                 	all	0.0931
+P_500                 	all	0.0459
+P_1000                	all	0.0258
+</pre>
+ <h4>CUNI_EN_Run.10.dat</h4>
+            <pre>
+runid                 	all	DirichletLM
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1695
+map                   	all	0.1919
+gm_map                	all	0.0698
+Rprec                 	all	0.2061
+bpref                 	all	0.2875
+recip_rank            	all	0.4581
+iprec_at_recall_0.00  	all	0.5341
+iprec_at_recall_0.10  	all	0.4218
+iprec_at_recall_0.20  	all	0.3520
+iprec_at_recall_0.30  	all	0.2823
+iprec_at_recall_0.40  	all	0.2252
+iprec_at_recall_0.50  	all	0.1800
+iprec_at_recall_0.60  	all	0.1366
+iprec_at_recall_0.70  	all	0.1007
+iprec_at_recall_0.80  	all	0.0714
+iprec_at_recall_0.90  	all	0.0354
+iprec_at_recall_1.00  	all	0.0105
+P_5                   	all	0.3273
+P_10                  	all	0.3000
+P_15                  	all	0.2848
+P_20                  	all	0.2598
+P_30                  	all	0.2253
+P_100                 	all	0.1261
+P_200                 	all	0.0872
+P_500                 	all	0.0450
+P_1000                	all	0.0257
+</pre>
+ <h4>CUNI_EN_Run.2.dat</h4>
+            <pre>
+runid                 	all	LGDc1.0
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1668
+map                   	all	0.2236
+gm_map                	all	0.0825
+Rprec                 	all	0.2402
+bpref                 	all	0.2961
+recip_rank            	all	0.5513
+iprec_at_recall_0.00  	all	0.5994
+iprec_at_recall_0.10  	all	0.4824
+iprec_at_recall_0.20  	all	0.3791
+iprec_at_recall_0.30  	all	0.3217
+iprec_at_recall_0.40  	all	0.2639
+iprec_at_recall_0.50  	all	0.2070
+iprec_at_recall_0.60  	all	0.1493
+iprec_at_recall_0.70  	all	0.1146
+iprec_at_recall_0.80  	all	0.0837
+iprec_at_recall_0.90  	all	0.0461
+iprec_at_recall_1.00  	all	0.0239
+P_5                   	all	0.4061
+P_10                  	all	0.3712
+P_15                  	all	0.3374
+P_20                  	all	0.3045
+P_30                  	all	0.2601
+P_100                 	all	0.1400
+P_200                 	all	0.0870
+P_500                 	all	0.0449
+P_1000                	all	0.0253
+</pre>
+ <h4>CUNI_EN_Run.3.dat</h4>
+            <pre>
+runid                 	all	PL2F
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1637
+map                   	all	0.2095
+gm_map                	all	0.0702
+Rprec                 	all	0.2314
+bpref                 	all	0.2902
+recip_rank            	all	0.5387
+iprec_at_recall_0.00  	all	0.6026
+iprec_at_recall_0.10  	all	0.4789
+iprec_at_recall_0.20  	all	0.3570
+iprec_at_recall_0.30  	all	0.3086
+iprec_at_recall_0.40  	all	0.2382
+iprec_at_recall_0.50  	all	0.1838
+iprec_at_recall_0.60  	all	0.1357
+iprec_at_recall_0.70  	all	0.0995
+iprec_at_recall_0.80  	all	0.0722
+iprec_at_recall_0.90  	all	0.0394
+iprec_at_recall_1.00  	all	0.0157
+P_5                   	all	0.3818
+P_10                  	all	0.3485
+P_15                  	all	0.3202
+P_20                  	all	0.2992
+P_30                  	all	0.2515
+P_100                 	all	0.1368
+P_200                 	all	0.0859
+P_500                 	all	0.0451
+P_1000                	all	0.0248
+</pre>
+ <h4>CUNI_EN_Run.4.dat</h4>
+            <pre>
+runid                 	all	CUNI_EN_Run4
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1702
+map                   	all	0.2427
+gm_map                	all	0.0947
+Rprec                 	all	0.2581
+bpref                 	all	0.3025
+recip_rank            	all	0.5652
+iprec_at_recall_0.00  	all	0.6156
+iprec_at_recall_0.10  	all	0.5144
+iprec_at_recall_0.20  	all	0.4193
+iprec_at_recall_0.30  	all	0.3528
+iprec_at_recall_0.40  	all	0.2879
+iprec_at_recall_0.50  	all	0.2319
+iprec_at_recall_0.60  	all	0.1727
+iprec_at_recall_0.70  	all	0.1334
+iprec_at_recall_0.80  	all	0.1014
+iprec_at_recall_0.90  	all	0.0516
+iprec_at_recall_1.00  	all	0.0212
+P_5                   	all	0.4121
+P_10                  	all	0.3742
+P_15                  	all	0.3515
+P_20                  	all	0.3273
+P_30                  	all	0.2737
+P_100                 	all	0.1494
+P_200                 	all	0.0930
+P_500                 	all	0.0470
+P_1000                	all	0.0258
+</pre>
+ <h4>CUNI_EN_Run.5.dat</h4>
+            <pre>
+runid                 	all	PL2F
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1607
+map                   	all	0.2046
+gm_map                	all	0.0716
+Rprec                 	all	0.2251
+bpref                 	all	0.2923
+recip_rank            	all	0.5708
+iprec_at_recall_0.00  	all	0.6126
+iprec_at_recall_0.10  	all	0.4892
+iprec_at_recall_0.20  	all	0.3487
+iprec_at_recall_0.30  	all	0.2934
+iprec_at_recall_0.40  	all	0.2349
+iprec_at_recall_0.50  	all	0.1800
+iprec_at_recall_0.60  	all	0.1278
+iprec_at_recall_0.70  	all	0.0931
+iprec_at_recall_0.80  	all	0.0577
+iprec_at_recall_0.90  	all	0.0274
+iprec_at_recall_1.00  	all	0.0068
+P_5                   	all	0.3970
+P_10                  	all	0.3530
+P_15                  	all	0.3283
+P_20                  	all	0.2992
+P_30                  	all	0.2449
+P_100                 	all	0.1323
+P_200                 	all	0.0835
+P_500                 	all	0.0440
+P_1000                	all	0.0243
+</pre>
+ <h4>CUNI_EN_Run.6.dat</h4>
+            <pre>
+runid                 	all	LGDc1.0
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1606
+map                   	all	0.2123
+gm_map                	all	0.0848
+Rprec                 	all	0.2334
+bpref                 	all	0.3046
+recip_rank            	all	0.5501
+iprec_at_recall_0.00  	all	0.5942
+iprec_at_recall_0.10  	all	0.4801
+iprec_at_recall_0.20  	all	0.3781
+iprec_at_recall_0.30  	all	0.2961
+iprec_at_recall_0.40  	all	0.2406
+iprec_at_recall_0.50  	all	0.1869
+iprec_at_recall_0.60  	all	0.1372
+iprec_at_recall_0.70  	all	0.1050
+iprec_at_recall_0.80  	all	0.0717
+iprec_at_recall_0.90  	all	0.0350
+iprec_at_recall_1.00  	all	0.0108
+P_5                   	all	0.4030
+P_10                  	all	0.3606
+P_15                  	all	0.3303
+P_20                  	all	0.2970
+P_30                  	all	0.2545
+P_100                 	all	0.1398
+P_200                 	all	0.0851
+P_500                 	all	0.0435
+P_1000                	all	0.0243
+</pre>
+ <h4>CUNI_EN_Run.7.dat</h4>
+            <pre>
+runid                 	all	CUNI_EN_Run7
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1627
+map                   	all	0.2188
+gm_map                	all	0.0832
+Rprec                 	all	0.2321
+bpref                 	all	0.3009
+recip_rank            	all	0.6007
+iprec_at_recall_0.00  	all	0.6246
+iprec_at_recall_0.10  	all	0.5117
+iprec_at_recall_0.20  	all	0.3780
+iprec_at_recall_0.30  	all	0.3083
+iprec_at_recall_0.40  	all	0.2459
+iprec_at_recall_0.50  	all	0.1974
+iprec_at_recall_0.60  	all	0.1427
+iprec_at_recall_0.70  	all	0.1081
+iprec_at_recall_0.80  	all	0.0701
+iprec_at_recall_0.90  	all	0.0296
+iprec_at_recall_1.00  	all	0.0080
+P_5                   	all	0.4152
+P_10                  	all	0.3803
+P_15                  	all	0.3414
+P_20                  	all	0.3098
+P_30                  	all	0.2626
+P_100                 	all	0.1380
+P_200                 	all	0.0856
+P_500                 	all	0.0439
+P_1000                	all	0.0247
+</pre>
+ <h4>CUNI_EN_Run.8.dat</h4>
+            <pre>
+runid                 	all	CUNI_EN_Run8
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1703
+map                   	all	0.2369
+gm_map                	all	0.0921
+Rprec                 	all	0.2432
+bpref                 	all	0.2964
+recip_rank            	all	0.5685
+iprec_at_recall_0.00  	all	0.6136
+iprec_at_recall_0.10  	all	0.5140
+iprec_at_recall_0.20  	all	0.4075
+iprec_at_recall_0.30  	all	0.3540
+iprec_at_recall_0.40  	all	0.2757
+iprec_at_recall_0.50  	all	0.2182
+iprec_at_recall_0.60  	all	0.1652
+iprec_at_recall_0.70  	all	0.1289
+iprec_at_recall_0.80  	all	0.0943
+iprec_at_recall_0.90  	all	0.0430
+iprec_at_recall_1.00  	all	0.0160
+P_5                   	all	0.4061
+P_10                  	all	0.3621
+P_15                  	all	0.3444
+P_20                  	all	0.3114
+P_30                  	all	0.2636
+P_100                 	all	0.1486
+P_200                 	all	0.0930
+P_500                 	all	0.0460
+P_1000                	all	0.0258
+</pre>
+ <h4>CUNI_EN_Run.9.dat</h4>
+            <pre>
+runid                 	all	PL2F
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1607
+map                   	all	0.2045
+gm_map                	all	0.0717
+Rprec                 	all	0.2254
+bpref                 	all	0.2924
+recip_rank            	all	0.5698
+iprec_at_recall_0.00  	all	0.6116
+iprec_at_recall_0.10  	all	0.4877
+iprec_at_recall_0.20  	all	0.3494
+iprec_at_recall_0.30  	all	0.2944
+iprec_at_recall_0.40  	all	0.2348
+iprec_at_recall_0.50  	all	0.1807
+iprec_at_recall_0.60  	all	0.1281
+iprec_at_recall_0.70  	all	0.0939
+iprec_at_recall_0.80  	all	0.0580
+iprec_at_recall_0.90  	all	0.0273
+iprec_at_recall_1.00  	all	0.0068
+P_5                   	all	0.3970
+P_10                  	all	0.3530
+P_15                  	all	0.3263
+P_20                  	all	0.3000
+P_30                  	all	0.2455
+P_100                 	all	0.1326
+P_200                 	all	0.0833
+P_500                 	all	0.0440
+P_1000                	all	0.0243
+</pre>
+
+<h2>Evaluation with nDCG</h2>
+        <p>These results have been obtained with the graded relevance assessment, i.e. qrels.clef2015.test.graded.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>.</br>To obtain nDCG at different ranks, trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 -m ndcg_cut qrels.clef2015.test.graded.txt runName</pre></br><p>This computes nDCG according to Jarvelin and Kekalainen (ACM ToIS v. 20, pp. 422-446, 2002). Gain values are the relevance values in the qrels file (i.e. label 0 corresponds to gain 0, label 1 to gain 1 and label 2 to gain 2).</p>
+ <h4>CUNI_EN_Run.1.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3352
+ndcg_cut_10           	all	0.3423
+ndcg_cut_15           	all	0.3400
+ndcg_cut_20           	all	0.3297
+ndcg_cut_30           	all	0.3236
+ndcg_cut_100          	all	0.3727
+ndcg_cut_200          	all	0.4200
+ndcg_cut_500          	all	0.4634
+ndcg_cut_1000         	all	0.4886
+</pre>
+ <h4>CUNI_EN_Run.10.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2604
+ndcg_cut_10           	all	0.2597
+ndcg_cut_15           	all	0.2616
+ndcg_cut_20           	all	0.2576
+ndcg_cut_30           	all	0.2610
+ndcg_cut_100          	all	0.3087
+ndcg_cut_200          	all	0.3684
+ndcg_cut_500          	all	0.4154
+ndcg_cut_1000         	all	0.4434
+</pre>
+ <h4>CUNI_EN_Run.2.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3399
+ndcg_cut_10           	all	0.3351
+ndcg_cut_15           	all	0.3352
+ndcg_cut_20           	all	0.3282
+ndcg_cut_30           	all	0.3212
+ndcg_cut_100          	all	0.3571
+ndcg_cut_200          	all	0.4028
+ndcg_cut_500          	all	0.4493
+ndcg_cut_1000         	all	0.4742
+</pre>
+ <h4>CUNI_EN_Run.3.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3136
+ndcg_cut_10           	all	0.3138
+ndcg_cut_15           	all	0.3069
+ndcg_cut_20           	all	0.3044
+ndcg_cut_30           	all	0.2986
+ndcg_cut_100          	all	0.3432
+ndcg_cut_200          	all	0.3883
+ndcg_cut_500          	all	0.4357
+ndcg_cut_1000         	all	0.4573
+</pre>
+ <h4>CUNI_EN_Run.4.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3424
+ndcg_cut_10           	all	0.3409
+ndcg_cut_15           	all	0.3427
+ndcg_cut_20           	all	0.3382
+ndcg_cut_30           	all	0.3289
+ndcg_cut_100          	all	0.3816
+ndcg_cut_200          	all	0.4240
+ndcg_cut_500          	all	0.4725
+ndcg_cut_1000         	all	0.4902
+</pre>
+ <h4>CUNI_EN_Run.5.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3290
+ndcg_cut_10           	all	0.3217
+ndcg_cut_15           	all	0.3172
+ndcg_cut_20           	all	0.3103
+ndcg_cut_30           	all	0.2970
+ndcg_cut_100          	all	0.3353
+ndcg_cut_200          	all	0.3761
+ndcg_cut_500          	all	0.4291
+ndcg_cut_1000         	all	0.4509
+</pre>
+ <h4>CUNI_EN_Run.6.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3439
+ndcg_cut_10           	all	0.3364
+ndcg_cut_15           	all	0.3302
+ndcg_cut_20           	all	0.3186
+ndcg_cut_30           	all	0.3131
+ndcg_cut_100          	all	0.3527
+ndcg_cut_200          	all	0.3945
+ndcg_cut_500          	all	0.4389
+ndcg_cut_1000         	all	0.4607
+</pre>
+ <h4>CUNI_EN_Run.7.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3513
+ndcg_cut_10           	all	0.3465
+ndcg_cut_15           	all	0.3343
+ndcg_cut_20           	all	0.3252
+ndcg_cut_30           	all	0.3179
+ndcg_cut_100          	all	0.3528
+ndcg_cut_200          	all	0.3958
+ndcg_cut_500          	all	0.4387
+ndcg_cut_1000         	all	0.4654
+</pre>
+ <h4>CUNI_EN_Run.8.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3385
+ndcg_cut_10           	all	0.3383
+ndcg_cut_15           	all	0.3386
+ndcg_cut_20           	all	0.3299
+ndcg_cut_30           	all	0.3254
+ndcg_cut_100          	all	0.3741
+ndcg_cut_200          	all	0.4177
+ndcg_cut_500          	all	0.4630
+ndcg_cut_1000         	all	0.4890
+</pre>
+ <h4>CUNI_EN_Run.9.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3287
+ndcg_cut_10           	all	0.3215
+ndcg_cut_15           	all	0.3157
+ndcg_cut_20           	all	0.3117
+ndcg_cut_30           	all	0.2972
+ndcg_cut_100          	all	0.3358
+ndcg_cut_200          	all	0.3749
+ndcg_cut_500          	all	0.4293
+ndcg_cut_1000         	all	0.4510
+</pre>
+
+<h2>Readability-biased evaluation</h2>
+        <p>For this year task, we have considered the factor of understandability of information (or readability) within the evaluation of the submissions, along with the topicality factor (normally referred to as (topical) relevance). Thus, along with (topical) relevance assessments (qrels), we have collected readability assessments (qread). These assessments were provided by judges along with the relevance assessments; however readability was assumed to be assessed independently of (topical) relevance. To account for understandability/readability in the evaluation, we have computed an understandability biased measure, uRBP, as defined in Zuccon&Koopman, <a href="http://zuccon.net/publications/medIR2014_healthsearch_readability.pdf">"Integrating understandability in the evaluation of consumer health search engines"</a>, MedIR 2014. We refer to that publication for the motivations and the details of the measure; note however that we did not use automated readability measures to estimate readability - we instead had actual readability assessments from the relevance assessors. Readability assessments were given on a 4 point scale (from 0 to 3): It is very technical and difficult to read and understand (label 0), It is somewhat technical and difficult to read and understand (label 1), It is somewhat easy to read and understand (label 2), It is very easy to read and understand (label 3).</p><p>The results below have been obtained with the binary relevance assessments (i.e. qrels.clef2015.test.bin.txt) and the graded readability assessments (i.e. i.e. qread.clef2015.test.graded.txt), and ubire-v0.1.0 as distributed on <a href="https://github.com/ielab/ubire">GitHub</a>.</br>The tool was ran as follows:</p>
+<pre>java -jar /tools/ubire.0.1.jar --qrels-file=qrels/qrels.clef2015.test.bin.txt --qread-file=qrels/qread.clef2015.test.graded.txt --readability --rbp-p=0.8 --ranking-file=runName</pre></br><p>This computes RBP, and two versions of uRBP. The user persistence parameter <i>p</i> of RBP (and uRBP) was set to 0.8 following Park&Zhang, <a href="http://goanna.cs.rmit.edu.au/~aht/adcs2007/papers/17N.PDF">"On the distribution of user persistence for rank-biased precision"</a>, ADCS 2007.  uRBP has been computed by using user model 1 of Zuccon&Koopman with threshold=2, i.e. documents with a readability score of 0 or 1 where deemed not readable and thus had P(U|k)=0, while documents with a readability score of 2 or 3 where deemed readable and thus had P(U|k)=1. uRBPgr has been computed by mapping graded readability scores to different probability values, in particular: readability of 0 was assigned P(U|k)=0, readability of 1 was assigned P(U|k)=0.4, readability of 2 was assigned P(U|k)=0.8, readability of 3 was assigned P(U|k)=1.</br>Note that we are still experimenting with these readability-biased measures and thus observations made with the provided measures may not be conclusive.</p>
+ <h4>CUNI_EN_Run.1.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3824
+uRBP(0.8)	all      	0.3027
+uRBPgr(0.8)	all      	0.3081
+</pre>
+ <h4>CUNI_EN_Run.10.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3060
+uRBP(0.8)	all      	0.2442
+uRBPgr(0.8)	all      	0.2459
+</pre>
+ <h4>CUNI_EN_Run.2.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3796
+uRBP(0.8)	all      	0.3354
+uRBPgr(0.8)	all      	0.3239
+</pre>
+ <h4>CUNI_EN_Run.3.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3650
+uRBP(0.8)	all      	0.3218
+uRBPgr(0.8)	all      	0.3110
+</pre>
+ <h4>CUNI_EN_Run.4.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3894
+uRBP(0.8)	all      	0.3284
+uRBPgr(0.8)	all      	0.3256
+</pre>
+ <h4>CUNI_EN_Run.5.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3736
+uRBP(0.8)	all      	0.3295
+uRBPgr(0.8)	all      	0.3169
+</pre>
+ <h4>CUNI_EN_Run.6.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3779
+uRBP(0.8)	all      	0.3224
+uRBPgr(0.8)	all      	0.3152
+</pre>
+ <h4>CUNI_EN_Run.7.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3946
+uRBP(0.8)	all      	0.3422
+uRBPgr(0.8)	all      	0.3312
+</pre>
+ <h4>CUNI_EN_Run.8.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3842
+uRBP(0.8)	all      	0.3060
+uRBPgr(0.8)	all      	0.3102
+</pre>
+ <h4>CUNI_EN_Run.9.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3727
+uRBP(0.8)	all      	0.3287
+uRBPgr(0.8)	all      	0.3163
+</pre>
+
+<h2>Plots P@10</h2>
+<p>The plots below compare each of your runs against the median and best performance (p@10) across all systems  submitted to CLEF for each query topic. In particular, for each query, the height of a bar represents the gain/loss of your system and the best system (for that query) over the median system. The height of a bar is then given by:</p>
+<pre>grey bars:   height(q) = your_p@10(q) - median_p@10(q)
+white bars:  height(q) = best_p@10(q) - median_p@10(q)</pre>
+
+ <h4>CUNI_EN_Run.1.dat</h4>
+<img src="./img/CUNI_EN_Run.1.dat.p10.png"/>
+ <h4>CUNI_EN_Run.10.dat</h4>
+<img src="./img/CUNI_EN_Run.10.dat.p10.png"/>
+ <h4>CUNI_EN_Run.2.dat</h4>
+<img src="./img/CUNI_EN_Run.2.dat.p10.png"/>
+ <h4>CUNI_EN_Run.3.dat</h4>
+<img src="./img/CUNI_EN_Run.3.dat.p10.png"/>
+ <h4>CUNI_EN_Run.4.dat</h4>
+<img src="./img/CUNI_EN_Run.4.dat.p10.png"/>
+ <h4>CUNI_EN_Run.5.dat</h4>
+<img src="./img/CUNI_EN_Run.5.dat.p10.png"/>
+ <h4>CUNI_EN_Run.6.dat</h4>
+<img src="./img/CUNI_EN_Run.6.dat.p10.png"/>
+ <h4>CUNI_EN_Run.7.dat</h4>
+<img src="./img/CUNI_EN_Run.7.dat.p10.png"/>
+ <h4>CUNI_EN_Run.8.dat</h4>
+<img src="./img/CUNI_EN_Run.8.dat.p10.png"/>
+ <h4>CUNI_EN_Run.9.dat</h4>
+<img src="./img/CUNI_EN_Run.9.dat.p10.png"/>
+      </div>
+    </div>
+
+    <p></p><hr><p></p>
+    <footer class="row">
+        <div class="span6">
+           <p><a href="https://github.com/ielab/relevation">relevation</a> - Information Retrieval Relevance Judging System</p>
+      </div>
+    </footer>
+</div> <!-- container -->
+</body></html>

@@ -1,0 +1,30 @@
+﻿<top>
+    <num>clef2015.training.1</num>
+    <query>perdita di capelli sul cuoio capelluto sotto forma di piccoli cerchi di un centimetro di diametro</query>
+    <translation>ir loss on the scalp in the form of small circles of a centimeter in diameter</translation>
+    <narr>I documenti devono contenere informazioni che facciano capire all'utente che soffre di alopecia</narr>
+</top>
+<top>
+    <num>clef2015.training.2</num>
+    <query>ferite ai lati della bocca</query>
+    <translation>wounds to the sides of the mouth</translation>
+    <narr>I documenti devono contenere informazioni che facciano capire all'utente che soffre di cheilite angolare</narr>
+</top>
+<top>
+    <num>clef2015.training.3</num>
+    <query>polpaccio gonfio e dolente</query>
+    <translation>calf swollen and painful</translation>
+    <narr>I documenti devono contenere informazioni che facciano capire all'utente che soffre di edema</narr>
+</top>
+<top>
+    <num>clef2015.training.4</num>
+    <query>bulbi oculari che escono</query>
+    <translation>eyeballs coming out</translation>
+    <narr>I documenti devono contenere informazioni che facciano capire all'utente che soffre di esoftalmo</narr>
+</top>
+<top>
+    <num>clef2015.training.5</num>
+    <query>parte bianca dell'occhio che diventa verde</query>
+    <translation>white part of the eye that turns green</translation>
+    <narr>I documenti devono contenere informazioni che facciano capire all'utente che soffre di ittero</narr>
+</top>

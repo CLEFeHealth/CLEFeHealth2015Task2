@@ -1,0 +1,27 @@
+﻿<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>Haarverlust an der Kopfhaut Zoll Breite rund</query>
+        <narr>Dokumente sollten Informationen enthalten, die dem Benutzer ermöglichen zu verstehen, dass sie Alopezia haben.</narr>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>Wunde Mund-stellen</query>
+        <narr>Dokumente sollten Informationen enthalten, die dem Benutzer ermöglichen zu verstehen, dass sie Angular Cheilitis haben.</narr>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>Geschwollene, schmerzende Wade</query>
+        <narr>Dokumente sollten Informationen enthalten, die dem Benutzer ermöglichen zu verstehen, dass sie ein Ödem haben.</narr>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>Hervortreten der Augäpfel</query>
+        <narr>Dokumente sollten Informationen enthalten, die dem Benutzer ermöglichen zu verstehen, dass sie Exophtalmus haben.</narr>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>Augenweiss wurde grün</query>
+        <narr>Dokumente sollten Informationen etnhalten, die dem Benutzer ermöglichen zu verstehen, dass sie Gelbsucht haben.</narr>
+    </top>
+</topics>

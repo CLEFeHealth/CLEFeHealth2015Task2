@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Share/CLEF eHealth 2015 TASK 2 Results by relevation - Information Retrieval Relevance Judging System</title>
+   <meta name="description" content="">
+    <meta name="author" content="CLEF 2015 Task 2 Committee">
+    <link rel="stylesheet" href="bootstrap.css">
+    <style type="text/css">
+        body { padding-top: 60px; font-size: 12px; }
+        label, button, .btn { font-size: 12px; }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="./clef_eval_files/jquery.min.js"></script>
+    <script src="./clef_eval_files/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+<style type="text/css">@media print { #feedlyMiniIcon { display: none; } }</style></head>
+
+<body style="zoom: 1;">
+<div class="container">
+<div class="well">
+        <h1>Share/CLEF eHealth 2015 TASK 2 Results - USST_EN_Run</h1>
+        <p>This page summarises the results obtained from your submissions. Here, you can find the mean performance of your submissions, for all standard trec_eval measures and for nDCG at different ranks.</br> For this first year, the Share/CLEF eHealth 2015 TASK 2 built result pools from your submissions considering the top 10 documents ranked by your baseline system (run 1), and the two highest priority runs (run 2 and 3); thus all remaining runs were not sampled to form the assessment pool. This was because, unlike in previous years, submissions were greatly differing between each other, and thus lead to very large (and different) pools. As a consequence:<ul><li>the <b>primary measure for this year is precision at 10 (P@10)</b>,</li><li>the <b>secondary measure is Normalised Discounted Cumulative Gain at rank 10</b> (ndcg_cut_10).</li></ul>Per-query performance can be found in the <i>evals</i> folder in the directory containing this HTML page. Note that metrics such as MAP may not be reliable for evaluation due to the limited pool depth.</br>Some of the participant's runs contained formatting errors (the most common was the use of a numeric query id in place of the official qtest2015.XX id); others did not retrieve results for some queries or fail to conform to the TREC result format; finally, some retrieved the same document more than once for the same query (i.e. duplicate documents). To fairly evaluate the runs of every participant, submitted runs containing formatting errors and duplicated documents have been corrected. Duplicate documents have been removed and replaced by a <i>duplicatedid</i> string. Your runs (as evaluated here) are contained in the folder <i>runs</i> - please use these runs if you want to perform further evaluation and analysis.</br></br>Please refer to the <a href="https://sites.google.com/site/clefehealth2015/">ShARe/CLEF 2015 eHealth Evaluation Lab website</a> for additional details on the task.</p></br><p>Relevance assessments are distributed along with this webpage and are also available from the task website. Assessors judged relevance according to a three point scale: Not Relevant (label 0), Somewhat Relevant (label 1), Highly Relevant (label 2). When computing binary relevance measures (e.g. P@10 and MAP), we mapped label 0 to not relevant, and labels 1 and 2 to relevant; this  is encoded in the binary qrels named <i>qrels.clef2015.test.bin.txt</i>. Graded relevance assessments are contained in the <i>qrels.clef2015.test.graded.txt</i> file.</p>
+    </div>
+    <div class="row">
+        <div class="span9">
+            <h2>Evaluation with standard trec_eval metrics</h2>
+        <p>These results have been obtained with the binary relevance assessment, i.e. qrels.clef2015.test.bin.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>. Trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 qrels.clef2015.test.bin.txt runName</pre>
+ <h4>USST_EN_Run.1.dat</h4>
+            <pre>
+runid                 	all	USSTRun1
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1368
+map                   	all	0.1754
+gm_map                	all	0.0698
+Rprec                 	all	0.2020
+bpref                 	all	0.2338
+recip_rank            	all	0.5538
+iprec_at_recall_0.00  	all	0.5918
+iprec_at_recall_0.10  	all	0.4483
+iprec_at_recall_0.20  	all	0.3266
+iprec_at_recall_0.30  	all	0.2562
+iprec_at_recall_0.40  	all	0.1834
+iprec_at_recall_0.50  	all	0.1313
+iprec_at_recall_0.60  	all	0.0854
+iprec_at_recall_0.70  	all	0.0526
+iprec_at_recall_0.80  	all	0.0381
+iprec_at_recall_0.90  	all	0.0204
+iprec_at_recall_1.00  	all	0.0112
+P_5                   	all	0.3636
+P_10                  	all	0.3045
+P_15                  	all	0.2778
+P_20                  	all	0.2583
+P_30                  	all	0.2253
+P_100                 	all	0.1194
+P_200                 	all	0.0740
+P_500                 	all	0.0366
+P_1000                	all	0.0207
+</pre>
+ <h4>USST_EN_Run.10.dat</h4>
+            <pre>
+runid                 	all	USSTRun10
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	746
+map                   	all	0.0460
+gm_map                	all	0.0025
+Rprec                 	all	0.0632
+bpref                 	all	0.1558
+recip_rank            	all	0.2362
+iprec_at_recall_0.00  	all	0.2660
+iprec_at_recall_0.10  	all	0.1531
+iprec_at_recall_0.20  	all	0.0654
+iprec_at_recall_0.30  	all	0.0453
+iprec_at_recall_0.40  	all	0.0293
+iprec_at_recall_0.50  	all	0.0243
+iprec_at_recall_0.60  	all	0.0184
+iprec_at_recall_0.70  	all	0.0148
+iprec_at_recall_0.80  	all	0.0076
+iprec_at_recall_0.90  	all	0.0058
+iprec_at_recall_1.00  	all	0.0041
+P_5                   	all	0.1667
+P_10                  	all	0.1348
+P_15                  	all	0.1232
+P_20                  	all	0.0985
+P_30                  	all	0.0813
+P_100                 	all	0.0391
+P_200                 	all	0.0277
+P_500                 	all	0.0163
+P_1000                	all	0.0113
+</pre>
+ <h4>USST_EN_Run.2.dat</h4>
+            <pre>
+runid                 	all	USSTRun2
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1282
+map                   	all	0.1787
+gm_map                	all	0.0435
+Rprec                 	all	0.1966
+bpref                 	all	0.2431
+recip_rank            	all	0.5094
+iprec_at_recall_0.00  	all	0.5360
+iprec_at_recall_0.10  	all	0.4467
+iprec_at_recall_0.20  	all	0.3589
+iprec_at_recall_0.30  	all	0.2951
+iprec_at_recall_0.40  	all	0.1846
+iprec_at_recall_0.50  	all	0.1313
+iprec_at_recall_0.60  	all	0.0873
+iprec_at_recall_0.70  	all	0.0575
+iprec_at_recall_0.80  	all	0.0367
+iprec_at_recall_0.90  	all	0.0211
+iprec_at_recall_1.00  	all	0.0130
+P_5                   	all	0.3848
+P_10                  	all	0.3379
+P_15                  	all	0.3051
+P_20                  	all	0.2765
+P_30                  	all	0.2389
+P_100                 	all	0.1103
+P_200                 	all	0.0645
+P_500                 	all	0.0320
+P_1000                	all	0.0194
+</pre>
+ <h4>USST_EN_Run.3.dat</h4>
+            <pre>
+runid                 	all	USSTRun3
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1270
+map                   	all	0.1580
+gm_map                	all	0.0368
+Rprec                 	all	0.1754
+bpref                 	all	0.2429
+recip_rank            	all	0.4491
+iprec_at_recall_0.00  	all	0.4885
+iprec_at_recall_0.10  	all	0.3886
+iprec_at_recall_0.20  	all	0.3035
+iprec_at_recall_0.30  	all	0.2459
+iprec_at_recall_0.40  	all	0.1752
+iprec_at_recall_0.50  	all	0.1246
+iprec_at_recall_0.60  	all	0.0848
+iprec_at_recall_0.70  	all	0.0551
+iprec_at_recall_0.80  	all	0.0370
+iprec_at_recall_0.90  	all	0.0201
+iprec_at_recall_1.00  	all	0.0086
+P_5                   	all	0.3485
+P_10                  	all	0.3030
+P_15                  	all	0.2768
+P_20                  	all	0.2462
+P_30                  	all	0.1975
+P_100                 	all	0.0991
+P_200                 	all	0.0575
+P_500                 	all	0.0311
+P_1000                	all	0.0192
+</pre>
+ <h4>USST_EN_Run.4.dat</h4>
+            <pre>
+runid                 	all	USSTRun4
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1283
+map                   	all	0.1356
+gm_map                	all	0.0325
+Rprec                 	all	0.1597
+bpref                 	all	0.2270
+recip_rank            	all	0.4273
+iprec_at_recall_0.00  	all	0.4575
+iprec_at_recall_0.10  	all	0.3495
+iprec_at_recall_0.20  	all	0.2410
+iprec_at_recall_0.30  	all	0.2001
+iprec_at_recall_0.40  	all	0.1431
+iprec_at_recall_0.50  	all	0.1082
+iprec_at_recall_0.60  	all	0.0783
+iprec_at_recall_0.70  	all	0.0445
+iprec_at_recall_0.80  	all	0.0269
+iprec_at_recall_0.90  	all	0.0160
+iprec_at_recall_1.00  	all	0.0053
+P_5                   	all	0.3121
+P_10                  	all	0.2727
+P_15                  	all	0.2384
+P_20                  	all	0.2114
+P_30                  	all	0.1768
+P_100                 	all	0.0947
+P_200                 	all	0.0589
+P_500                 	all	0.0312
+P_1000                	all	0.0194
+</pre>
+ <h4>USST_EN_Run.5.dat</h4>
+            <pre>
+runid                 	all	USSTRun5
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1293
+map                   	all	0.1251
+gm_map                	all	0.0284
+Rprec                 	all	0.1474
+bpref                 	all	0.2224
+recip_rank            	all	0.3795
+iprec_at_recall_0.00  	all	0.4187
+iprec_at_recall_0.10  	all	0.3294
+iprec_at_recall_0.20  	all	0.2257
+iprec_at_recall_0.30  	all	0.1796
+iprec_at_recall_0.40  	all	0.1219
+iprec_at_recall_0.50  	all	0.1054
+iprec_at_recall_0.60  	all	0.0747
+iprec_at_recall_0.70  	all	0.0493
+iprec_at_recall_0.80  	all	0.0332
+iprec_at_recall_0.90  	all	0.0206
+iprec_at_recall_1.00  	all	0.0065
+P_5                   	all	0.2788
+P_10                  	all	0.2470
+P_15                  	all	0.2212
+P_20                  	all	0.2030
+P_30                  	all	0.1722
+P_100                 	all	0.0883
+P_200                 	all	0.0586
+P_500                 	all	0.0310
+P_1000                	all	0.0196
+</pre>
+ <h4>USST_EN_Run.6.dat</h4>
+            <pre>
+runid                 	all	USSTRun6
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1283
+map                   	all	0.1273
+gm_map                	all	0.0300
+Rprec                 	all	0.1551
+bpref                 	all	0.2332
+recip_rank            	all	0.3490
+iprec_at_recall_0.00  	all	0.4059
+iprec_at_recall_0.10  	all	0.3230
+iprec_at_recall_0.20  	all	0.2343
+iprec_at_recall_0.30  	all	0.1924
+iprec_at_recall_0.40  	all	0.1409
+iprec_at_recall_0.50  	all	0.1105
+iprec_at_recall_0.60  	all	0.0680
+iprec_at_recall_0.70  	all	0.0462
+iprec_at_recall_0.80  	all	0.0312
+iprec_at_recall_0.90  	all	0.0209
+iprec_at_recall_1.00  	all	0.0077
+P_5                   	all	0.2606
+P_10                  	all	0.2470
+P_15                  	all	0.2273
+P_20                  	all	0.2083
+P_30                  	all	0.1737
+P_100                 	all	0.0850
+P_200                 	all	0.0553
+P_500                 	all	0.0323
+P_1000                	all	0.0194
+</pre>
+ <h4>USST_EN_Run.7.dat</h4>
+            <pre>
+runid                 	all	USSTRun7
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	897
+map                   	all	0.0990
+gm_map                	all	0.0084
+Rprec                 	all	0.1277
+bpref                 	all	0.2071
+recip_rank            	all	0.4719
+iprec_at_recall_0.00  	all	0.4871
+iprec_at_recall_0.10  	all	0.2961
+iprec_at_recall_0.20  	all	0.1998
+iprec_at_recall_0.30  	all	0.1307
+iprec_at_recall_0.40  	all	0.0748
+iprec_at_recall_0.50  	all	0.0421
+iprec_at_recall_0.60  	all	0.0304
+iprec_at_recall_0.70  	all	0.0238
+iprec_at_recall_0.80  	all	0.0162
+iprec_at_recall_0.90  	all	0.0039
+iprec_at_recall_1.00  	all	0.0028
+P_5                   	all	0.3061
+P_10                  	all	0.2439
+P_15                  	all	0.2000
+P_20                  	all	0.1712
+P_30                  	all	0.1434
+P_100                 	all	0.0670
+P_200                 	all	0.0402
+P_500                 	all	0.0220
+P_1000                	all	0.0136
+</pre>
+ <h4>USST_EN_Run.8.dat</h4>
+            <pre>
+runid                 	all	USSTRun8
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	826
+map                   	all	0.0788
+gm_map                	all	0.0074
+Rprec                 	all	0.1019
+bpref                 	all	0.2007
+recip_rank            	all	0.4075
+iprec_at_recall_0.00  	all	0.4380
+iprec_at_recall_0.10  	all	0.2305
+iprec_at_recall_0.20  	all	0.1446
+iprec_at_recall_0.30  	all	0.1002
+iprec_at_recall_0.40  	all	0.0615
+iprec_at_recall_0.50  	all	0.0388
+iprec_at_recall_0.60  	all	0.0287
+iprec_at_recall_0.70  	all	0.0140
+iprec_at_recall_0.80  	all	0.0081
+iprec_at_recall_0.90  	all	0.0057
+iprec_at_recall_1.00  	all	0.0009
+P_5                   	all	0.2636
+P_10                  	all	0.1985
+P_15                  	all	0.1626
+P_20                  	all	0.1394
+P_30                  	all	0.1126
+P_100                 	all	0.0545
+P_200                 	all	0.0328
+P_500                 	all	0.0178
+P_1000                	all	0.0125
+</pre>
+ <h4>USST_EN_Run.9.dat</h4>
+            <pre>
+runid                 	all	USSTRun9
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	634
+map                   	all	0.0497
+gm_map                	all	0.0038
+Rprec                 	all	0.0742
+bpref                 	all	0.1479
+recip_rank            	all	0.2990
+iprec_at_recall_0.00  	all	0.3300
+iprec_at_recall_0.10  	all	0.1497
+iprec_at_recall_0.20  	all	0.0786
+iprec_at_recall_0.30  	all	0.0547
+iprec_at_recall_0.40  	all	0.0293
+iprec_at_recall_0.50  	all	0.0203
+iprec_at_recall_0.60  	all	0.0120
+iprec_at_recall_0.70  	all	0.0089
+iprec_at_recall_0.80  	all	0.0049
+iprec_at_recall_0.90  	all	0.0030
+iprec_at_recall_1.00  	all	0.0024
+P_5                   	all	0.1818
+P_10                  	all	0.1439
+P_15                  	all	0.1212
+P_20                  	all	0.1045
+P_30                  	all	0.0894
+P_100                 	all	0.0414
+P_200                 	all	0.0274
+P_500                 	all	0.0150
+P_1000                	all	0.0096
+</pre>
+
+<h2>Evaluation with nDCG</h2>
+        <p>These results have been obtained with the graded relevance assessment, i.e. qrels.clef2015.test.graded.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>.</br>To obtain nDCG at different ranks, trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 -m ndcg_cut qrels.clef2015.test.graded.txt runName</pre></br><p>This computes nDCG according to Jarvelin and Kekalainen (ACM ToIS v. 20, pp. 422-446, 2002). Gain values are the relevance values in the qrels file (i.e. label 0 corresponds to gain 0, label 1 to gain 1 and label 2 to gain 2).</p>
+ <h4>USST_EN_Run.1.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3032
+ndcg_cut_10           	all	0.2841
+ndcg_cut_15           	all	0.2805
+ndcg_cut_20           	all	0.2784
+ndcg_cut_30           	all	0.2752
+ndcg_cut_100          	all	0.3110
+ndcg_cut_200          	all	0.3466
+ndcg_cut_500          	all	0.3815
+ndcg_cut_1000         	all	0.4013
+</pre>
+ <h4>USST_EN_Run.10.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.1178
+ndcg_cut_10           	all	0.1145
+ndcg_cut_15           	all	0.1113
+ndcg_cut_20           	all	0.1006
+ndcg_cut_30           	all	0.0976
+ndcg_cut_100          	all	0.0969
+ndcg_cut_200          	all	0.1139
+ndcg_cut_500          	all	0.1446
+ndcg_cut_1000         	all	0.1695
+</pre>
+ <h4>USST_EN_Run.2.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3056
+ndcg_cut_10           	all	0.3000
+ndcg_cut_15           	all	0.2935
+ndcg_cut_20           	all	0.2925
+ndcg_cut_30           	all	0.2891
+ndcg_cut_100          	all	0.2994
+ndcg_cut_200          	all	0.3238
+ndcg_cut_500          	all	0.3557
+ndcg_cut_1000         	all	0.3798
+</pre>
+ <h4>USST_EN_Run.3.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2643
+ndcg_cut_10           	all	0.2627
+ndcg_cut_15           	all	0.2626
+ndcg_cut_20           	all	0.2573
+ndcg_cut_30           	all	0.2511
+ndcg_cut_100          	all	0.2776
+ndcg_cut_200          	all	0.2972
+ndcg_cut_500          	all	0.3344
+ndcg_cut_1000         	all	0.3609
+</pre>
+ <h4>USST_EN_Run.4.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2279
+ndcg_cut_10           	all	0.2305
+ndcg_cut_15           	all	0.2244
+ndcg_cut_20           	all	0.2175
+ndcg_cut_30           	all	0.2158
+ndcg_cut_100          	all	0.2415
+ndcg_cut_200          	all	0.2714
+ndcg_cut_500          	all	0.3110
+ndcg_cut_1000         	all	0.3404
+</pre>
+ <h4>USST_EN_Run.5.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2072
+ndcg_cut_10           	all	0.2082
+ndcg_cut_15           	all	0.2042
+ndcg_cut_20           	all	0.2043
+ndcg_cut_30           	all	0.2003
+ndcg_cut_100          	all	0.2209
+ndcg_cut_200          	all	0.2576
+ndcg_cut_500          	all	0.2942
+ndcg_cut_1000         	all	0.3281
+</pre>
+ <h4>USST_EN_Run.6.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.1881
+ndcg_cut_10           	all	0.2056
+ndcg_cut_15           	all	0.2109
+ndcg_cut_20           	all	0.2089
+ndcg_cut_30           	all	0.2028
+ndcg_cut_100          	all	0.2255
+ndcg_cut_200          	all	0.2571
+ndcg_cut_500          	all	0.2995
+ndcg_cut_1000         	all	0.3288
+</pre>
+ <h4>USST_EN_Run.7.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2466
+ndcg_cut_10           	all	0.2220
+ndcg_cut_15           	all	0.2023
+ndcg_cut_20           	all	0.1905
+ndcg_cut_30           	all	0.1894
+ndcg_cut_100          	all	0.1898
+ndcg_cut_200          	all	0.2062
+ndcg_cut_500          	all	0.2362
+ndcg_cut_1000         	all	0.2555
+</pre>
+ <h4>USST_EN_Run.8.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2004
+ndcg_cut_10           	all	0.1757
+ndcg_cut_15           	all	0.1622
+ndcg_cut_20           	all	0.1527
+ndcg_cut_30           	all	0.1447
+ndcg_cut_100          	all	0.1586
+ndcg_cut_200          	all	0.1734
+ndcg_cut_500          	all	0.2003
+ndcg_cut_1000         	all	0.2314
+</pre>
+ <h4>USST_EN_Run.9.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.1349
+ndcg_cut_10           	all	0.1241
+ndcg_cut_15           	all	0.1154
+ndcg_cut_20           	all	0.1079
+ndcg_cut_30           	all	0.1089
+ndcg_cut_100          	all	0.1115
+ndcg_cut_200          	all	0.1306
+ndcg_cut_500          	all	0.1532
+ndcg_cut_1000         	all	0.1740
+</pre>
+
+<h2>Readability-biased evaluation</h2>
+        <p>For this year task, we have considered the factor of understandability of information (or readability) within the evaluation of the submissions, along with the topicality factor (normally referred to as (topical) relevance). Thus, along with (topical) relevance assessments (qrels), we have collected readability assessments (qread). These assessments were provided by judges along with the relevance assessments; however readability was assumed to be assessed independently of (topical) relevance. To account for understandability/readability in the evaluation, we have computed an understandability biased measure, uRBP, as defined in Zuccon&Koopman, <a href="http://zuccon.net/publications/medIR2014_healthsearch_readability.pdf">"Integrating understandability in the evaluation of consumer health search engines"</a>, MedIR 2014. We refer to that publication for the motivations and the details of the measure; note however that we did not use automated readability measures to estimate readability - we instead had actual readability assessments from the relevance assessors. Readability assessments were given on a 4 point scale (from 0 to 3): It is very technical and difficult to read and understand (label 0), It is somewhat technical and difficult to read and understand (label 1), It is somewhat easy to read and understand (label 2), It is very easy to read and understand (label 3).</p><p>The results below have been obtained with the binary relevance assessments (i.e. qrels.clef2015.test.bin.txt) and the graded readability assessments (i.e. i.e. qread.clef2015.test.graded.txt), and ubire-v0.1.0 as distributed on <a href="https://github.com/ielab/ubire">GitHub</a>.</br>The tool was ran as follows:</p>
+<pre>java -jar /tools/ubire.0.1.jar --qrels-file=qrels/qrels.clef2015.test.bin.txt --qread-file=qrels/qread.clef2015.test.graded.txt --readability --rbp-p=0.8 --ranking-file=runName</pre></br><p>This computes RBP, and two versions of uRBP. The user persistence parameter <i>p</i> of RBP (and uRBP) was set to 0.8 following Park&Zhang, <a href="http://goanna.cs.rmit.edu.au/~aht/adcs2007/papers/17N.PDF">"On the distribution of user persistence for rank-biased precision"</a>, ADCS 2007.  uRBP has been computed by using user model 1 of Zuccon&Koopman with threshold=2, i.e. documents with a readability score of 0 or 1 where deemed not readable and thus had P(U|k)=0, while documents with a readability score of 2 or 3 where deemed readable and thus had P(U|k)=1. uRBPgr has been computed by mapping graded readability scores to different probability values, in particular: readability of 0 was assigned P(U|k)=0, readability of 1 was assigned P(U|k)=0.4, readability of 2 was assigned P(U|k)=0.8, readability of 3 was assigned P(U|k)=1.</br>Note that we are still experimenting with these readability-biased measures and thus observations made with the provided measures may not be conclusive.</p>
+ <h4>USST_EN_Run.1.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3342
+uRBP(0.8)	all      	0.2564
+uRBPgr(0.8)	all      	0.2639
+</pre>
+ <h4>USST_EN_Run.10.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.1467
+uRBP(0.8)	all      	0.0947
+uRBPgr(0.8)	all      	0.1039
+</pre>
+ <h4>USST_EN_Run.2.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3557
+uRBP(0.8)	all      	0.2659
+uRBPgr(0.8)	all      	0.2727
+</pre>
+ <h4>USST_EN_Run.3.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3148
+uRBP(0.8)	all      	0.2181
+uRBPgr(0.8)	all      	0.2336
+</pre>
+ <h4>USST_EN_Run.4.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2815
+uRBP(0.8)	all      	0.1978
+uRBPgr(0.8)	all      	0.2110
+</pre>
+ <h4>USST_EN_Run.5.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2540
+uRBP(0.8)	all      	0.1746
+uRBPgr(0.8)	all      	0.1890
+</pre>
+ <h4>USST_EN_Run.6.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2410
+uRBP(0.8)	all      	0.1633
+uRBPgr(0.8)	all      	0.1771
+</pre>
+ <h4>USST_EN_Run.7.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2726
+uRBP(0.8)	all      	0.2055
+uRBPgr(0.8)	all      	0.2102
+</pre>
+ <h4>USST_EN_Run.8.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2246
+uRBP(0.8)	all      	0.1492
+uRBPgr(0.8)	all      	0.1595
+</pre>
+ <h4>USST_EN_Run.9.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.1629
+uRBP(0.8)	all      	0.1115
+uRBPgr(0.8)	all      	0.1195
+</pre>
+
+<h2>Plots P@10</h2>
+<p>The plots below compare each of your runs against the median and best performance (p@10) across all systems  submitted to CLEF for each query topic. In particular, for each query, the height of a bar represents the gain/loss of your system and the best system (for that query) over the median system. The height of a bar is then given by:</p>
+<pre>grey bars:   height(q) = your_p@10(q) - median_p@10(q)
+white bars:  height(q) = best_p@10(q) - median_p@10(q)</pre>
+
+ <h4>USST_EN_Run.1.dat</h4>
+<img src="./img/USST_EN_Run.1.dat.p10.png"/>
+ <h4>USST_EN_Run.10.dat</h4>
+<img src="./img/USST_EN_Run.10.dat.p10.png"/>
+ <h4>USST_EN_Run.2.dat</h4>
+<img src="./img/USST_EN_Run.2.dat.p10.png"/>
+ <h4>USST_EN_Run.3.dat</h4>
+<img src="./img/USST_EN_Run.3.dat.p10.png"/>
+ <h4>USST_EN_Run.4.dat</h4>
+<img src="./img/USST_EN_Run.4.dat.p10.png"/>
+ <h4>USST_EN_Run.5.dat</h4>
+<img src="./img/USST_EN_Run.5.dat.p10.png"/>
+ <h4>USST_EN_Run.6.dat</h4>
+<img src="./img/USST_EN_Run.6.dat.p10.png"/>
+ <h4>USST_EN_Run.7.dat</h4>
+<img src="./img/USST_EN_Run.7.dat.p10.png"/>
+ <h4>USST_EN_Run.8.dat</h4>
+<img src="./img/USST_EN_Run.8.dat.p10.png"/>
+ <h4>USST_EN_Run.9.dat</h4>
+<img src="./img/USST_EN_Run.9.dat.p10.png"/>
+      </div>
+    </div>
+
+    <p></p><hr><p></p>
+    <footer class="row">
+        <div class="span6">
+           <p><a href="https://github.com/ielab/relevation">relevation</a> - Information Retrieval Relevance Judging System</p>
+      </div>
+    </footer>
+</div> <!-- container -->
+</body></html>

@@ -1,0 +1,266 @@
+<topics>
+    <top>
+        <num>clef2015.test.1</num>
+        <query>viele rote Flecken an den Beinen nach US Reise</query>
+    </top>
+    <top>
+        <num>clef2015.test.2</num>
+        <query>Geschwulst mit blutigen Punkten auf der Nase</query>
+    </top>
+    <top>
+        <num>clef2015.test.3</num>
+        <query>trockene rote und schuppige Füße bei Kindern</query>
+    </top>
+    <top>
+        <num>clef2015.test.4</num>
+        <query>juckende Knoten Haut</query>
+    </top>
+    <top>
+        <num>clef2015.test.5</num>
+        <query>Pfeifgeräusch und Husten beim Schlafen + Kinder</query>
+    </top>
+    <top>
+        <num>clef2015.test.6</num>
+        <query>Kind zischt beim Atmen</query>
+    </top>
+    <top>
+        <num>clef2015.test.7</num>
+        <query>Rosacea Symptome</query>
+    </top>
+    <top>
+        <num>clef2015.test.8</num>
+        <query>Hornhauttrübung und Sehstörung</query>
+    </top>
+    <top>
+        <num>clef2015.test.9</num>
+        <query>rote juckende Augen</query>
+    </top>
+    <top>
+        <num>clef2015.test.10</num>
+        <query>kraterförmige Bissspuren</query>
+    </top>
+    <top>
+        <num>clef2015.test.11</num>
+        <query>weiße Flecken im Mund</query>
+    </top>
+    <top>
+        <num>clef2015.test.12</num>
+        <query>Baby hat trockenen Husten und hat Probleme Speichel zu chlucken</query>
+    </top>
+    <top>
+        <num>clef2015.test.13</num>
+        <query>trübe Pupille beeinflusst Sehkraft</query>
+    </top>
+    <top>
+        <num>clef2015.test.14</num>
+        <query>Baby Atembeschwerden</query>
+    </top>
+    <top>
+        <num>clef2015.test.15</num>
+        <query>Asthmaanfall</query>
+    </top>
+    <top>
+        <num>clef2015.test.16</num>
+        <query>roter fleckigre Ausschlag auf den Beinen</query>
+    </top>
+    <top>
+        <num>clef2015.test.17</num>
+        <query>schuppiger Hautausschlag</query>
+    </top>
+    <top>
+        <num>clef2015.test.18</num>
+        <query>schlechter Gang und Gleichgewicht mit Schütteln</query>
+    </top>
+    <top>
+        <num>clef2015.test.19</num>
+        <query>verletzter Daumennagel</query>
+    </top>
+    <top>
+        <num>clef2015.test.20</num>
+        <query>Bewegungsprobleme mit unwillkürlichem Händezittern</query>
+    </top>
+    <top>
+        <num>clef2015.test.21</num>
+        <query>häufige juckende Hautausschläge</query>
+    </top>
+    <top>
+        <num>clef2015.test.22</num>
+        <query>dicker gelber Augenausfluss</query>
+    </top>
+    <top>
+        <num>clef2015.test.23</num>
+        <query>rote blutunterlaufene Augen</query>
+    </top>
+    <top>
+        <num>clef2015.test.24</num>
+        <query>gelber Schmiere kommt aus einem Auge juckt</query>
+    </top>
+    <top>
+        <num>clef2015.test.25</num>
+        <query>roter Hautausschlag Baby Gesicht</query>
+    </top>
+    <top>
+        <num>clef2015.test.26</num>
+        <query>rote geschwollene Stellen Haut</query>
+    </top>
+    <top>
+        <num>clef2015.test.27</num>
+        <query>Rückkehr aus Übersee mit bösen Flecken auf Beinen</query>
+    </top>
+    <top>
+        <num>clef2015.test.28</num>
+        <query>Kleinkind Hautpilz</query>
+    </top>
+    <top>
+        <num>clef2015.test.29</num>
+        <query>roter Fleck auf der Haut mit Blase und trockenem Eiter</query>
+    </top>
+    <top>
+        <num>clef2015.test.30</num>
+        <query>seltsame Geräusche beim Atmen</query>
+    </top>
+    <top>
+        <num>clef2015.test.31</num>
+        <query>Kleinkind mit quietschendem Atem</query>
+    </top>
+    <top>
+        <num>clef2015.test.32</num>
+        <query>gerötete gereizte Haut in Kindergesicht</query>
+    </top>
+    <top>
+        <num>clef2015.test.33</num>
+        <query>weißer Belag in Pharynx</query>
+    </top>
+    <top>
+        <num>clef2015.test.34</num>
+        <query>Karies Problem</query>
+    </top>
+    <top>
+        <num>clef2015.test.35</num>
+        <query>starke Augenreizung durch Kontaktlinsen</query>
+    </top>
+    <top>
+        <num>clef2015.test.36</num>
+        <query>Augenzittern</query>
+    </top>
+    <top>
+        <num>clef2015.test.37</num>
+        <query>schuppige Haut</query>
+    </top>
+    <top>
+        <num>clef2015.test.38</num>
+        <query>schuppige rote juckende Füsse bei Kindern</query>
+    </top>
+    <top>
+        <num>clef2015.test.39</num>
+        <query>Hautekzem mit Blase und weißem Eiter</query>
+    </top>
+    <top>
+        <num>clef2015.test.40</num>
+        <query>Baby roter Fleck im Gesicht</query>
+    </top>
+    <top>
+        <num>clef2015.test.41</num>
+        <query>Augen Iris groß</query>
+    </top>
+    <top>
+        <num>clef2015.test.42</num>
+        <query>fleckige Blutung unter der Haut</query>
+    </top>
+    <top>
+        <num>clef2015.test.43</num>
+        <query>juckende erhöhte Stellen Haut</query>
+    </top>
+    <top>
+        <num>clef2015.test.44</num>
+        <query>Nagel wird dunkel</query>
+    </top>
+    <top>
+        <num>clef2015.test.45</num>
+        <query>trockenes Gefühl mit Reizung</query>
+    </top>
+    <top>
+        <num>clef2015.test.46</num>
+        <query>Baby Husten </query>
+    </top>
+    <top>
+        <num>clef2015.test.47</num>
+        <query>Löcher in den Zähnen</query>
+    </top>
+    <top>
+        <num>clef2015.test.48</num>
+        <query>Kann nicht aufhören meine Augen zu bewegen Krankheit</query>
+    </top>
+    <top>
+        <num>clef2015.test.49</num>
+        <query>Kind atmet immer mit geschlossenem Mund</query>
+    </top>
+    <top>
+        <num>clef2015.test.50</num>
+        <query>roter Fleck Babygesicht</query>
+    </top>
+    <top>
+        <num>clef2015.test.51</num>
+        <query>Augen rote Blutgefäße</query>
+    </top>
+    <top>
+        <num>clef2015.test.52</num>
+        <query>weisse Punkte am Zahnfleisch</query>
+    </top>
+    <top>
+        <num>clef2015.test.53</num>
+        <query>geschwollene Beine</query>
+    </top>
+    <top>
+        <num>clef2015.test.54</num>
+        <query>rote Geschwulste an der Nase</query>
+    </top>
+    <top>
+        <num>clef2015.test.55</num>
+        <query>kraterförmige Spur in der Haut</query>
+    </top>
+    <top>
+        <num>clef2015.test.56</num>
+        <query>krumme Haltung beim Gehen</query>
+    </top>
+    <top>
+        <num>clef2015.test.57</num>
+        <query>Baby schwere Atmung und enger keuchender Husten</query>
+    </top>
+    <top>
+        <num>clef2015.test.58</num>
+        <query>39 Grad und Windpocken</query>
+    </top>
+    <top>
+        <num>clef2015.test.59</num>
+        <query>schwerer und queitschender Atem</query>
+    </top>
+    <top>
+        <num>clef2015.test.60</num>
+        <query>Baby weisser Punkt  in der Iris</query>
+    </top>
+    <top>
+        <num>clef2015.test.61</num>
+        <query>Nagel Prellung</query>
+    </top>
+    <top>
+        <num>clef2015.test.63</num>
+        <query>Hautflecken mit Kruste</query>
+    </top>
+    <top>
+        <num>clef2015.test.64</num>
+        <query>unbeabsichtigte schnelle links-rechts Augenbewegung</query>
+    </top>
+    <top>
+        <num>clef2015.test.65</num>
+        <query>seltsame braune Flecken auf der Haut</query>
+    </top>
+    <top>
+        <num>clef2015.test.66</num>
+        <query>Behandlung von Husten bei Kleinkindern</query>
+    </top>
+    <top>
+        <num>clef2015.test.67</num>
+        <query>schwarzer Zahn</query>
+    </top>
+</topics>

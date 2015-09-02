@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Share/CLEF eHealth 2015 TASK 2 Results by relevation - Information Retrieval Relevance Judging System</title>
+   <meta name="description" content="">
+    <meta name="author" content="CLEF 2015 Task 2 Committee">
+    <link rel="stylesheet" href="bootstrap.css">
+    <style type="text/css">
+        body { padding-top: 60px; font-size: 12px; }
+        label, button, .btn { font-size: 12px; }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="./clef_eval_files/jquery.min.js"></script>
+    <script src="./clef_eval_files/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+<style type="text/css">@media print { #feedlyMiniIcon { display: none; } }</style></head>
+
+<body style="zoom: 1;">
+<div class="container">
+<div class="well">
+        <h1>Share/CLEF eHealth 2015 TASK 2 Results - FDUSGInfo_EN_Run</h1>
+        <p>This page summarises the results obtained from your submissions. Here, you can find the mean performance of your submissions, for all standard trec_eval measures and for nDCG at different ranks.</br> For this first year, the Share/CLEF eHealth 2015 TASK 2 built result pools from your submissions considering the top 10 documents ranked by your baseline system (run 1), and the two highest priority runs (run 2 and 3); thus all remaining runs were not sampled to form the assessment pool. This was because, unlike in previous years, submissions were greatly differing between each other, and thus lead to very large (and different) pools. As a consequence:<ul><li>the <b>primary measure for this year is precision at 10 (P@10)</b>,</li><li>the <b>secondary measure is Normalised Discounted Cumulative Gain at rank 10</b> (ndcg_cut_10).</li></ul>Per-query performance can be found in the <i>evals</i> folder in the directory containing this HTML page. Note that metrics such as MAP may not be reliable for evaluation due to the limited pool depth.</br>Some of the participant's runs contained formatting errors (the most common was the use of a numeric query id in place of the official qtest2015.XX id); others did not retrieve results for some queries or fail to conform to the TREC result format; finally, some retrieved the same document more than once for the same query (i.e. duplicate documents). To fairly evaluate the runs of every participant, submitted runs containing formatting errors and duplicated documents have been corrected. Duplicate documents have been removed and replaced by a <i>duplicatedid</i> string. Your runs (as evaluated here) are contained in the folder <i>runs</i> - please use these runs if you want to perform further evaluation and analysis.</br></br>Please refer to the <a href="https://sites.google.com/site/clefehealth2015/">ShARe/CLEF 2015 eHealth Evaluation Lab website</a> for additional details on the task.</p></br><p>Relevance assessments are distributed along with this webpage and are also available from the task website. Assessors judged relevance according to a three point scale: Not Relevant (label 0), Somewhat Relevant (label 1), Highly Relevant (label 2). When computing binary relevance measures (e.g. P@10 and MAP), we mapped label 0 to not relevant, and labels 1 and 2 to relevant; this  is encoded in the binary qrels named <i>qrels.clef2015.test.bin.txt</i>. Graded relevance assessments are contained in the <i>qrels.clef2015.test.graded.txt</i> file.</p>
+    </div>
+    <div class="row">
+        <div class="span9">
+            <h2>Evaluation with standard trec_eval metrics</h2>
+        <p>These results have been obtained with the binary relevance assessment, i.e. qrels.clef2015.test.bin.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>. Trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 qrels.clef2015.test.bin.txt runName</pre>
+ <h4>FDUSGInfo_EN_Run.1.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1324
+map                   	all	0.1833
+gm_map                	all	0.0173
+Rprec                 	all	0.2074
+bpref                 	all	0.2468
+recip_rank            	all	0.4845
+iprec_at_recall_0.00  	all	0.5264
+iprec_at_recall_0.10  	all	0.4289
+iprec_at_recall_0.20  	all	0.3342
+iprec_at_recall_0.30  	all	0.2720
+iprec_at_recall_0.40  	all	0.1955
+iprec_at_recall_0.50  	all	0.1525
+iprec_at_recall_0.60  	all	0.1126
+iprec_at_recall_0.70  	all	0.0881
+iprec_at_recall_0.80  	all	0.0624
+iprec_at_recall_0.90  	all	0.0179
+iprec_at_recall_1.00  	all	0.0082
+P_5                   	all	0.3242
+P_10                  	all	0.2970
+P_15                  	all	0.2737
+P_20                  	all	0.2485
+P_30                  	all	0.2121
+P_100                 	all	0.1145
+P_200                 	all	0.0725
+P_500                 	all	0.0364
+P_1000                	all	0.0201
+</pre>
+ <h4>FDUSGInfo_EN_Run.10.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	682
+map                   	all	0.0311
+gm_map                	all	0.0011
+Rprec                 	all	0.0443
+bpref                 	all	0.1874
+recip_rank            	all	0.1075
+iprec_at_recall_0.00  	all	0.1343
+iprec_at_recall_0.10  	all	0.0864
+iprec_at_recall_0.20  	all	0.0717
+iprec_at_recall_0.30  	all	0.0493
+iprec_at_recall_0.40  	all	0.0303
+iprec_at_recall_0.50  	all	0.0193
+iprec_at_recall_0.60  	all	0.0109
+iprec_at_recall_0.70  	all	0.0067
+iprec_at_recall_0.80  	all	0.0046
+iprec_at_recall_0.90  	all	0.0007
+iprec_at_recall_1.00  	all	0.0000
+P_5                   	all	0.0667
+P_10                  	all	0.0682
+P_15                  	all	0.0606
+P_20                  	all	0.0523
+P_30                  	all	0.0505
+P_100                 	all	0.0333
+P_200                 	all	0.0226
+P_500                 	all	0.0160
+P_1000                	all	0.0103
+</pre>
+ <h4>FDUSGInfo_EN_Run.2.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1323
+map                   	all	0.1540
+gm_map                	all	0.0148
+Rprec                 	all	0.1647
+bpref                 	all	0.2339
+recip_rank            	all	0.4348
+iprec_at_recall_0.00  	all	0.4654
+iprec_at_recall_0.10  	all	0.3902
+iprec_at_recall_0.20  	all	0.2858
+iprec_at_recall_0.30  	all	0.2378
+iprec_at_recall_0.40  	all	0.1695
+iprec_at_recall_0.50  	all	0.1141
+iprec_at_recall_0.60  	all	0.0835
+iprec_at_recall_0.70  	all	0.0639
+iprec_at_recall_0.80  	all	0.0438
+iprec_at_recall_0.90  	all	0.0094
+iprec_at_recall_1.00  	all	0.0049
+P_5                   	all	0.3061
+P_10                  	all	0.2606
+P_15                  	all	0.2253
+P_20                  	all	0.2053
+P_30                  	all	0.1727
+P_100                 	all	0.0932
+P_200                 	all	0.0623
+P_500                 	all	0.0351
+P_1000                	all	0.0200
+</pre>
+ <h4>FDUSGInfo_EN_Run.3.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1278
+map                   	all	0.1465
+gm_map                	all	0.0107
+Rprec                 	all	0.1530
+bpref                 	all	0.2338
+recip_rank            	all	0.3840
+iprec_at_recall_0.00  	all	0.4233
+iprec_at_recall_0.10  	all	0.3621
+iprec_at_recall_0.20  	all	0.2597
+iprec_at_recall_0.30  	all	0.2073
+iprec_at_recall_0.40  	all	0.1647
+iprec_at_recall_0.50  	all	0.1354
+iprec_at_recall_0.60  	all	0.0911
+iprec_at_recall_0.70  	all	0.0750
+iprec_at_recall_0.80  	all	0.0548
+iprec_at_recall_0.90  	all	0.0195
+iprec_at_recall_1.00  	all	0.0151
+P_5                   	all	0.2788
+P_10                  	all	0.2348
+P_15                  	all	0.2061
+P_20                  	all	0.1780
+P_30                  	all	0.1515
+P_100                 	all	0.0836
+P_200                 	all	0.0601
+P_500                 	all	0.0330
+P_1000                	all	0.0194
+</pre>
+ <h4>FDUSGInfo_EN_Run.4.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1314
+map                   	all	0.1635
+gm_map                	all	0.0142
+Rprec                 	all	0.1766
+bpref                 	all	0.2669
+recip_rank            	all	0.4622
+iprec_at_recall_0.00  	all	0.4953
+iprec_at_recall_0.10  	all	0.3807
+iprec_at_recall_0.20  	all	0.3014
+iprec_at_recall_0.30  	all	0.2369
+iprec_at_recall_0.40  	all	0.1881
+iprec_at_recall_0.50  	all	0.1428
+iprec_at_recall_0.60  	all	0.0967
+iprec_at_recall_0.70  	all	0.0730
+iprec_at_recall_0.80  	all	0.0495
+iprec_at_recall_0.90  	all	0.0187
+iprec_at_recall_1.00  	all	0.0129
+P_5                   	all	0.3242
+P_10                  	all	0.2848
+P_15                  	all	0.2545
+P_20                  	all	0.2220
+P_30                  	all	0.1879
+P_100                 	all	0.0956
+P_200                 	all	0.0639
+P_500                 	all	0.0353
+P_1000                	all	0.0199
+</pre>
+ <h4>FDUSGInfo_EN_Run.5.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1303
+map                   	all	0.1614
+gm_map                	all	0.0137
+Rprec                 	all	0.1716
+bpref                 	all	0.2612
+recip_rank            	all	0.4633
+iprec_at_recall_0.00  	all	0.4907
+iprec_at_recall_0.10  	all	0.3769
+iprec_at_recall_0.20  	all	0.2839
+iprec_at_recall_0.30  	all	0.2321
+iprec_at_recall_0.40  	all	0.1887
+iprec_at_recall_0.50  	all	0.1437
+iprec_at_recall_0.60  	all	0.0962
+iprec_at_recall_0.70  	all	0.0724
+iprec_at_recall_0.80  	all	0.0490
+iprec_at_recall_0.90  	all	0.0168
+iprec_at_recall_1.00  	all	0.0129
+P_5                   	all	0.3273
+P_10                  	all	0.2803
+P_15                  	all	0.2465
+P_20                  	all	0.2121
+P_30                  	all	0.1793
+P_100                 	all	0.0959
+P_200                 	all	0.0645
+P_500                 	all	0.0351
+P_1000                	all	0.0197
+</pre>
+ <h4>FDUSGInfo_EN_Run.6.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	822
+map                   	all	0.0351
+gm_map                	all	0.0012
+Rprec                 	all	0.0403
+bpref                 	all	0.2029
+recip_rank            	all	0.1381
+iprec_at_recall_0.00  	all	0.1637
+iprec_at_recall_0.10  	all	0.1049
+iprec_at_recall_0.20  	all	0.0822
+iprec_at_recall_0.30  	all	0.0476
+iprec_at_recall_0.40  	all	0.0295
+iprec_at_recall_0.50  	all	0.0221
+iprec_at_recall_0.60  	all	0.0179
+iprec_at_recall_0.70  	all	0.0121
+iprec_at_recall_0.80  	all	0.0064
+iprec_at_recall_0.90  	all	0.0008
+iprec_at_recall_1.00  	all	0.0002
+P_5                   	all	0.0939
+P_10                  	all	0.0773
+P_15                  	all	0.0616
+P_20                  	all	0.0545
+P_30                  	all	0.0530
+P_100                 	all	0.0321
+P_200                 	all	0.0239
+P_500                 	all	0.0182
+P_1000                	all	0.0125
+</pre>
+ <h4>FDUSGInfo_EN_Run.7.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	822
+map                   	all	0.0351
+gm_map                	all	0.0012
+Rprec                 	all	0.0403
+bpref                 	all	0.2029
+recip_rank            	all	0.1381
+iprec_at_recall_0.00  	all	0.1637
+iprec_at_recall_0.10  	all	0.1049
+iprec_at_recall_0.20  	all	0.0822
+iprec_at_recall_0.30  	all	0.0476
+iprec_at_recall_0.40  	all	0.0295
+iprec_at_recall_0.50  	all	0.0221
+iprec_at_recall_0.60  	all	0.0179
+iprec_at_recall_0.70  	all	0.0121
+iprec_at_recall_0.80  	all	0.0064
+iprec_at_recall_0.90  	all	0.0008
+iprec_at_recall_1.00  	all	0.0002
+P_5                   	all	0.0939
+P_10                  	all	0.0773
+P_15                  	all	0.0616
+P_20                  	all	0.0545
+P_30                  	all	0.0530
+P_100                 	all	0.0321
+P_200                 	all	0.0239
+P_500                 	all	0.0182
+P_1000                	all	0.0125
+</pre>
+ <h4>FDUSGInfo_EN_Run.8.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	822
+map                   	all	0.0351
+gm_map                	all	0.0012
+Rprec                 	all	0.0403
+bpref                 	all	0.2029
+recip_rank            	all	0.1381
+iprec_at_recall_0.00  	all	0.1637
+iprec_at_recall_0.10  	all	0.1049
+iprec_at_recall_0.20  	all	0.0822
+iprec_at_recall_0.30  	all	0.0476
+iprec_at_recall_0.40  	all	0.0295
+iprec_at_recall_0.50  	all	0.0221
+iprec_at_recall_0.60  	all	0.0179
+iprec_at_recall_0.70  	all	0.0121
+iprec_at_recall_0.80  	all	0.0064
+iprec_at_recall_0.90  	all	0.0008
+iprec_at_recall_1.00  	all	0.0002
+P_5                   	all	0.0939
+P_10                  	all	0.0773
+P_15                  	all	0.0616
+P_20                  	all	0.0545
+P_30                  	all	0.0530
+P_100                 	all	0.0321
+P_200                 	all	0.0239
+P_500                 	all	0.0182
+P_1000                	all	0.0125
+</pre>
+ <h4>FDUSGInfo_EN_Run.9.dat</h4>
+            <pre>
+runid                 	all	indri
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	682
+map                   	all	0.0311
+gm_map                	all	0.0011
+Rprec                 	all	0.0443
+bpref                 	all	0.1874
+recip_rank            	all	0.1075
+iprec_at_recall_0.00  	all	0.1343
+iprec_at_recall_0.10  	all	0.0864
+iprec_at_recall_0.20  	all	0.0717
+iprec_at_recall_0.30  	all	0.0493
+iprec_at_recall_0.40  	all	0.0303
+iprec_at_recall_0.50  	all	0.0193
+iprec_at_recall_0.60  	all	0.0109
+iprec_at_recall_0.70  	all	0.0067
+iprec_at_recall_0.80  	all	0.0046
+iprec_at_recall_0.90  	all	0.0007
+iprec_at_recall_1.00  	all	0.0000
+P_5                   	all	0.0667
+P_10                  	all	0.0682
+P_15                  	all	0.0606
+P_20                  	all	0.0523
+P_30                  	all	0.0505
+P_100                 	all	0.0333
+P_200                 	all	0.0226
+P_500                 	all	0.0160
+P_1000                	all	0.0103
+</pre>
+
+<h2>Evaluation with nDCG</h2>
+        <p>These results have been obtained with the graded relevance assessment, i.e. qrels.clef2015.test.graded.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>.</br>To obtain nDCG at different ranks, trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 -m ndcg_cut qrels.clef2015.test.graded.txt runName</pre></br><p>This computes nDCG according to Jarvelin and Kekalainen (ACM ToIS v. 20, pp. 422-446, 2002). Gain values are the relevance values in the qrels file (i.e. label 0 corresponds to gain 0, label 1 to gain 1 and label 2 to gain 2).</p>
+ <h4>FDUSGInfo_EN_Run.1.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2661
+ndcg_cut_10           	all	0.2718
+ndcg_cut_15           	all	0.2702
+ndcg_cut_20           	all	0.2637
+ndcg_cut_30           	all	0.2588
+ndcg_cut_100          	all	0.2915
+ndcg_cut_200          	all	0.3284
+ndcg_cut_500          	all	0.3597
+ndcg_cut_1000         	all	0.3759
+</pre>
+ <h4>FDUSGInfo_EN_Run.10.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.0534
+ndcg_cut_10           	all	0.0602
+ndcg_cut_15           	all	0.0586
+ndcg_cut_20           	all	0.0559
+ndcg_cut_30           	all	0.0582
+ndcg_cut_100          	all	0.0689
+ndcg_cut_200          	all	0.0828
+ndcg_cut_500          	all	0.1148
+ndcg_cut_1000         	all	0.1373
+</pre>
+ <h4>FDUSGInfo_EN_Run.2.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2620
+ndcg_cut_10           	all	0.2488
+ndcg_cut_15           	all	0.2387
+ndcg_cut_20           	all	0.2331
+ndcg_cut_30           	all	0.2246
+ndcg_cut_100          	all	0.2442
+ndcg_cut_200          	all	0.2846
+ndcg_cut_500          	all	0.3293
+ndcg_cut_1000         	all	0.3513
+</pre>
+ <h4>FDUSGInfo_EN_Run.3.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2307
+ndcg_cut_10           	all	0.2234
+ndcg_cut_15           	all	0.2195
+ndcg_cut_20           	all	0.2088
+ndcg_cut_30           	all	0.2053
+ndcg_cut_100          	all	0.2243
+ndcg_cut_200          	all	0.2655
+ndcg_cut_500          	all	0.3073
+ndcg_cut_1000         	all	0.3312
+</pre>
+ <h4>FDUSGInfo_EN_Run.4.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2762
+ndcg_cut_10           	all	0.2687
+ndcg_cut_15           	all	0.2629
+ndcg_cut_20           	all	0.2503
+ndcg_cut_30           	all	0.2419
+ndcg_cut_100          	all	0.2527
+ndcg_cut_200          	all	0.2942
+ndcg_cut_500          	all	0.3379
+ndcg_cut_1000         	all	0.3580
+</pre>
+ <h4>FDUSGInfo_EN_Run.5.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2801
+ndcg_cut_10           	all	0.2665
+ndcg_cut_15           	all	0.2589
+ndcg_cut_20           	all	0.2455
+ndcg_cut_30           	all	0.2361
+ndcg_cut_100          	all	0.2511
+ndcg_cut_200          	all	0.2946
+ndcg_cut_500          	all	0.3363
+ndcg_cut_1000         	all	0.3560
+</pre>
+ <h4>FDUSGInfo_EN_Run.6.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.0739
+ndcg_cut_10           	all	0.0708
+ndcg_cut_15           	all	0.0629
+ndcg_cut_20           	all	0.0586
+ndcg_cut_30           	all	0.0598
+ndcg_cut_100          	all	0.0697
+ndcg_cut_200          	all	0.0875
+ndcg_cut_500          	all	0.1230
+ndcg_cut_1000         	all	0.1517
+</pre>
+ <h4>FDUSGInfo_EN_Run.7.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.0739
+ndcg_cut_10           	all	0.0708
+ndcg_cut_15           	all	0.0629
+ndcg_cut_20           	all	0.0586
+ndcg_cut_30           	all	0.0598
+ndcg_cut_100          	all	0.0697
+ndcg_cut_200          	all	0.0875
+ndcg_cut_500          	all	0.1230
+ndcg_cut_1000         	all	0.1517
+</pre>
+ <h4>FDUSGInfo_EN_Run.8.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.0739
+ndcg_cut_10           	all	0.0708
+ndcg_cut_15           	all	0.0629
+ndcg_cut_20           	all	0.0586
+ndcg_cut_30           	all	0.0598
+ndcg_cut_100          	all	0.0697
+ndcg_cut_200          	all	0.0875
+ndcg_cut_500          	all	0.1230
+ndcg_cut_1000         	all	0.1517
+</pre>
+ <h4>FDUSGInfo_EN_Run.9.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.0534
+ndcg_cut_10           	all	0.0602
+ndcg_cut_15           	all	0.0586
+ndcg_cut_20           	all	0.0559
+ndcg_cut_30           	all	0.0582
+ndcg_cut_100          	all	0.0689
+ndcg_cut_200          	all	0.0828
+ndcg_cut_500          	all	0.1148
+ndcg_cut_1000         	all	0.1373
+</pre>
+
+<h2>Readability-biased evaluation</h2>
+        <p>For this year task, we have considered the factor of understandability of information (or readability) within the evaluation of the submissions, along with the topicality factor (normally referred to as (topical) relevance). Thus, along with (topical) relevance assessments (qrels), we have collected readability assessments (qread). These assessments were provided by judges along with the relevance assessments; however readability was assumed to be assessed independently of (topical) relevance. To account for understandability/readability in the evaluation, we have computed an understandability biased measure, uRBP, as defined in Zuccon&Koopman, <a href="http://zuccon.net/publications/medIR2014_healthsearch_readability.pdf">"Integrating understandability in the evaluation of consumer health search engines"</a>, MedIR 2014. We refer to that publication for the motivations and the details of the measure; note however that we did not use automated readability measures to estimate readability - we instead had actual readability assessments from the relevance assessors. Readability assessments were given on a 4 point scale (from 0 to 3): It is very technical and difficult to read and understand (label 0), It is somewhat technical and difficult to read and understand (label 1), It is somewhat easy to read and understand (label 2), It is very easy to read and understand (label 3).</p><p>The results below have been obtained with the binary relevance assessments (i.e. qrels.clef2015.test.bin.txt) and the graded readability assessments (i.e. i.e. qread.clef2015.test.graded.txt), and ubire-v0.1.0 as distributed on <a href="https://github.com/ielab/ubire">GitHub</a>.</br>The tool was ran as follows:</p>
+<pre>java -jar /tools/ubire.0.1.jar --qrels-file=qrels/qrels.clef2015.test.bin.txt --qread-file=qrels/qread.clef2015.test.graded.txt --readability --rbp-p=0.8 --ranking-file=runName</pre></br><p>This computes RBP, and two versions of uRBP. The user persistence parameter <i>p</i> of RBP (and uRBP) was set to 0.8 following Park&Zhang, <a href="http://goanna.cs.rmit.edu.au/~aht/adcs2007/papers/17N.PDF">"On the distribution of user persistence for rank-biased precision"</a>, ADCS 2007.  uRBP has been computed by using user model 1 of Zuccon&Koopman with threshold=2, i.e. documents with a readability score of 0 or 1 where deemed not readable and thus had P(U|k)=0, while documents with a readability score of 2 or 3 where deemed readable and thus had P(U|k)=1. uRBPgr has been computed by mapping graded readability scores to different probability values, in particular: readability of 0 was assigned P(U|k)=0, readability of 1 was assigned P(U|k)=0.4, readability of 2 was assigned P(U|k)=0.8, readability of 3 was assigned P(U|k)=1.</br>Note that we are still experimenting with these readability-biased measures and thus observations made with the provided measures may not be conclusive.</p>
+ <h4>FDUSGInfo_EN_Run.1.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3134
+uRBP(0.8)	all      	0.2572
+uRBPgr(0.8)	all      	0.2568
+</pre>
+ <h4>FDUSGInfo_EN_Run.10.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.0646
+uRBP(0.8)	all      	0.0473
+uRBPgr(0.8)	all      	0.0464
+</pre>
+ <h4>FDUSGInfo_EN_Run.2.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2757
+uRBP(0.8)	all      	0.2237
+uRBPgr(0.8)	all      	0.2252
+</pre>
+ <h4>FDUSGInfo_EN_Run.3.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2518
+uRBP(0.8)	all      	0.2114
+uRBPgr(0.8)	all      	0.2087
+</pre>
+ <h4>FDUSGInfo_EN_Run.4.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3019
+uRBP(0.8)	all      	0.2373
+uRBPgr(0.8)	all      	0.2393
+</pre>
+ <h4>FDUSGInfo_EN_Run.5.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2989
+uRBP(0.8)	all      	0.2340
+uRBPgr(0.8)	all      	0.2356
+</pre>
+ <h4>FDUSGInfo_EN_Run.6.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.0805
+uRBP(0.8)	all      	0.0609
+uRBPgr(0.8)	all      	0.0577
+</pre>
+ <h4>FDUSGInfo_EN_Run.7.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.0805
+uRBP(0.8)	all      	0.0609
+uRBPgr(0.8)	all      	0.0577
+</pre>
+ <h4>FDUSGInfo_EN_Run.8.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.0805
+uRBP(0.8)	all      	0.0609
+uRBPgr(0.8)	all      	0.0577
+</pre>
+ <h4>FDUSGInfo_EN_Run.9.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.0646
+uRBP(0.8)	all      	0.0473
+uRBPgr(0.8)	all      	0.0464
+</pre>
+
+<h2>Plots P@10</h2>
+<p>The plots below compare each of your runs against the median and best performance (p@10) across all systems  submitted to CLEF for each query topic. In particular, for each query, the height of a bar represents the gain/loss of your system and the best system (for that query) over the median system. The height of a bar is then given by:</p>
+<pre>grey bars:   height(q) = your_p@10(q) - median_p@10(q)
+white bars:  height(q) = best_p@10(q) - median_p@10(q)</pre>
+
+ <h4>FDUSGInfo_EN_Run.1.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.1.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.10.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.10.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.2.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.2.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.3.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.3.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.4.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.4.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.5.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.5.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.6.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.6.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.7.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.7.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.8.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.8.dat.p10.png"/>
+ <h4>FDUSGInfo_EN_Run.9.dat</h4>
+<img src="./img/FDUSGInfo_EN_Run.9.dat.p10.png"/>
+      </div>
+    </div>
+
+    <p></p><hr><p></p>
+    <footer class="row">
+        <div class="span6">
+           <p><a href="https://github.com/ielab/relevation">relevation</a> - Information Retrieval Relevance Judging System</p>
+      </div>
+    </footer>
+</div> <!-- container -->
+</body></html>

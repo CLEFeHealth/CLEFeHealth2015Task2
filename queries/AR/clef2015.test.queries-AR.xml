@@ -1,0 +1,265 @@
+<topics>
+    <top>
+        <num>clef2015.test.1</num>
+        <query>علامات حمراء عديدة على الساقين بعد السفر من عندنا</query>
+    </top>
+    <top>
+        <num>clef2015.test.2</num>
+        <query>كتلة مع بقع دموية على الأنف</query>
+    </top>
+    <top>
+        <num>clef2015.test.3</num>
+        <query>أقدام جافة حمراء ومتوسفة عند الأطفال</query>
+    </top>
+    <top>
+        <num>clef2015.test.4</num>
+        <query>كتل جلدية حاكة</query>
+    </top>
+    <top>
+        <num>clef2015.test.5</num>
+        <query>ضوضاء الصفير و السعال أثناء النوم + الأطفال</query>
+    </top>
+    <top>
+        <num>clef2015.test.6</num>
+        <query>طفل يصدر صوت فحيح عند التنفس</query>
+    </top>
+    <top>
+        <num>clef2015.test.7</num>
+        <query>أعراض الوردية</query>
+    </top>
+    <top>
+        <num>clef2015.test.8</num>
+        <query>القرنية الغائمة و مشكلة الرؤية</query>
+    </top>
+    <top>
+        <num>clef2015.test.9</num>
+        <query>حكة في العيون الحمراء</query>
+    </top>
+    <top>
+        <num>clef2015.test.10</num>
+        <query>علامة عضة بشكل فوهة البركان </query>
+    </top>
+    <top>
+        <num>clef2015.test.11</num>
+        <query>بقع بيضاء في الفم</query>
+    </top>
+    <top>
+        <num>clef2015.test.12</num>
+        <query>طفل لديه سعال جاف و لديه مشكلة في بلع اللعاب</query>
+    </top>
+    <top>
+        <num>clef2015.test.13</num>
+        <query>الحدقة الغائمة تؤثر على الرؤية</query>
+    </top>
+    <top>
+        <num>clef2015.test.14</num>
+        <query>صعوبات التنفس عند الرضيع</query>
+    </top>
+    <top>
+        <num>clef2015.test.15</num>
+        <query>نوبة ربو</query>
+    </top>
+        <num>clef2015.test.16</num>
+        <query>كدمات متفاوتة حمراء على الساقين</query>
+    </top>
+    <top>
+        <num>clef2015.test.17</num>
+        <query>طفح جلدي متقشر</query>
+    </top>
+    <top>
+        <num>clef2015.test.18</num>
+        <query>ضعف في المشي و التوازن مع اهتزاز</query>
+    </top>
+    <top>
+        <num>clef2015.test.19</num>
+        <query>كدمة في ظفر ابهام </query>
+    </top>
+    <top>
+        <num>clef2015.test.20</num>
+        <query>صعوبة الحركة مع رجفان اليد اللاإرادي</query>
+    </top>
+    <top>
+        <num>clef2015.test.21</num>
+        <query>الطفوح الجلدية الحاكة الشائعة</query>
+    </top>
+    <top>
+        <num>clef2015.test.22</num>
+        <query>خروج مفرزات صفراء سميكة من العين</query>
+    </top>
+    <top>
+        <num>clef2015.test.23</num>
+        <query>عيون محتقنة بالدم حمراء</query>
+    </top>
+    <top>
+        <num>clef2015.test.24</num>
+        <query>مادة لزجة صفراء تخرج من عين واحدة حاكة</query>
+    </top>
+    <top>
+        <num>clef2015.test.25</num>
+        <query>طفح أحمر على وجه الطفل</query>
+    </top>
+    <top>
+        <num>clef2015.test.26</num>
+        <query>أثار كتل جلدية حمراء</query>
+    </top>
+    <top>
+        <num>clef2015.test.27</num>
+        <query>العودة من ماوراء البحار مع بقع متوسطة على الساقين</query>
+    </top>
+    <top>
+            <num>clef2015.test.28</num>
+            <query>فطريات على جلد الطفل</query>
+    </top>
+    <top>
+        <num>clef2015.test.29</num>
+        <query>بقعة حمراء على الجلد مع بثرة و قيح جاف</query>
+    </top>
+    <top>
+        <num>clef2015.test.30</num>
+        <query>أصوات غريبة عند التنفس</query>
+    </top>
+    <top>
+        <num>clef2015.test.31</num>
+        <query>الطفل لديه تنفس صريري</query>
+    </top>
+    <top>
+        <num>clef2015.test.32</num>
+        <query>جلد متهيج أحمر على وجه طفل</query>
+    </top>
+    <top>
+        <num>clef2015.test.33</num>
+        <query>التهاب ابيض في البلعوم</query>
+    </top>
+    <top>
+            <num>clef2015.test.34</num>
+            <query>الاسنان مشكلة تجويف </query>
+    </top>
+    <top>
+            <num>clef2015.test.35</num>
+            <query>الكثير من التهيج عند وضع العدسات اللاصقة</query>
+    </top>
+    <top>
+            <num>clef2015.test.36</num>
+            <query>ارتعاش في العين</query>
+    </top>
+    <top>
+        <num>clef2015.test.37</num>
+        <query>جلد متوسف</query>
+    </top>
+    <top>
+        <num>clef2015.test.38</num>
+        <query>أقدام حاكة حمراء متوسفة عند الأطفال</query>
+    </top>
+    <top>
+        <num>clef2015.test.39</num>
+        <query>اكزيما جلدية مع بثرة و قيح أبيض</query>
+    </top>
+    <top>
+        <num>clef2015.test.40</num>
+        <query>طفل مع علامة كبيرة حمراء على الوجه</query>
+    </top>
+    <top>
+        <num>clef2015.test.41</num>
+        <query>قزحية عين كبيرة</query>
+    </top>
+    <top>
+        <num>clef2015.test.42</num>
+        <query>بقعة نازفة تحت الجلد</query>
+    </top>
+    <top>
+        <num>clef2015.test.43</num>
+            <query> أثار كدمات حاكة على الجلد</query>
+    </top>
+    <top>
+            <num>clef2015.test.44</num>
+            <query>ظفر عاتم</query>
+    </top>
+    <top>
+            <num>clef2015.test.45</num>
+            <query>ملمس جاف مع تهيج</query>
+    </top>
+    <top>
+            <num>clef2015.test.46</num>
+            <query>طفل يسعل</query>
+    </top>
+    <top>
+        <num>clef2015.test.47</num>
+        <query>تجاويف</query>
+    </top>
+    <top>
+        <num>clef2015.test.48</num>
+        <query>لا استطيع ايقاف تحريك عيني مشكلة طبية </query>
+    </top>
+    <top>
+        <num>clef2015.test.49</num>
+        <query>الطفل يتنفس دائما والفم مغلق</query>
+    </top>
+    <top>
+            <num>clef2015.test.50</num>
+            <query> بقعة حمراءعلى وجه طفل </query>
+    </top>
+    <top>
+        <num>clef2015.test.51</num>
+        <query>أوعية العينين الدموية الحمراء</query>
+    </top>
+    <top>
+        <num>clef2015.test.52</num>
+        <query>بقع بيضاءعلى اللثة</query>
+    </top>
+    <top>
+        <num>clef2015.test.53</num>
+        <query>ساقان متورمتان</query>
+    </top>
+    <top>
+        <num>clef2015.test.54</num>
+        <query>كتل حمراء على الأنف</query>
+    </top>
+    <top>
+        <num>clef2015.test.55</num>
+        <query>نمط الصندوق علامة في الجلد</query>
+    </top>
+    <top>
+        <num>clef2015.test.56</num>
+        <query>التراخي أثناء المشي</query>
+    </top>
+    <top>
+        <num>clef2015.test.57</num>
+        <query>التنفس المجهد عند الرضيع مع سعال وزيزي حاد</query>
+    </top>
+    <top>
+            <num>clef2015.test.58</num>
+            <query> درجة حرارة 39 وجدري </query>
+    </top>
+    <top>
+            <num>clef2015.test.59</num>
+            <query>تنفس ثقيل وحاد</query>
+    </top>
+    <top>
+        <num>clef2015.test.60</num>
+        <query>طفل مع نقطة بيضاء في القزحية</query>
+    </top>
+    <top>
+        <num>clef2015.test.61</num>
+        <query>كدمات الأظافر</query>
+    </top>
+    <top>
+        <num>clef2015.test.63</num>
+        <query>بقع جلدية قاسية</query>
+    </top>
+    <top>
+        <num>clef2015.test.64</num>
+        <query>حركة عين يسار-يمين سريعة لا إرادية</query>
+    </top>
+    <top>
+        <num>clef2015.test.65</num>
+        <query>بقع بنية غريبة على الجلد</query>
+    </top>
+    <top>
+        <num>clef2015.test.66</num>
+        <query>علاج السعال عند الأطفال</query>
+    </top>
+    <top>
+        <num>clef2015.test.67</num>
+        <query>ضرس أسود</query>
+    </top>
+</topics>

@@ -1,0 +1,471 @@
+<topics>
+	<top>
+		<num>clef2015.test.1</num>
+		<query>many red marks on legs after traveling from us</query>
+		<disease>rocky mountain spotted fever (rmsf)</disease>
+		<type>most</disease>
+		<query_index>14</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.2</num>
+		<query>lump with blood spots on nose</query>
+		<disease>basal cell carcinoma</disease>
+		<type>pivot</disease>
+		<query_index>17</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.3</num>
+		<query>dry red and scaly feet in children</query>
+		<disease>ringworm</disease>
+		<type>pivot</disease>
+		<query_index>5</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.4</num>
+		<query>itchy lumps skin</query>
+		<disease>sarcoptes scabiei, a.k.a. scabies</disease>
+		<type>pivot</disease>
+		<query_index>10</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.5</num>
+		<query>whistling noise and cough during sleeping + children</query>
+		<disease>croup stridor barking cough</disease>
+		<type>least</disease>
+		<query_index>1</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.6</num>
+		<query>child make hissing sound when breathing</query>
+		<disease>asthma wheezing</disease>
+		<type>most</disease>
+		<query_index>18</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.7</num>
+		<query>rosacea symptoms</query>
+		<disease>basal cell carcinoma</disease>
+		<type>least</disease>
+		<query_index>17</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.8</num>
+		<query>cloudy cornea and vision problem</query>
+		<disease>catarat</disease>
+		<type>pivot</disease>
+		<query_index>6</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.9</num>
+		<query>red itchy eyes</query>
+		<disease>conjunctivitis</disease>
+		<type>least</disease>
+		<query_index>20</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.10</num>
+		<query>crater type bite mark</query>
+		<disease>skin cancer: basal cell carcinoma, squamous cell carcinoma, melanoma</disease>
+		<type>pivot</disease>
+		<query_index>13</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.11</num>
+		<query>white patchiness in mouth</query>
+		<disease>strep throat</disease>
+		<type>most</disease>
+		<query_index>3</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.12</num>
+		<query>baby has dry cough and has problem to swallow saliva</query>
+		<disease>whooping cough (pertussis)</disease>
+		<type>least</disease>
+		<query_index>15</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.13</num>
+		<query>cloudy pupil affecting vision</query>
+		<disease>catarat</disease>
+		<type>most</disease>
+		<query_index>6</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.14</num>
+		<query>infant difficulty breathing</query>
+		<disease>croup stridor barking cough</disease>
+		<type>pivot</disease>
+		<query_index>1</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.15</num>
+		<query>asthma attack</query>
+		<disease>asthma wheezing</disease>
+		<type>least</disease>
+		<query_index>18</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.16</num>
+		<query>red patchy bruising over legs</query>
+		<disease>polyarteritis nodosa</disease>
+		<type>most</disease>
+		<query_index>12</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.17</num>
+		<query>scaly rash</query>
+		<disease>squamous cell carcinoma</disease>
+		<type>least</disease>
+		<query_index>4</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.18</num>
+		<query>poor gait and balance with shaking</query>
+		<disease>parkinson's disease</disease>
+		<type>pivot</disease>
+		<query_index>8</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.19</num>
+		<query>bruised thumb nail</query>
+		<disease>onycholysis</disease>
+		<type>most</disease>
+		<query_index>19</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.20</num>
+		<query>movement difficulty with involuntary hand trembling</query>
+		<disease>parkinson's disease</disease>
+		<type>most</disease>
+		<query_index>8</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.21</num>
+		<query>common itchy skin rashes</query>
+		<disease>sarcoptes scabiei, a.k.a. scabies</disease>
+		<type>least</disease>
+		<query_index>10</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.22</num>
+		<query>yellow thick eye leakage</query>
+		<disease>conjunctivitis</disease>
+		<type>pivot</disease>
+		<query_index>20</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.23</num>
+		<query>red bloodshot eyes</query>
+		<disease>non-ulcerative sterile keratitis</disease>
+		<type>most</disease>
+		<query_index>22</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.24</num>
+		<query>yellow gunk coming from one eye itchy</query>
+		<disease>conjunctivitis</disease>
+		<type>most</disease>
+		<query_index>20</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.25</num>
+		<query>red rash baby face</query>
+		<disease>port wine stain</disease>
+		<type>most</disease>
+		<query_index>9</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.26</num>
+		<query>raised red lumps skin</query>
+		<disease>hemangioma</disease>
+		<type>least</disease>
+		<query_index>2</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.27</num>
+		<query>return from overseas with mean spots on legs</query>
+		<disease>rocky mountain spotted fever (rmsf)</disease>
+		<type>pivot</disease>
+		<query_index>14</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.28</num>
+		<query>baby skin fungal</query>
+		<disease>port wine stain</disease>
+		<type>least</disease>
+		<query_index>9</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.29</num>
+		<query>red patch on skin with blister and dry pus</query>
+		<disease>squamous cell carcinoma</disease>
+		<type>pivot</disease>
+		<query_index>4</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.30</num>
+		<query>weird sounds when breathing</query>
+		<disease>asthma wheezing</disease>
+		<type>pivot</disease>
+		<query_index>18</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.31</num>
+		<query>toddler having squeaky breath</query>
+		<disease>bronchiolitis (caused by rsv)</disease>
+		<type>most</disease>
+		<query_index>11</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.32</num>
+		<query>red irritated skin on baby's face</query>
+		<disease>port wine stain</disease>
+		<type>pivot</disease>
+		<query_index>9</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.33</num>
+		<query>white infection in pharynx</query>
+		<disease>strep throat</disease>
+		<type>least</disease>
+		<query_index>3</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.34</num>
+		<query>cavity problem</query>
+		<disease>caries</disease>
+		<type>pivot</disease>
+		<query_index>7</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.35</num>
+		<query>lot of irritation with contact lenses</query>
+		<disease>non-ulcerative sterile keratitis</disease>
+		<type>least</disease>
+		<query_index>22</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.36</num>
+		<query>eye are shaking</query>
+		<disease>nystagmus</disease>
+		<type>least</disease>
+		<query_index>21</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.37</num>
+		<query>scaly skin</query>
+		<disease>nummular eczema</disease>
+		<type>pivot</disease>
+		<query_index>16</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.38</num>
+		<query>scaly red itchy feet in children</query>
+		<disease>ringworm</disease>
+		<type>most</disease>
+		<query_index>5</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.39</num>
+		<query>skin eczema with blister and white pus</query>
+		<disease>squamous cell carcinoma</disease>
+		<type>most</disease>
+		<query_index>4</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.40</num>
+		<query>baby red blotch on face</query>
+		<disease>hemangioma</disease>
+		<type>most</disease>
+		<query_index>2</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.41</num>
+		<query>eye iris large</query>
+		<disease>catarat</disease>
+		<type>least</disease>
+		<query_index>6</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.42</num>
+		<query>patchy bleeding under skin</query>
+		<disease>polyarteritis nodosa</disease>
+		<type>pivot</disease>
+		<query_index>12</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.43</num>
+		<query>itchy raised bumps skin</query>
+		<disease>sarcoptes scabiei, a.k.a. scabies</disease>
+		<type>most</disease>
+		<query_index>10</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.44</num>
+		<query>nail getting dark</query>
+		<disease>onycholysis</disease>
+		<type>least</disease>
+		<query_index>19</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.45</num>
+		<query>dry feel with irritation</query>
+		<disease>ringworm</disease>
+		<type>least</disease>
+		<query_index>5</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.46</num>
+		<query>baby cough</query>
+		<disease>whooping cough (pertussis)</disease>
+		<type>most</disease>
+		<query_index>15</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.47</num>
+		<query>cavities</query>
+		<disease>caries</disease>
+		<type>most</disease>
+		<query_index>7</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.48</num>
+		<query>cannot stop moving my eyes medical condition</query>
+		<disease>nystagmus</disease>
+		<type>most</disease>
+		<query_index>21</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.49</num>
+		<query>baby always breathing with mouth closed</query>
+		<disease>bronchiolitis (caused by rsv)</disease>
+		<type>least</disease>
+		<query_index>11</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.50</num>
+		<query>red spot baby face</query>
+		<disease>hemangioma</disease>
+		<type>pivot</disease>
+		<query_index>2</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.51</num>
+		<query>eyes red blood vessels</query>
+		<disease>non-ulcerative sterile keratitis</disease>
+		<type>pivot</disease>
+		<query_index>22</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.52</num>
+		<query>white spotting on gums</query>
+		<disease>strep throat</disease>
+		<type>pivot</disease>
+		<query_index>3</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.53</num>
+		<query>swollen legs</query>
+		<disease>polyarteritis nodosa</disease>
+		<type>least</disease>
+		<query_index>12</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.54</num>
+		<query>red lumps on nose</query>
+		<disease>basal cell carcinoma</disease>
+		<type>most</disease>
+		<query_index>17</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.55</num>
+		<query>crate type mark in skin</query>
+		<disease>skin cancer: basal cell carcinoma, squamous cell carcinoma, melanoma</disease>
+		<type>most</disease>
+		<query_index>13</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.56</num>
+		<query>slouching when walking</query>
+		<disease>parkinson's disease</disease>
+		<type>least</disease>
+		<query_index>8</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.57</num>
+		<query>infant labored breathing and tight wheezing cough</query>
+		<disease>croup stridor barking cough</disease>
+		<type>most</disease>
+		<query_index>1</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.58</num>
+		<query>39 degree and chicken pox</query>
+		<disease>rocky mountain spotted fever (rmsf)</disease>
+		<type>least</disease>
+		<query_index>14</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.59</num>
+		<query>heavy and squeaky breath</query>
+		<disease>bronchiolitis (caused by rsv)</disease>
+		<type>pivot</disease>
+		<query_index>11</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.60</num>
+		<query>baby white dot in iris</query>
+		<disease>bilateral cataracts in an infant due to congenital rubella syndrome</disease>
+		<type>pivot</disease>
+		<query_index>23</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.61</num>
+		<query>fingernail bruises</query>
+		<disease>onycholysis</disease>
+		<type>pivot</disease>
+		<query_index>19</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.62</num>
+		<query>ring womb below wrinkled eyelid</query>
+		<disease>skin cancer: basal cell carcinoma, squamous cell carcinoma, melanoma</disease>
+		<type>least</disease>
+		<query_index>13</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.63</num>
+		<query>crusty skin patches</query>
+		<disease>nummular eczema</disease>
+		<type>most</disease>
+		<query_index>16</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.64</num>
+		<query>involuntary rapid left-right eye motion</query>
+		<disease>nystagmus</disease>
+		<type>pivot</disease>
+		<query_index>21</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.65</num>
+		<query>weird brown patches on skin</query>
+		<disease>nummular eczema</disease>
+		<type>least</disease>
+		<query_index>16</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.66</num>
+		<query>treatment of coughs in babies</query>
+		<disease>whooping cough (pertussis)</disease>
+		<type>pivot</disease>
+		<query_index>15</query_index>
+	</top>
+	<top>
+		<num>clef2015.test.67</num>
+		<query>black tooth</query>
+		<disease>caries</disease>
+		<type>least</disease>
+		<query_index>7</query_index>
+	</top>
+</topics>

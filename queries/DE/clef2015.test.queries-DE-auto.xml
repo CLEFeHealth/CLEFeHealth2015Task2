@@ -1,0 +1,332 @@
+<topics>
+    <top>
+        <num>clef2015.test.1</num>
+        <query>viele rote Flecken an den Beinen nach US Reise</query>
+        <translation>many red spots on the legs by US travel</translation>
+    </top>
+    <top>
+        <num>clef2015.test.2</num>
+        <query>Geschwulst mit blutigen Punkten auf der Nase</query>
+        <translation>tumor with bloody spots on the nose</translation>
+    </top>
+    <top>
+        <num>clef2015.test.3</num>
+        <query>trockene rote und schuppige Füße bei Kindern</query>
+        <translation>dry red and scaly feet in children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.4</num>
+        <query>juckende Knoten Haut</query>
+        <translation>node itchy skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.5</num>
+        <query>Pfeifgeräusch und Husten beim Schlafen + Kinder</query>
+        <translation>whistling and coughing while sleeping + children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.6</num>
+        <query>Kind zischt beim Atmen</query>
+        <translation>child hisses breathing</translation>
+    </top>
+    <top>
+        <num>clef2015.test.7</num>
+        <query>Rosacea Symptome</query>
+        <translation>rosacea symptoms</translation>
+    </top>
+    <top>
+        <num>clef2015.test.8</num>
+        <query>Hornhauttrübung und Sehstörung</query>
+        <translation>corneal opacity and visual disturbance</translation>
+    </top>
+    <top>
+        <num>clef2015.test.9</num>
+        <query>rote juckende Augen</query>
+        <translation>red itchy eyes</translation>
+    </top>
+    <top>
+        <num>clef2015.test.10</num>
+        <query>kraterförmige Bissspuren</query>
+        <translation>crater-like bite marks</translation>
+    </top>
+    <top>
+        <num>clef2015.test.11</num>
+        <query>weiße Flecken im Mund</query>
+        <translation>white patches in the mouth</translation>
+    </top>
+    <top>
+        <num>clef2015.test.12</num>
+        <query>Baby hat trockenen Husten und hat Probleme Speichel zu chlucken</query>
+        <translation>baby has dry cough and have trouble saliva chlucken</translation>
+    </top>
+    <top>
+        <num>clef2015.test.13</num>
+        <query>trübe Pupille beeinflusst Sehkraft</query>
+        <translation>dim pupil affects vision</translation>
+    </top>
+    <top>
+        <num>clef2015.test.14</num>
+        <query>Baby Atembeschwerden</query>
+        <translation>baby breathing problems</translation>
+    </top>
+    <top>
+        <num>clef2015.test.15</num>
+        <query>Asthmaanfall</query>
+        <translation>asthma attack</translation>
+    </top>
+    <top>
+        <num>clef2015.test.16</num>
+        <query>roter fleckigre Ausschlag auf den Beinen</query>
+        <translation>red rash on the legs fleckigre</translation>
+    </top>
+    <top>
+        <num>clef2015.test.17</num>
+        <query>schuppiger Hautausschlag</query>
+        <translation>scaly rash</translation>
+    </top>
+    <top>
+        <num>clef2015.test.18</num>
+        <query>schlechter Gang und Gleichgewicht mit Schütteln</query>
+        <translation>bad gear and balance with shaking</translation>
+    </top>
+    <top>
+        <num>clef2015.test.19</num>
+        <query>verletzter Daumennagel</query>
+        <translation>injured thumbnail</translation>
+    </top>
+    <top>
+        <num>clef2015.test.20</num>
+        <query>Bewegungsprobleme mit unwillkürlichem Händezittern</query>
+        <translation>movement problems with involuntary trembling hands</translation>
+    </top>
+    <top>
+        <num>clef2015.test.21</num>
+        <query>häufige juckende Hautausschläge</query>
+        <translation>frequent itchy rashes</translation>
+    </top>
+    <top>
+        <num>clef2015.test.22</num>
+        <query>dicker gelber Augenausfluss</query>
+        <translation>thick yellow discharge from the eyes</translation>
+    </top>
+    <top>
+        <num>clef2015.test.23</num>
+        <query>rote blutunterlaufene Augen</query>
+        <translation>red bloodshot eyes</translation>
+    </top>
+    <top>
+        <num>clef2015.test.24</num>
+        <query>gelber Schmiere kommt aus einem Auge juckt</query>
+        <translation> yellow mucus comes out of one eye itches</translation>
+    </top>
+    <top>
+        <num>clef2015.test.25</num>
+        <query>roter Hautausschlag Baby Gesicht</query>
+        <translation>red rash baby face</translation>
+    </top>
+    <top>
+        <num>clef2015.test.26</num>
+        <query>rote geschwollene Stellen Haut</query>
+        <translation>red swollen skin sites</translation>
+    </top>
+    <top>
+        <num>clef2015.test.27</num>
+        <query>Rückkehr aus Übersee mit bösen Flecken auf Beinen</query>
+        <translation>returning from overseas with bad spots on legs</translation>
+    </top>
+    <top>
+        <num>clef2015.test.28</num>
+        <query>Kleinkind Hautpilz</query>
+        <translation>baby skin fungus</translation>
+    </top>
+    <top>
+        <num>clef2015.test.29</num>
+        <query>roter Fleck auf der Haut mit Blase und trockenem Eiter</query>
+        <translation>red spot on the skin with bladder and dry pus</translation>
+    </top>
+    <top>
+        <num>clef2015.test.30</num>
+        <query>seltsame Geräusche beim Atmen</query>
+        <translation>strange noises when breathing</translation>
+    </top>
+    <top>
+    <num>clef2015.test.31</num>
+        <query>Kleinkind mit quietschendem Atem</query>
+        <translation>toddler with squeaky breath</translation>
+    </top>
+    <top>
+        <num>clef2015.test.32</num>
+        <query>gerötete gereizte Haut in Kindergesicht</query>
+        <translation>reddened irritated skin in children face</translation>
+    </top>
+    <top>
+        <num>clef2015.test.33</num>
+        <query>weißer Belag in Pharynx</query>
+        <translation>white coating in the pharynx</translation>
+    </top>
+    <top>
+        <num>clef2015.test.34</num>
+        <query>Karies Problem</query>
+        <translation>caries problem</translation>
+    </top>
+    <top>
+        <num>clef2015.test.35</num>
+        <query>starke Augenreizung durch Kontaktlinsen</query>
+        <translation>severe eye irritation from contact lenses</translation>
+    </top>
+    <top>
+        <num>clef2015.test.36</num>
+        <query>Augenzittern</query>
+        <translation>nystagmus</translation>
+    </top>
+    <top>
+        <num>clef2015.test.37</num>
+        <query>schuppige Haut</query>
+        <translation>scaly skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.38</num>
+        <query>schuppige rote juckende Füsse bei Kindern</query>
+        <translation>scaly, red itchy feet in children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.39</num>
+        <query>Hautekzem mit Blase und weißem Eiter</query>
+        <translation>eczema with bladder and white pus</translation>
+    </top>
+    <top>
+        <num>clef2015.test.40</num>
+        <query>Baby roter Fleck im Gesicht</query>
+        <translation>baby red spot on his face</translation>
+    </top>
+    <top>
+        <num>clef2015.test.41</num>
+        <query>Augen Iris groß</query>
+        <translation>iris size</translation>
+    </top>
+    <top>
+        <num>clef2015.test.42</num>
+        <query>fleckige Blutung unter der Haut</query>
+        <translation>spotty bleeding under the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.43</num>
+        <query>juckende erhöhte Stellen Haut</query>
+        <translation>itchy raised spots skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.44</num>
+        <query>Nagel wird dunkel</query>
+        <translation>nail is dark</translation>
+    </top>
+    <top>
+        <num>clef2015.test.45</num>
+        <query>trockenes Gefühl mit Reizung</query>
+        <translation>dry feeling irritation with</translation>
+    </top>
+    <top>
+        <num>clef2015.test.46</num>
+        <query>Baby Husten </query>
+        <translation>Baby cough</translation>
+    </top>
+    <top>
+        <num>clef2015.test.47</num>
+        <query>Löcher in den Zähnen</query>
+        <translation>Cavities</translation>
+    </top>
+    <top>
+        <num>clef2015.test.48</num>
+        <query>Kann nicht aufhören meine Augen zu bewegen Krankheit</query>
+        <translation>Can not stop my eyes move to disease</translation>
+    </top>
+    <top>
+        <num>clef2015.test.49</num>
+        <query>Kind atmet immer mit geschlossenem Mund</query>
+        <translation>child breathes always with the mouth closed</translation>
+    </top>
+    <top>
+        <num>clef2015.test.50</num>
+        <query>roter Fleck Babygesicht</query>
+        <translation>red spot baby face</translation>
+    </top>
+    <top>
+        <num>clef2015.test.51</num>
+        <query>Augen rote Blutgefäße</query>
+        <translation>eyes red blood vessels</translation>
+    </top>
+    <top>
+        <num>clef2015.test.52</num>
+        <query>weisse Punkte am Zahnfleisch</query>
+        <translation>white spots on gums</translation>
+    </top>
+    <top>
+        <num>clef2015.test.53</num>
+        <query>geschwollene Beine</query>
+        <translation>swollen legs</translation>
+    </top>
+    <top>
+        <num>clef2015.test.54</num>
+        <query>rote Geschwulste an der Nase</query>
+        <translation>red growths in the nose</translation>
+    </top>
+    <top>
+        <num>clef2015.test.55</num>
+        <query>kraterförmige Spur in der Haut</query>
+        <translation>crater-shaped track in the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.56</num>
+        <query>krumme Haltung beim Gehen</query>
+        <translation>slouch when walking</translation>
+    </top>
+    <top>
+        <num>clef2015.test.57</num>
+        <query>Baby schwere Atmung und enger keuchender Husten</query>
+        <translation>baby heavy breathing and wheezing cough close</translation>
+    </top>
+    <top>
+        <num>clef2015.test.58</num>
+        <query>39 Grad und Windpocken</query>
+        <translation>39 degrees and chickenpox</translation>
+    </top>
+    <top>
+        <num>clef2015.test.59</num>
+        <query>schwerer und queitschender Atem</query>
+        <translation>heavier and squeaky breathing</translation>
+    </top>
+    <top>
+        <num>clef2015.test.60</num>
+        <query>Baby weisser Punkt  in der Iris</query>
+        <translation>Baby white dot in the iris</translation>
+    </top>
+    <top>
+        <num>clef2015.test.61</num>
+        <query>Nagel Prellung</query>
+        <translation>nail bruise</translation>
+    </top>
+    <top>
+        <num>clef2015.test.63</num>
+        <query>Hautflecken mit Kruste</query>
+        <translation>skin spots with crust</translation>
+    </top>
+    <top>
+        <num>clef2015.test.64</num>
+        <query>unbeabsichtigte schnelle links-rechts Augenbewegung</query>
+        <translation>unintentional quick left-right eye movement</translation>
+    </top>
+    <top>
+        <num>clef2015.test.65</num>
+        <query>seltsame braune Flecken auf der Haut</query>
+        <translation>strange brown spots on the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.66</num>
+        <query>Behandlung von Husten bei Kleinkindern</query>
+        <translation>Treatment of cough in infants</translation>
+    </top>
+    <top>
+        <num>clef2015.test.67</num>
+        <query>schwarzer Zahn</query>
+        <translation>black tooth</translation>
+    </top>
+</topics>

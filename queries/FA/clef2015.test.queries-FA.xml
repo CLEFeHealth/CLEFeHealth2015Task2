@@ -1,0 +1,266 @@
+<topics>
+    <top>
+        <num>clef2015.test.1</num>
+        <query> علائم قرمز رنگ بسیار زیاد بر روی پاها بعد از رفتن از پیش ما  </query> 
+    </top>
+    <top>
+        <num>clef2015.test.2</num>
+        <query>توده برجسته با نقاط قرمز رنگ بر روی بینی  </query>
+    </top>
+    <top>
+        <num>clef2015.test.3</num>
+        <query>  پاهای قرمز و خشک و فلس مانند در کودکان </query>
+    </top>
+    <top>
+        <num>clef2015.test.4</num>
+        <query>  توده های خارش دار روی پوست </query>
+    </top>
+    <top>
+        <num>clef2015.test.5</num>
+        <query>  صدای سوت مانند از بینی و سرفه در هنگام خواب  کودکان </query>
+    </top>
+    <top>
+        <num>clef2015.test.6</num>
+        <query>  صدای خش خش هنگام تنفس نوزاد</query>
+    </top>
+    <top>
+        <num>clef2015.test.7</num>
+        <query> نشانه های روزاسه </query>
+    </top>
+    <top>
+        <num>clef2015.test.8</num>
+        <query> قرنیه تیره و مشکل دید </query>
+    </top>
+    <top>
+        <num>clef2015.test.9</num>
+        <query> قرمزی چشم ها همراه با خارش </query>
+    </top>
+    <top>
+        <num>clef2015.test.10</num>
+        <query> جای نیش شبیه دهانه ی آتشفشان </query>
+    </top>
+    <top>
+        <num>clef2015.test.11</num>
+        <query> لکه های سفید در دهان </query>
+    </top>
+    <top>
+        <num>clef2015.test.12</num>
+        <query> نوزاد سرفه خشک می کند و به سختی بزاق قورت می دهد </query>
+    </top>
+    <top>
+        <num>clef2015.test.13</num>
+        <query>  تاثیر مردمک تیره روی دید </query>
+    </top>
+    <top>
+        <num>clef2015.test.14</num>
+        <query>  اشکال تنفسی نوزاد</query>
+    </top>
+    <top>
+        <num>clef2015.test.15</num>
+        <query>  حمله آسم</query>
+    </top>
+    <top>
+        <num>clef2015.test.16</num>
+        <query> خون مردگی قرمز روی پاها</query>
+    </top>
+    <top>
+        <num>clef2015.test.17</num>
+        <query>  جوش فلس مانند </query>
+    </top>
+    <top>
+        <num>clef2015.test.18</num>
+        <query>  اختلال تعادلی و حرکتی همراه با لرزش</query>
+    </top>
+    <top>
+        <num>clef2015.test.19</num>
+        <query>  خون مردگی زیر ناخن انگشت شصت</query>
+    </top>
+    <top>
+        <num>clef2015.test.20</num>
+        <query>  اختلال حرکتی همراه با لرزش غیر ارادی دست</query>
+    </top>
+    <top>
+        <num>clef2015.test.21</num>
+        <query>  جوشهای معمولی خارش دار روی پوست</query>
+    </top>
+    <top>
+        <num>clef2015.test.22</num>
+        <query>  ترشح غلیظ زرد رنگ چشم</query>
+    </top>
+    <top>
+        <num>clef2015.test.23</num>
+        <query>چشم های قرمز  </query>
+    </top>
+    <top>
+        <num>clef2015.test.24</num>
+        <query>  ترشح کثیف زرد رنگ از یکی ازچشم ها همراه با خارش </query>
+    </top>
+    <top>
+        <num>clef2015.test.25</num>
+        <query> دانه های قرمز روی پوست صورت نوزاد </query>
+    </top>
+    <top>
+        <num>clef2015.test.26</num>
+        <query>  توده های قرمز برجسته روی پوست </query>
+    </top>
+    <top>
+        <num>clef2015.test.27</num>
+        <query>لکه های جزئی بعد از برگشتن از خارج از کشور </query>
+    </top>
+    <top>
+        <num>clef2015.test.28</num>
+        <query> قارچ پوستی  در نوزاد </query>
+    </top>
+    <top>
+        <num>clef2015.test.29</num>
+        <query>  نقاط قرمز پوست با تاول چرکی </query>
+    </top>
+    <top>
+        <num>clef2015.test.30</num>
+        <query>  صدای عجیب هنگام تنفس </query>
+    </top>
+    <top>
+        <num>clef2015.test.31</num>
+        <query> تنفس سنگین کودک همراه با صدا  </query>
+    </top>
+    <top>
+        <num>clef2015.test.32</num>
+        <query> پوست قرمز آزار دهنده روی صورت نوزاد</query>
+    </top>
+    <top>
+        <num>clef2015.test.33</num>
+        <query>  چرک سفید رنگ در حلق</query>
+    </top>
+    <top>
+        <num>clef2015.test.34</num>
+        <query>  مشکل پوسیدگی دندان</query>
+    </top>
+    <top>
+        <num>clef2015.test.35</num>
+        <query> سوزش شدید چشم در اثر استفاده لنز </query>
+    </top>
+    <top>
+        <num>clef2015.test.36</num>
+        <query> لرزش چشم ها </query>
+    </top>
+    <top>
+        <num>clef2015.test.37</num>
+        <query> پوست فلس مانند </query>
+    </top>
+    <top>
+        <num>clef2015.test.38</num>
+        <query> پاهای قرمز خارش دار و فلس مانند در کودکان </query>
+    </top>
+    <top>
+        <num>clef2015.test.39</num>
+        <query> اگزما با تاول و چرک سفید </query>
+    </top>
+    <top>
+        <num>clef2015.test.40</num>
+        <query>جوش چرکی قرمز روی صورت نوزاد </query>
+    </top>
+    <top>
+        <num>clef2015.test.41</num>
+        <query> بزرگی عنبيه  چشم </query>
+    </top>
+    <top>
+        <num>clef2015.test.42</num>
+        <query>  خونریزی زیر پوستی</query>
+    </top>
+    <top>
+        <num>clef2015.test.43</num>
+        <query>  برامدگی خارش دار پوستی </query>
+    </top>
+    <top>
+        <num>clef2015.test.44</num>
+        <query> سیاه شدگی ناخن </query>
+    </top>
+    <top>
+        <num>clef2015.test.45</num>
+        <query> احساس خشکی و سوزش </query>
+    </top>
+    <top>
+        <num>clef2015.test.46</num>
+        <query> سرفه  نوزاد </query>
+    </top>
+    <top>
+        <num>clef2015.test.47</num>
+        <query> پوسیدگی های دندان </query>
+    </top>
+    <top>
+        <num>clef2015.test.48</num>
+        <query> وضعیت پزشکی عدم توقف حرکت چشم ها </query>
+    </top>
+    <top>
+        <num>clef2015.test.49</num>
+        <query> نوزاد همیشه با دهان بسته نفس می کشد </query>
+    </top>
+    <top>
+        <num>clef2015.test.50</num>
+        <query> سنقطه قرمز روی صورت نوزاد</query>
+    </top>
+    <top>
+        <num>clef2015.test.51</num>
+        <query> رگ های خونی قرمز در چشم ها </query>
+    </top>
+    <top>
+        <num>clef2015.test.52</num>
+        <query>نقاط سفید روی لثه ها</query>
+    </top>
+    <top>
+        <num>clef2015.test.53</num>
+        <query> پاهای متورم </query>
+    </top>
+    <top>
+        <num>clef2015.test.54</num>
+        <query>توده های قرمز روی بینی</query>
+    </top>
+    <top>
+        <num>clef2015.test.55</num>
+        <query>  علامت مشبک شکل روی پوست</query>
+    </top>
+    <top>
+        <num>clef2015.test.56</num>
+        <query> خمیدگی هنگام راه رفتن </query>
+    </top>
+    <top>
+        <num>clef2015.test.57</num>
+        <query> خس خس و تنگی نفس در  نوزاد  </query>
+    </top>
+    <top>
+        <num>clef2015.test.58</num>
+        <query> ۳۹ درجه و آبله مرغی </query>
+    </top>
+    <top>
+        <num>clef2015.test.59</num>
+        <query> تنفس سنگین همراه با صدا و خس خس </query>
+    </top>
+    <top>
+        <num>clef2015.test.60</num>
+        <query> نقطه سفید رنگ در عنبیه نوزاد </query>
+    </top>
+    <top>
+        <num>clef2015.test.61</num>
+        <query> خون مردگی زیر ناخن</query>
+    </top>
+    <top>
+        <num>clef2015.test.63</num>
+        <query> لکه های پوسته پوسته بر روی پوست </query>
+    </top>
+    <top>
+        <num>clef2015.test.64</num>
+        <query> حرکت غیر ارادی سریع چشم ها به چپ و راست </query>
+    </top>
+    <top>
+        <num>clef2015.test.65</num>
+        <query>لکه های عجیب قهوه ای روی پوست</query>
+    </top>
+    <top>
+        <num>clef2015.test.66</num>
+        <query> درمان سرفه در نوزادان </query>
+    </top>
+    <top>
+        <num>clef2015.test.67</num>
+        <query> دندان سیاه </query>
+    </top>    
+</topics>

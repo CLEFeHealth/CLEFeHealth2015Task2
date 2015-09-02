@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Share/CLEF eHealth 2015 TASK 2 Results by relevation - Information Retrieval Relevance Judging System</title>
+   <meta name="description" content="">
+    <meta name="author" content="CLEF 2015 Task 2 Committee">
+    <link rel="stylesheet" href="bootstrap.css">
+    <style type="text/css">
+        body { padding-top: 60px; font-size: 12px; }
+        label, button, .btn { font-size: 12px; }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="./clef_eval_files/jquery.min.js"></script>
+    <script src="./clef_eval_files/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+<style type="text/css">@media print { #feedlyMiniIcon { display: none; } }</style></head>
+
+<body style="zoom: 1;">
+<div class="container">
+<div class="well">
+        <h1>Share/CLEF eHealth 2015 TASK 2 Results - UBML_EN_Run</h1>
+        <p>This page summarises the results obtained from your submissions. Here, you can find the mean performance of your submissions, for all standard trec_eval measures and for nDCG at different ranks.</br> For this first year, the Share/CLEF eHealth 2015 TASK 2 built result pools from your submissions considering the top 10 documents ranked by your baseline system (run 1), and the two highest priority runs (run 2 and 3); thus all remaining runs were not sampled to form the assessment pool. This was because, unlike in previous years, submissions were greatly differing between each other, and thus lead to very large (and different) pools. As a consequence:<ul><li>the <b>primary measure for this year is precision at 10 (P@10)</b>,</li><li>the <b>secondary measure is Normalised Discounted Cumulative Gain at rank 10</b> (ndcg_cut_10).</li></ul>Per-query performance can be found in the <i>evals</i> folder in the directory containing this HTML page. Note that metrics such as MAP may not be reliable for evaluation due to the limited pool depth.</br>Some of the participant's runs contained formatting errors (the most common was the use of a numeric query id in place of the official qtest2015.XX id); others did not retrieve results for some queries or fail to conform to the TREC result format; finally, some retrieved the same document more than once for the same query (i.e. duplicate documents). To fairly evaluate the runs of every participant, submitted runs containing formatting errors and duplicated documents have been corrected. Duplicate documents have been removed and replaced by a <i>duplicatedid</i> string. Your runs (as evaluated here) are contained in the folder <i>runs</i> - please use these runs if you want to perform further evaluation and analysis.</br></br>Please refer to the <a href="https://sites.google.com/site/clefehealth2015/">ShARe/CLEF 2015 eHealth Evaluation Lab website</a> for additional details on the task.</p></br><p>Relevance assessments are distributed along with this webpage and are also available from the task website. Assessors judged relevance according to a three point scale: Not Relevant (label 0), Somewhat Relevant (label 1), Highly Relevant (label 2). When computing binary relevance measures (e.g. P@10 and MAP), we mapped label 0 to not relevant, and labels 1 and 2 to relevant; this  is encoded in the binary qrels named <i>qrels.clef2015.test.bin.txt</i>. Graded relevance assessments are contained in the <i>qrels.clef2015.test.graded.txt</i> file.</p>
+    </div>
+    <div class="row">
+        <div class="span9">
+            <h2>Evaluation with standard trec_eval metrics</h2>
+        <p>These results have been obtained with the binary relevance assessment, i.e. qrels.clef2015.test.bin.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>. Trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 qrels.clef2015.test.bin.txt runName</pre>
+ <h4>UBML_EN_Run.1.dat</h4>
+            <pre>
+runid                 	all	BM25b0.75
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1333
+map                   	all	0.1664
+gm_map                	all	0.0624
+Rprec                 	all	0.1938
+bpref                 	all	0.2451
+recip_rank            	all	0.5648
+iprec_at_recall_0.00  	all	0.5938
+iprec_at_recall_0.10  	all	0.4404
+iprec_at_recall_0.20  	all	0.3201
+iprec_at_recall_0.30  	all	0.2319
+iprec_at_recall_0.40  	all	0.1530
+iprec_at_recall_0.50  	all	0.1200
+iprec_at_recall_0.60  	all	0.0782
+iprec_at_recall_0.70  	all	0.0527
+iprec_at_recall_0.80  	all	0.0384
+iprec_at_recall_0.90  	all	0.0247
+iprec_at_recall_1.00  	all	0.0168
+P_5                   	all	0.3455
+P_10                  	all	0.3106
+P_15                  	all	0.2778
+P_20                  	all	0.2591
+P_30                  	all	0.2131
+P_100                 	all	0.1102
+P_200                 	all	0.0689
+P_500                 	all	0.0359
+P_1000                	all	0.0202
+</pre>
+ <h4>UBML_EN_Run.10.dat</h4>
+            <pre>
+runid                 	all	BM25b0.75
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1333
+map                   	all	0.1266
+gm_map                	all	0.0498
+Rprec                 	all	0.1580
+bpref                 	all	0.2509
+recip_rank            	all	0.4828
+iprec_at_recall_0.00  	all	0.5350
+iprec_at_recall_0.10  	all	0.3274
+iprec_at_recall_0.20  	all	0.2472
+iprec_at_recall_0.30  	all	0.1878
+iprec_at_recall_0.40  	all	0.1127
+iprec_at_recall_0.50  	all	0.0842
+iprec_at_recall_0.60  	all	0.0597
+iprec_at_recall_0.70  	all	0.0429
+iprec_at_recall_0.80  	all	0.0298
+iprec_at_recall_0.90  	all	0.0134
+iprec_at_recall_1.00  	all	0.0074
+P_5                   	all	0.2818
+P_10                  	all	0.2485
+P_15                  	all	0.2293
+P_20                  	all	0.2189
+P_30                  	all	0.1874
+P_100                 	all	0.0989
+P_200                 	all	0.0628
+P_500                 	all	0.0337
+P_1000                	all	0.0202
+</pre>
+ <h4>UBML_EN_Run.2.dat</h4>
+            <pre>
+runid                 	all	BM25b0.75_KLbfree_d_3_t_10
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1244
+map                   	all	0.1785
+gm_map                	all	0.0391
+Rprec                 	all	0.1982
+bpref                 	all	0.2591
+recip_rank            	all	0.5159
+iprec_at_recall_0.00  	all	0.5503
+iprec_at_recall_0.10  	all	0.4406
+iprec_at_recall_0.20  	all	0.3403
+iprec_at_recall_0.30  	all	0.2470
+iprec_at_recall_0.40  	all	0.1851
+iprec_at_recall_0.50  	all	0.1433
+iprec_at_recall_0.60  	all	0.0966
+iprec_at_recall_0.70  	all	0.0582
+iprec_at_recall_0.80  	all	0.0427
+iprec_at_recall_0.90  	all	0.0301
+iprec_at_recall_1.00  	all	0.0221
+P_5                   	all	0.3455
+P_10                  	all	0.3197
+P_15                  	all	0.2838
+P_20                  	all	0.2568
+P_30                  	all	0.2126
+P_100                 	all	0.1039
+P_200                 	all	0.0614
+P_500                 	all	0.0314
+P_1000                	all	0.0188
+</pre>
+ <h4>UBML_EN_Run.3.dat</h4>
+            <pre>
+runid                 	all	BM25b0.75_Bo1bfree_d_3_t_10
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1262
+map                   	all	0.1812
+gm_map                	all	0.0385
+Rprec                 	all	0.2009
+bpref                 	all	0.2589
+recip_rank            	all	0.5151
+iprec_at_recall_0.00  	all	0.5497
+iprec_at_recall_0.10  	all	0.4456
+iprec_at_recall_0.20  	all	0.3691
+iprec_at_recall_0.30  	all	0.2565
+iprec_at_recall_0.40  	all	0.1892
+iprec_at_recall_0.50  	all	0.1395
+iprec_at_recall_0.60  	all	0.0925
+iprec_at_recall_0.70  	all	0.0532
+iprec_at_recall_0.80  	all	0.0393
+iprec_at_recall_0.90  	all	0.0281
+iprec_at_recall_1.00  	all	0.0203
+P_5                   	all	0.3576
+P_10                  	all	0.3182
+P_15                  	all	0.2909
+P_20                  	all	0.2674
+P_30                  	all	0.2182
+P_100                 	all	0.1064
+P_200                 	all	0.0622
+P_500                 	all	0.0320
+P_1000                	all	0.0191
+</pre>
+ <h4>UBML_EN_Run.4.dat</h4>
+            <pre>
+runid                 	all	BM25b0.75
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1359
+map                   	all	0.1477
+gm_map                	all	0.0406
+Rprec                 	all	0.1770
+bpref                 	all	0.2435
+recip_rank            	all	0.4853
+iprec_at_recall_0.00  	all	0.5225
+iprec_at_recall_0.10  	all	0.3732
+iprec_at_recall_0.20  	all	0.2968
+iprec_at_recall_0.30  	all	0.2076
+iprec_at_recall_0.40  	all	0.1428
+iprec_at_recall_0.50  	all	0.0994
+iprec_at_recall_0.60  	all	0.0739
+iprec_at_recall_0.70  	all	0.0535
+iprec_at_recall_0.80  	all	0.0362
+iprec_at_recall_0.90  	all	0.0247
+iprec_at_recall_1.00  	all	0.0145
+P_5                   	all	0.3121
+P_10                  	all	0.2742
+P_15                  	all	0.2444
+P_20                  	all	0.2318
+P_30                  	all	0.1965
+P_100                 	all	0.1059
+P_200                 	all	0.0682
+P_500                 	all	0.0353
+P_1000                	all	0.0206
+</pre>
+ <h4>UBML_EN_Run.5.dat</h4>
+            <pre>
+runid                 	all	BM25b0.75
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1355
+map                   	all	0.1482
+gm_map                	all	0.0428
+Rprec                 	all	0.1739
+bpref                 	all	0.2440
+recip_rank            	all	0.5004
+iprec_at_recall_0.00  	all	0.5365
+iprec_at_recall_0.10  	all	0.3757
+iprec_at_recall_0.20  	all	0.2954
+iprec_at_recall_0.30  	all	0.2066
+iprec_at_recall_0.40  	all	0.1431
+iprec_at_recall_0.50  	all	0.0995
+iprec_at_recall_0.60  	all	0.0733
+iprec_at_recall_0.70  	all	0.0530
+iprec_at_recall_0.80  	all	0.0364
+iprec_at_recall_0.90  	all	0.0252
+iprec_at_recall_1.00  	all	0.0145
+P_5                   	all	0.3121
+P_10                  	all	0.2773
+P_15                  	all	0.2434
+P_20                  	all	0.2303
+P_30                  	all	0.1960
+P_100                 	all	0.1065
+P_200                 	all	0.0685
+P_500                 	all	0.0351
+P_1000                	all	0.0205
+</pre>
+ <h4>UBML_EN_Run.6.dat</h4>
+            <pre>
+runid                 	all	esp
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1244
+map                   	all	0.1293
+gm_map                	all	0.0307
+Rprec                 	all	0.1545
+bpref                 	all	0.2263
+recip_rank            	all	0.4333
+iprec_at_recall_0.00  	all	0.4650
+iprec_at_recall_0.10  	all	0.3389
+iprec_at_recall_0.20  	all	0.2483
+iprec_at_recall_0.30  	all	0.1649
+iprec_at_recall_0.40  	all	0.1264
+iprec_at_recall_0.50  	all	0.1023
+iprec_at_recall_0.60  	all	0.0589
+iprec_at_recall_0.70  	all	0.0393
+iprec_at_recall_0.80  	all	0.0263
+iprec_at_recall_0.90  	all	0.0162
+iprec_at_recall_1.00  	all	0.0102
+P_5                   	all	0.3030
+P_10                  	all	0.2621
+P_15                  	all	0.2465
+P_20                  	all	0.2220
+P_30                  	all	0.1944
+P_100                 	all	0.0933
+P_200                 	all	0.0573
+P_500                 	all	0.0309
+P_1000                	all	0.0188
+</pre>
+ <h4>UBML_EN_Run.7.dat</h4>
+            <pre>
+runid                 	all	esp
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1262
+map                   	all	0.1821
+gm_map                	all	0.0440
+Rprec                 	all	0.2017
+bpref                 	all	0.2553
+recip_rank            	all	0.5392
+iprec_at_recall_0.00  	all	0.5634
+iprec_at_recall_0.10  	all	0.4514
+iprec_at_recall_0.20  	all	0.3486
+iprec_at_recall_0.30  	all	0.2711
+iprec_at_recall_0.40  	all	0.1833
+iprec_at_recall_0.50  	all	0.1379
+iprec_at_recall_0.60  	all	0.0945
+iprec_at_recall_0.70  	all	0.0613
+iprec_at_recall_0.80  	all	0.0395
+iprec_at_recall_0.90  	all	0.0302
+iprec_at_recall_1.00  	all	0.0223
+P_5                   	all	0.3424
+P_10                  	all	0.3091
+P_15                  	all	0.3000
+P_20                  	all	0.2795
+P_30                  	all	0.2323
+P_100                 	all	0.1115
+P_200                 	all	0.0674
+P_500                 	all	0.0341
+P_1000                	all	0.0191
+</pre>
+ <h4>UBML_EN_Run.8.dat</h4>
+            <pre>
+runid                 	all	BM25b0.75
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1366
+map                   	all	0.1455
+gm_map                	all	0.0478
+Rprec                 	all	0.1719
+bpref                 	all	0.2449
+recip_rank            	all	0.5379
+iprec_at_recall_0.00  	all	0.5659
+iprec_at_recall_0.10  	all	0.3608
+iprec_at_recall_0.20  	all	0.2739
+iprec_at_recall_0.30  	all	0.1939
+iprec_at_recall_0.40  	all	0.1477
+iprec_at_recall_0.50  	all	0.1084
+iprec_at_recall_0.60  	all	0.0731
+iprec_at_recall_0.70  	all	0.0509
+iprec_at_recall_0.80  	all	0.0383
+iprec_at_recall_0.90  	all	0.0242
+iprec_at_recall_1.00  	all	0.0148
+P_5                   	all	0.3091
+P_10                  	all	0.2652
+P_15                  	all	0.2495
+P_20                  	all	0.2311
+P_30                  	all	0.1934
+P_100                 	all	0.1014
+P_200                 	all	0.0670
+P_500                 	all	0.0361
+P_1000                	all	0.0207
+</pre>
+ <h4>UBML_EN_Run.9.dat</h4>
+            <pre>
+runid                 	all	BM25b0.75
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1368
+map                   	all	0.1462
+gm_map                	all	0.0446
+Rprec                 	all	0.1734
+bpref                 	all	0.2488
+recip_rank            	all	0.5062
+iprec_at_recall_0.00  	all	0.5431
+iprec_at_recall_0.10  	all	0.3686
+iprec_at_recall_0.20  	all	0.2772
+iprec_at_recall_0.30  	all	0.1983
+iprec_at_recall_0.40  	all	0.1478
+iprec_at_recall_0.50  	all	0.1084
+iprec_at_recall_0.60  	all	0.0722
+iprec_at_recall_0.70  	all	0.0535
+iprec_at_recall_0.80  	all	0.0380
+iprec_at_recall_0.90  	all	0.0243
+iprec_at_recall_1.00  	all	0.0152
+P_5                   	all	0.3182
+P_10                  	all	0.2697
+P_15                  	all	0.2505
+P_20                  	all	0.2326
+P_30                  	all	0.1944
+P_100                 	all	0.1021
+P_200                 	all	0.0665
+P_500                 	all	0.0361
+P_1000                	all	0.0207
+</pre>
+
+<h2>Evaluation with nDCG</h2>
+        <p>These results have been obtained with the graded relevance assessment, i.e. qrels.clef2015.test.graded.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>.</br>To obtain nDCG at different ranks, trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 -m ndcg_cut qrels.clef2015.test.graded.txt runName</pre></br><p>This computes nDCG according to Jarvelin and Kekalainen (ACM ToIS v. 20, pp. 422-446, 2002). Gain values are the relevance values in the qrels file (i.e. label 0 corresponds to gain 0, label 1 to gain 1 and label 2 to gain 2).</p>
+ <h4>UBML_EN_Run.1.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.3001
+ndcg_cut_10           	all	0.2897
+ndcg_cut_15           	all	0.2784
+ndcg_cut_20           	all	0.2773
+ndcg_cut_30           	all	0.2639
+ndcg_cut_100          	all	0.2913
+ndcg_cut_200          	all	0.3280
+ndcg_cut_500          	all	0.3672
+ndcg_cut_1000         	all	0.3875
+</pre>
+ <h4>UBML_EN_Run.10.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2349
+ndcg_cut_10           	all	0.2294
+ndcg_cut_15           	all	0.2238
+ndcg_cut_20           	all	0.2221
+ndcg_cut_30           	all	0.2192
+ndcg_cut_100          	all	0.2489
+ndcg_cut_200          	all	0.2837
+ndcg_cut_500          	all	0.3221
+ndcg_cut_1000         	all	0.3535
+</pre>
+ <h4>UBML_EN_Run.2.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2920
+ndcg_cut_10           	all	0.2909
+ndcg_cut_15           	all	0.2817
+ndcg_cut_20           	all	0.2763
+ndcg_cut_30           	all	0.2703
+ndcg_cut_100          	all	0.2861
+ndcg_cut_200          	all	0.3094
+ndcg_cut_500          	all	0.3472
+ndcg_cut_1000         	all	0.3712
+</pre>
+ <h4>UBML_EN_Run.3.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2995
+ndcg_cut_10           	all	0.2919
+ndcg_cut_15           	all	0.2855
+ndcg_cut_20           	all	0.2830
+ndcg_cut_30           	all	0.2796
+ndcg_cut_100          	all	0.2923
+ndcg_cut_200          	all	0.3158
+ndcg_cut_500          	all	0.3545
+ndcg_cut_1000         	all	0.3777
+</pre>
+ <h4>UBML_EN_Run.4.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2624
+ndcg_cut_10           	all	0.2460
+ndcg_cut_15           	all	0.2374
+ndcg_cut_20           	all	0.2379
+ndcg_cut_30           	all	0.2296
+ndcg_cut_100          	all	0.2572
+ndcg_cut_200          	all	0.2961
+ndcg_cut_500          	all	0.3377
+ndcg_cut_1000         	all	0.3628
+</pre>
+ <h4>UBML_EN_Run.5.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2641
+ndcg_cut_10           	all	0.2500
+ndcg_cut_15           	all	0.2393
+ndcg_cut_20           	all	0.2382
+ndcg_cut_30           	all	0.2304
+ndcg_cut_100          	all	0.2593
+ndcg_cut_200          	all	0.2988
+ndcg_cut_500          	all	0.3395
+ndcg_cut_1000         	all	0.3646
+</pre>
+ <h4>UBML_EN_Run.6.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2336
+ndcg_cut_10           	all	0.2265
+ndcg_cut_15           	all	0.2279
+ndcg_cut_20           	all	0.2219
+ndcg_cut_30           	all	0.2207
+ndcg_cut_100          	all	0.2361
+ndcg_cut_200          	all	0.2619
+ndcg_cut_500          	all	0.2994
+ndcg_cut_1000         	all	0.3322
+</pre>
+ <h4>UBML_EN_Run.7.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2932
+ndcg_cut_10           	all	0.2887
+ndcg_cut_15           	all	0.2891
+ndcg_cut_20           	all	0.2841
+ndcg_cut_30           	all	0.2748
+ndcg_cut_100          	all	0.2957
+ndcg_cut_200          	all	0.3279
+ndcg_cut_500          	all	0.3650
+ndcg_cut_1000         	all	0.3807
+</pre>
+ <h4>UBML_EN_Run.8.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2716
+ndcg_cut_10           	all	0.2533
+ndcg_cut_15           	all	0.2499
+ndcg_cut_20           	all	0.2471
+ndcg_cut_30           	all	0.2382
+ndcg_cut_100          	all	0.2602
+ndcg_cut_200          	all	0.2980
+ndcg_cut_500          	all	0.3436
+ndcg_cut_1000         	all	0.3717
+</pre>
+ <h4>UBML_EN_Run.9.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2693
+ndcg_cut_10           	all	0.2538
+ndcg_cut_15           	all	0.2486
+ndcg_cut_20           	all	0.2458
+ndcg_cut_30           	all	0.2373
+ndcg_cut_100          	all	0.2602
+ndcg_cut_200          	all	0.2961
+ndcg_cut_500          	all	0.3431
+ndcg_cut_1000         	all	0.3693
+</pre>
+
+<h2>Readability-biased evaluation</h2>
+        <p>For this year task, we have considered the factor of understandability of information (or readability) within the evaluation of the submissions, along with the topicality factor (normally referred to as (topical) relevance). Thus, along with (topical) relevance assessments (qrels), we have collected readability assessments (qread). These assessments were provided by judges along with the relevance assessments; however readability was assumed to be assessed independently of (topical) relevance. To account for understandability/readability in the evaluation, we have computed an understandability biased measure, uRBP, as defined in Zuccon&Koopman, <a href="http://zuccon.net/publications/medIR2014_healthsearch_readability.pdf">"Integrating understandability in the evaluation of consumer health search engines"</a>, MedIR 2014. We refer to that publication for the motivations and the details of the measure; note however that we did not use automated readability measures to estimate readability - we instead had actual readability assessments from the relevance assessors. Readability assessments were given on a 4 point scale (from 0 to 3): It is very technical and difficult to read and understand (label 0), It is somewhat technical and difficult to read and understand (label 1), It is somewhat easy to read and understand (label 2), It is very easy to read and understand (label 3).</p><p>The results below have been obtained with the binary relevance assessments (i.e. qrels.clef2015.test.bin.txt) and the graded readability assessments (i.e. i.e. qread.clef2015.test.graded.txt), and ubire-v0.1.0 as distributed on <a href="https://github.com/ielab/ubire">GitHub</a>.</br>The tool was ran as follows:</p>
+<pre>java -jar /tools/ubire.0.1.jar --qrels-file=qrels/qrels.clef2015.test.bin.txt --qread-file=qrels/qread.clef2015.test.graded.txt --readability --rbp-p=0.8 --ranking-file=runName</pre></br><p>This computes RBP, and two versions of uRBP. The user persistence parameter <i>p</i> of RBP (and uRBP) was set to 0.8 following Park&Zhang, <a href="http://goanna.cs.rmit.edu.au/~aht/adcs2007/papers/17N.PDF">"On the distribution of user persistence for rank-biased precision"</a>, ADCS 2007.  uRBP has been computed by using user model 1 of Zuccon&Koopman with threshold=2, i.e. documents with a readability score of 0 or 1 where deemed not readable and thus had P(U|k)=0, while documents with a readability score of 2 or 3 where deemed readable and thus had P(U|k)=1. uRBPgr has been computed by mapping graded readability scores to different probability values, in particular: readability of 0 was assigned P(U|k)=0, readability of 1 was assigned P(U|k)=0.4, readability of 2 was assigned P(U|k)=0.8, readability of 3 was assigned P(U|k)=1.</br>Note that we are still experimenting with these readability-biased measures and thus observations made with the provided measures may not be conclusive.</p>
+ <h4>UBML_EN_Run.1.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3294
+uRBP(0.8)	all      	0.2745
+uRBPgr(0.8)	all      	0.2771
+</pre>
+ <h4>UBML_EN_Run.10.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2658
+uRBP(0.8)	all      	0.2125
+uRBPgr(0.8)	all      	0.2159
+</pre>
+ <h4>UBML_EN_Run.2.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3305
+uRBP(0.8)	all      	0.2709
+uRBPgr(0.8)	all      	0.2735
+</pre>
+ <h4>UBML_EN_Run.3.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3358
+uRBP(0.8)	all      	0.2757
+uRBPgr(0.8)	all      	0.2789
+</pre>
+ <h4>UBML_EN_Run.4.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2953
+uRBP(0.8)	all      	0.2255
+uRBPgr(0.8)	all      	0.2300
+</pre>
+ <h4>UBML_EN_Run.5.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2960
+uRBP(0.8)	all      	0.2220
+uRBPgr(0.8)	all      	0.2279
+</pre>
+ <h4>UBML_EN_Run.6.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2766
+uRBP(0.8)	all      	0.2348
+uRBPgr(0.8)	all      	0.2310
+</pre>
+ <h4>UBML_EN_Run.7.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.3339
+uRBP(0.8)	all      	0.2795
+uRBPgr(0.8)	all      	0.2772
+</pre>
+ <h4>UBML_EN_Run.8.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2978
+uRBP(0.8)	all      	0.2352
+uRBPgr(0.8)	all      	0.2368
+</pre>
+ <h4>UBML_EN_Run.9.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2993
+uRBP(0.8)	all      	0.2332
+uRBPgr(0.8)	all      	0.2362
+</pre>
+
+<h2>Plots P@10</h2>
+<p>The plots below compare each of your runs against the median and best performance (p@10) across all systems  submitted to CLEF for each query topic. In particular, for each query, the height of a bar represents the gain/loss of your system and the best system (for that query) over the median system. The height of a bar is then given by:</p>
+<pre>grey bars:   height(q) = your_p@10(q) - median_p@10(q)
+white bars:  height(q) = best_p@10(q) - median_p@10(q)</pre>
+
+ <h4>UBML_EN_Run.1.dat</h4>
+<img src="./img/UBML_EN_Run.1.dat.p10.png"/>
+ <h4>UBML_EN_Run.10.dat</h4>
+<img src="./img/UBML_EN_Run.10.dat.p10.png"/>
+ <h4>UBML_EN_Run.2.dat</h4>
+<img src="./img/UBML_EN_Run.2.dat.p10.png"/>
+ <h4>UBML_EN_Run.3.dat</h4>
+<img src="./img/UBML_EN_Run.3.dat.p10.png"/>
+ <h4>UBML_EN_Run.4.dat</h4>
+<img src="./img/UBML_EN_Run.4.dat.p10.png"/>
+ <h4>UBML_EN_Run.5.dat</h4>
+<img src="./img/UBML_EN_Run.5.dat.p10.png"/>
+ <h4>UBML_EN_Run.6.dat</h4>
+<img src="./img/UBML_EN_Run.6.dat.p10.png"/>
+ <h4>UBML_EN_Run.7.dat</h4>
+<img src="./img/UBML_EN_Run.7.dat.p10.png"/>
+ <h4>UBML_EN_Run.8.dat</h4>
+<img src="./img/UBML_EN_Run.8.dat.p10.png"/>
+ <h4>UBML_EN_Run.9.dat</h4>
+<img src="./img/UBML_EN_Run.9.dat.p10.png"/>
+      </div>
+    </div>
+
+    <p></p><hr><p></p>
+    <footer class="row">
+        <div class="span6">
+           <p><a href="https://github.com/ielab/relevation">relevation</a> - Information Retrieval Relevance Judging System</p>
+      </div>
+    </footer>
+</div> <!-- container -->
+</body></html>

@@ -1,0 +1,332 @@
+<topics>
+    <top>
+        <num>clef2015.test.1</num>
+        <query> علائم قرمز رنگ بسیار زیاد بر روی پاها بعد از رفتن از پیش ما  </query> 
+    	<translation>symptoms of too much red on the legs after going before we</translation>
+    </top>
+    <top>
+        <num>clef2015.test.2</num>
+        <query>توده برجسته با نقاط قرمز رنگ بر روی بینی  </query>
+	    <translation>Highlights of the red spots on the nose</translation>
+    </top>
+    <top>
+        <num>clef2015.test.3</num>
+        <query>  پاهای قرمز و خشک و فلس مانند در کودکان </query>
+    	<translation>Red, dry and scaly feet in children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.4</num>
+        <query>  توده های خارش دار روی پوست </query>
+	    <translation>Itchy lumps on the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.5</num>
+        <query>  صدای سوت مانند از بینی و سرفه در هنگام خواب  کودکان </query>
+    	<translation>Whistling sound from the nose and cough in children's sleep</translation>
+    </top>
+    <top>
+        <num>clef2015.test.6</num>
+        <query>  صدای خش خش هنگام تنفس نوزاد</query>
+	    <translation>hiss when breathing</translation>
+    </top>
+    <top>
+        <num>clef2015.test.7</num>
+        <query> نشانه های روزاسه </query>
+    	<translation>Symptoms of Rosacea</translation>
+    </top>
+    <top>
+        <num>clef2015.test.8</num>
+        <query> قرنیه تیره و مشکل دید </query>
+    	<translation> cornea dark and difficult to see</translation>
+    </top>
+    <top>
+        <num>clef2015.test.9</num>
+        <query> قرمزی چشم ها همراه با خارش </query>
+		<translation>red eyes with itching </translation>
+    </top>
+    <top>
+        <num>clef2015.test.10</num>
+        <query> جای نیش شبیه دهانه ی آتشفشان </query>
+		<translation>instead sting like the mouth of a volcano</translation>
+    </top>
+    <top>
+        <num>clef2015.test.11</num>
+        <query> لکه های سفید در دهان </query>
+		<translation>white spots in the mouth </translation>
+    </top>
+    <top>
+        <num>clef2015.test.12</num>
+        <query> نوزاد سرفه خشک می کند و به سختی بزاق قورت می دهد </query>
+		<translation> baby dry cough and difficulty swallowing the saliva </translation>
+    </top>
+    <top>
+        <num>clef2015.test.13</num>
+        <query>  تاثیر مردمک تیره روی دید </query>
+		<translation>dark pupil effect on visibility</translation>
+    </top>
+    <top>
+        <num>clef2015.test.14</num>
+        <query>  اشکال تنفسی نوزاد</query>
+		<translation>apnea baby</translation>
+    </top>
+    <top>
+        <num>clef2015.test.15</num>
+        <query>  حمله آسم</query>
+		<translation> attack </translation>
+    </top>
+    <top>
+        <num>clef2015.test.16</num>
+        <query> خون مردگی قرمز روی پاها</query>
+		<translation> red bruises on legs</translation>
+    </top>
+    <top>
+        <num>clef2015.test.17</num>
+        <query>  جوش فلس مانند </query>
+		<translation> scaly rash</translation>
+    </top>
+    <top>
+        <num>clef2015.test.18</num>
+        <query>  اختلال تعادلی و حرکتی همراه با لرزش</query>
+		<translation> movement and balance disorders with tremor</translation>
+    </top>
+    <top>
+        <num>clef2015.test.19</num>
+        <query>  خون مردگی زیر ناخن انگشت شصت</query>
+		<translation>bruise under the nail thumb </translation>
+    </top>
+    <top>
+        <num>clef2015.test.20</num>
+        <query>  اختلال حرکتی همراه با لرزش غیر ارادی دست</query>
+		<translation> movement disorder with involuntary shaking hands</translation>
+    </top>
+    <top>
+        <num>clef2015.test.21</num>
+        <query>  جوشهای معمولی خارش دار روی پوست</query>
+		<translation>typical itchy pimples on the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.22</num>
+        <query>  ترشح غلیظ زرد رنگ چشم</query>
+		<translation>thick yellow discharge Eye </translation>
+    </top>
+    <top>
+        <num>clef2015.test.23</num>
+        <query>چشم های قرمز  </query>
+		<translation>red eyes</translation>
+    </top>
+    <top>
+        <num>clef2015.test.24</num>
+        <query>  ترشح کثیف زرد رنگ از یکی ازچشم ها همراه با خارش </query>
+		<translation> dirty yellowish discharge from the eyes with itching</translation>
+    </top>
+    <top>
+        <num>clef2015.test.25</num>
+        <query> دانه های قرمز روی پوست صورت نوزاد </query>
+		<translation>red rash on the face baby</translation>
+    </top>
+    <top>
+        <num>clef2015.test.26</num>
+        <query>  توده های قرمز برجسته روی پوست </query>
+		<translation> highlighted in red lumps on the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.27</num>
+        <query>لکه های جزئی بعد از برگشتن از خارج از کشور </query>
+		<translation>component spots after returning from abroad.</translation>
+    </top>
+    <top>
+        <num>clef2015.test.28</num>
+        <query> قارچ پوستی  در نوزاد </query>
+		<translation> baby skin fungus</translation>
+    </top>
+    <top>
+        <num>clef2015.test.29</num>
+        <query>  نقاط قرمز پوست با تاول چرکی </query>
+		<translation>red areas of skin with blisters and pus</translation>
+    </top>
+    <top>
+        <num>clef2015.test.30</num>
+        <query>  صدای عجیب هنگام تنفس </query>
+		<translation> strange sound when breathing</translation>
+    </top>
+    <top>
+        <num>clef2015.test.31</num>
+        <query> تنفس سنگین کودک همراه با صدا  </query>
+		<translation>child with heavy breathing sound</translation>
+    </top>
+    <top>
+        <num>clef2015.test.32</num>
+        <query> پوست قرمز آزار دهنده روی صورت نوزاد</query>
+		<translation>annoying red skin on face baby</translation>
+    </top>
+    <top>
+        <num>clef2015.test.33</num>
+        <query>  چرک سفید رنگ در حلق</query>
+		<translation> white pus in the throat</translation>
+    </top>
+    <top>
+        <num>clef2015.test.34</num>
+        <query>  مشکل پوسیدگی دندان</query>
+		<translation> tooth decay problem</translation>
+    </top>
+    <top>
+        <num>clef2015.test.35</num>
+        <query> سوزش شدید چشم در اثر استفاده لنز </query>
+		<translation> severe eye irritation caused by contact lenses </translation>
+    </top>
+    <top>
+        <num>clef2015.test.36</num>
+        <query> لرزش چشم ها </query>
+		<translation>Shake eyes</translation>
+    </top>
+    <top>
+        <num>clef2015.test.37</num>
+        <query> پوست فلس مانند </query>
+		<translation>scaly skin </translation>
+    </top>
+    <top>
+        <num>clef2015.test.38</num>
+        <query> پاهای قرمز خارش دار و فلس مانند در کودکان </query>
+		<translation> red, itchy and scaly legs in children</translation>
+    </top>
+    <top>
+        <num>clef2015.test.39</num>
+        <query> اگزما با تاول و چرک سفید </query>
+		<translation>rash with blisters and pus White</translation>
+    </top>
+    <top>
+        <num>clef2015.test.40</num>
+        <query>جوش چرکی قرمز روی صورت نوزاد </query>
+		<translation> pus, red rash on the face baby </translation>
+    </top>
+    <top>
+        <num>clef2015.test.41</num>
+        <query> بزرگی عنبيه  چشم </query>
+		<translation>large iris </translation>
+    </top>
+    <top>
+        <num>clef2015.test.42</num>
+        <query>  خونریزی زیر پوستی</query>
+		<translation>bleeding under the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.43</num>
+        <query>  برامدگی خارش دار پوستی </query>
+  		<translation>ridge itchy skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.44</num>
+        <query> سیاه شدگی ناخن </query>
+  		<translation>nigrescence nails </translation>
+    </top>
+    <top>
+        <num>clef2015.test.45</num>
+        <query> احساس خشکی و سوزش </query>
+  		<translation> dryness and burning</translation>
+    </top>
+    <top>
+        <num>clef2015.test.46</num>
+        <query> سرفه  نوزاد </query>
+  		<translation> baby cough</translation>
+    </top>
+    <top>
+        <num>clef2015.test.47</num>
+        <query> پوسیدگی های دندان </query>
+  		<translation>tooth decay </translation>
+    </top>
+    <top>
+        <num>clef2015.test.48</num>
+        <query> وضعیت پزشکی عدم توقف حرکت چشم ها </query>
+  		<translation>medical condition did not stop the movement of the eyes. </translation>
+    </top>
+    <top>
+        <num>clef2015.test.49</num>
+        <query> نوزاد همیشه با دهان بسته نفس می کشد </query>
+  		<translation> baby always breathes with the mouth closed </translation>
+    </top>
+    <top>
+        <num>clef2015.test.50</num>
+        <query> سنقطه قرمز روی صورت نوزاد</query>
+  		<translation>baby face red dot</translation>
+    </top>
+    <top>
+        <num>clef2015.test.51</num>
+        <query> رگ های خونی قرمز در چشم ها </query>
+  		<translation>red blood vessels in your eyes</translation>
+    </top>
+    <top>
+        <num>clef2015.test.52</num>
+        <query>نقاط سفید روی لثه ها</query>
+  		<translation>white spots on gums</translation>
+    </top>
+    <top>
+        <num>clef2015.test.53</num>
+        <query> پاهای متورم </query>
+  		<translation>swollen legs</translation>
+    </top>
+    <top>
+        <num>clef2015.test.54</num>
+        <query>توده های قرمز روی بینی</query>
+  		<translation> red lumps on the nose </translation>
+    </top>
+    <top>
+        <num>clef2015.test.55</num>
+        <query>  علامت مشبک شکل روی پوست</query>
+  		<translation>grid-shaped mark on the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.56</num>
+        <query> خمیدگی هنگام راه رفتن </query>
+  		<translation>hogging walking</translation>
+    </top>
+    <top>
+        <num>clef2015.test.57</num>
+        <query> خس خس و تنگی نفس در  نوزاد  </query>
+  		<translation> wheezing and asthma in infants</translation>
+    </top>
+    <top>
+        <num>clef2015.test.58</num>
+        <query> ۳۹ درجه و آبله مرغی </query>
+  		<translation>39 ° C and chicken pox </translation>
+    </top>
+    <top>
+        <num>clef2015.test.59</num>
+        <query> تنفس سنگین همراه با صدا و خس خس </query>
+  		<translation>with the sound of heavy breathing and wheezing</translation>
+    </top>
+    <top>
+        <num>clef2015.test.60</num>
+        <query> نقطه سفید رنگ در عنبیه نوزاد </query>
+  		<translation>white spots on the iris, baby </translation>
+    </top>
+    <top>
+        <num>clef2015.test.61</num>
+        <query> خون مردگی زیر ناخن</query>
+  		<translation>bruise under the nail</translation>
+    </top>
+    <top>
+        <num>clef2015.test.63</num>
+        <query> لکه های پوسته پوسته بر روی پوست </query>
+  		<translation>scaly patches on the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.64</num>
+        <query> حرکت غیر ارادی سریع چشم ها به چپ و راست </query>
+  		<translation> involuntary rapid eye movement to the left and right </translation>
+    </top>
+    <top>
+        <num>clef2015.test.65</num>
+        <query>لکه های عجیب قهوه ای روی پوست</query>
+  		<translation>strange brown spots on the skin</translation>
+    </top>
+    <top>
+        <num>clef2015.test.66</num>
+        <query> درمان سرفه در نوزادان </query>
+  		<translation>cough in infants</translation>
+    </top>
+    <top>
+        <num>clef2015.test.67</num>
+        <query> دندان سیاه </query>
+		<translation>black tooth</translation>
+    </top>    
+</topics>

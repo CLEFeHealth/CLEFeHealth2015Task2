@@ -1,0 +1,27 @@
+﻿<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>pérdida de cabello en el cuero cabelludo en forma de pequeños círculos de una pulgada de diámetro</query>
+        <narr>Los documentos deberán contener informaciones que permitan al usuario de entender que sufre de alopecia</narr>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>lesiones alrededor de la boca</query>
+        <narr>Los documentos deberán contener informaciones que permitan al usuario de entender que sufre de queilitis angular</narr>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>pantorrilla hinchada y dolorosa</query>
+        <narr>Los documentos deberán contener informaciones que permitan al usuario de entender que sufre de edema</narr>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>globos oculares que salen</query>
+        <narr>Los documentos deberán contener informaciones que permitan al usuario de entender que sufre de exoftalmia</narr>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>parte blanca del ojo que se vuelve verde</query>
+        <narr>Los documentos deberán contener informaciones que permitan al usuario de entender que sufre de ictericia</narr>
+    </top>
+</topics>

@@ -1,0 +1,32 @@
+﻿<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>perte de cheveux sur le cuir chevelu en cercle de pouce de largueur</query>
+        <translation> hair loss on the scalp inch circle width </translation>
+        <narr>Les documents devraient contenir des informations permettant à l'utilisateur de comprendre qu´il souffre d´alopécie</narr>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>lésions autour de la bouche</query>
+        <translation>lesions around the mouth</translation>
+        <narr>Les documents devraient contenir des informations permettant à l'utilisateur de comprendre qu´il souffre de perlèche</narr>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>mollet gonflé douloureux</query>
+        <translation>painful swollen calf </translation>
+        <narr>Les documents devraient contenir des informations permettant à l'utilisateur de comprendre qu´il souffre d´un œdème</narr>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>globes oculaires qui sortent</query>
+        <translation>eyeballs coming out</translation>
+        <narr>Les documents devraient contenir des informations permettant à l'utilisateur de comprendre qu´il souffre d´une exophtalmie</narr>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>partie blanche de l'œil devenue verte</query>
+        <translation>white part of the eye become green</translation>
+        <narr>Les documents devraient contenir des informations permettant à l'utilisateur de comprendre qu´il souffre de jaunisse</narr>
+    </top>
+</topics>

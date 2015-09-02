@@ -1,0 +1,27 @@
+<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>ريزش موي پوست سر به اندازه دايره اي به قطر يك اينچ</query>
+        <narr>سند باید حاوی اطلاعاتیی (آلوپسی) دارند</narr>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>زخم اطراف دهان</query>
+        <narr> سند باید حاوی اطلاعاتی التهاب اطراف دهانی دارند </narr>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>تورم ساق پا</query>
+        <narr> سند باید حاوی اطلاعاتی ادم دارند </narr>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>بیرون زده گی</query>
+        <narr> سند باید حاوی اطلاعاتی اگزوفتالمی دارند </narr>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>سبز شدن سفيدي چشم</query>
+        <narr> سند باید حاوی اطلاعاتی یرقان دارند </narr>
+    </top>
+</topics>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Share/CLEF eHealth 2015 TASK 2 Results by relevation - Information Retrieval Relevance Judging System</title>
+   <meta name="description" content="">
+    <meta name="author" content="CLEF 2015 Task 2 Committee">
+    <link rel="stylesheet" href="bootstrap.css">
+    <style type="text/css">
+        body { padding-top: 60px; font-size: 12px; }
+        label, button, .btn { font-size: 12px; }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="./clef_eval_files/jquery.min.js"></script>
+    <script src="./clef_eval_files/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+<style type="text/css">@media print { #feedlyMiniIcon { display: none; } }</style></head>
+
+<body style="zoom: 1;">
+<div class="container">
+<div class="well">
+        <h1>Share/CLEF eHealth 2015 TASK 2 Results - KUCS_EN_Run</h1>
+        <p>This page summarises the results obtained from your submissions. Here, you can find the mean performance of your submissions, for all standard trec_eval measures and for nDCG at different ranks.</br> For this first year, the Share/CLEF eHealth 2015 TASK 2 built result pools from your submissions considering the top 10 documents ranked by your baseline system (run 1), and the two highest priority runs (run 2 and 3); thus all remaining runs were not sampled to form the assessment pool. This was because, unlike in previous years, submissions were greatly differing between each other, and thus lead to very large (and different) pools. As a consequence:<ul><li>the <b>primary measure for this year is precision at 10 (P@10)</b>,</li><li>the <b>secondary measure is Normalised Discounted Cumulative Gain at rank 10</b> (ndcg_cut_10).</li></ul>Per-query performance can be found in the <i>evals</i> folder in the directory containing this HTML page. Note that metrics such as MAP may not be reliable for evaluation due to the limited pool depth.</br>Some of the participant's runs contained formatting errors (the most common was the use of a numeric query id in place of the official qtest2015.XX id); others did not retrieve results for some queries or fail to conform to the TREC result format; finally, some retrieved the same document more than once for the same query (i.e. duplicate documents). To fairly evaluate the runs of every participant, submitted runs containing formatting errors and duplicated documents have been corrected. Duplicate documents have been removed and replaced by a <i>duplicatedid</i> string. Your runs (as evaluated here) are contained in the folder <i>runs</i> - please use these runs if you want to perform further evaluation and analysis.</br></br>Please refer to the <a href="https://sites.google.com/site/clefehealth2015/">ShARe/CLEF 2015 eHealth Evaluation Lab website</a> for additional details on the task.</p></br><p>Relevance assessments are distributed along with this webpage and are also available from the task website. Assessors judged relevance according to a three point scale: Not Relevant (label 0), Somewhat Relevant (label 1), Highly Relevant (label 2). When computing binary relevance measures (e.g. P@10 and MAP), we mapped label 0 to not relevant, and labels 1 and 2 to relevant; this  is encoded in the binary qrels named <i>qrels.clef2015.test.bin.txt</i>. Graded relevance assessments are contained in the <i>qrels.clef2015.test.graded.txt</i> file.</p>
+    </div>
+    <div class="row">
+        <div class="span9">
+            <h2>Evaluation with standard trec_eval metrics</h2>
+        <p>These results have been obtained with the binary relevance assessment, i.e. qrels.clef2015.test.bin.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>. Trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 qrels.clef2015.test.bin.txt runName</pre>
+ <h4>KUCS_EN_Run.1.dat</h4>
+            <pre>
+runid                 	all	KU-CS_EN_Run1
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1133
+map                   	all	0.1090
+gm_map                	all	0.0312
+Rprec                 	all	0.1475
+bpref                 	all	0.2112
+recip_rank            	all	0.4556
+iprec_at_recall_0.00  	all	0.4983
+iprec_at_recall_0.10  	all	0.3452
+iprec_at_recall_0.20  	all	0.2067
+iprec_at_recall_0.30  	all	0.1490
+iprec_at_recall_0.40  	all	0.0918
+iprec_at_recall_0.50  	all	0.0653
+iprec_at_recall_0.60  	all	0.0394
+iprec_at_recall_0.70  	all	0.0185
+iprec_at_recall_0.80  	all	0.0068
+iprec_at_recall_0.90  	all	0.0014
+iprec_at_recall_1.00  	all	0.0009
+P_5                   	all	0.2970
+P_10                  	all	0.2545
+P_15                  	all	0.2131
+P_20                  	all	0.1856
+P_30                  	all	0.1561
+P_100                 	all	0.0877
+P_200                 	all	0.0564
+P_500                 	all	0.0301
+P_1000                	all	0.0172
+</pre>
+ <h4>KUCS_EN_Run.2.dat</h4>
+            <pre>
+runid                 	all	KU-CS_EN_Run2
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1037
+map                   	all	0.0930
+gm_map                	all	0.0078
+Rprec                 	all	0.1067
+bpref                 	all	0.2020
+recip_rank            	all	0.3341
+iprec_at_recall_0.00  	all	0.3670
+iprec_at_recall_0.10  	all	0.2676
+iprec_at_recall_0.20  	all	0.1573
+iprec_at_recall_0.30  	all	0.1142
+iprec_at_recall_0.40  	all	0.0930
+iprec_at_recall_0.50  	all	0.0753
+iprec_at_recall_0.60  	all	0.0447
+iprec_at_recall_0.70  	all	0.0285
+iprec_at_recall_0.80  	all	0.0195
+iprec_at_recall_0.90  	all	0.0051
+iprec_at_recall_1.00  	all	0.0010
+P_5                   	all	0.2576
+P_10                  	all	0.2288
+P_15                  	all	0.1798
+P_20                  	all	0.1530
+P_30                  	all	0.1263
+P_100                 	all	0.0679
+P_200                 	all	0.0436
+P_500                 	all	0.0238
+P_1000                	all	0.0157
+</pre>
+ <h4>KUCS_EN_Run.3.dat</h4>
+            <pre>
+runid                 	all	KU-CS_EN_Run3
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1037
+map                   	all	0.0219
+gm_map                	all	0.0039
+Rprec                 	all	0.0425
+bpref                 	all	0.1822
+recip_rank            	all	0.1146
+iprec_at_recall_0.00  	all	0.1431
+iprec_at_recall_0.10  	all	0.0651
+iprec_at_recall_0.20  	all	0.0423
+iprec_at_recall_0.30  	all	0.0289
+iprec_at_recall_0.40  	all	0.0223
+iprec_at_recall_0.50  	all	0.0186
+iprec_at_recall_0.60  	all	0.0134
+iprec_at_recall_0.70  	all	0.0073
+iprec_at_recall_0.80  	all	0.0045
+iprec_at_recall_0.90  	all	0.0008
+iprec_at_recall_1.00  	all	0.0001
+P_5                   	all	0.0303
+P_10                  	all	0.0364
+P_15                  	all	0.0394
+P_20                  	all	0.0447
+P_30                  	all	0.0460
+P_100                 	all	0.0342
+P_200                 	all	0.0259
+P_500                 	all	0.0185
+P_1000                	all	0.0157
+</pre>
+ <h4>KUCS_EN_Run.4.dat</h4>
+            <pre>
+runid                 	all	KU-CS_EN_Run4
+num_q                 	all	66
+num_ret               	all	66000
+num_rel               	all	1972
+num_rel_ret           	all	1133
+map                   	all	0.0180
+gm_map                	all	0.0061
+Rprec                 	all	0.0214
+bpref                 	all	0.1867
+recip_rank            	all	0.0805
+iprec_at_recall_0.00  	all	0.0969
+iprec_at_recall_0.10  	all	0.0431
+iprec_at_recall_0.20  	all	0.0310
+iprec_at_recall_0.30  	all	0.0274
+iprec_at_recall_0.40  	all	0.0240
+iprec_at_recall_0.50  	all	0.0201
+iprec_at_recall_0.60  	all	0.0159
+iprec_at_recall_0.70  	all	0.0088
+iprec_at_recall_0.80  	all	0.0020
+iprec_at_recall_0.90  	all	0.0010
+iprec_at_recall_1.00  	all	0.0003
+P_5                   	all	0.0182
+P_10                  	all	0.0182
+P_15                  	all	0.0192
+P_20                  	all	0.0189
+P_30                  	all	0.0187
+P_100                 	all	0.0245
+P_200                 	all	0.0243
+P_500                 	all	0.0197
+P_1000                	all	0.0172
+</pre>
+
+<h2>Evaluation with nDCG</h2>
+        <p>These results have been obtained with the graded relevance assessment, i.e. qrels.clef2015.test.graded.txt, and trec_eval 9.0 <a href="http://trec.nist.gov/trec_eval/">as distributed by NIST</a>.</br>To obtain nDCG at different ranks, trec_eval was ran as follows:</p>
+<pre>./trec_eval -c -M1000 -m ndcg_cut qrels.clef2015.test.graded.txt runName</pre></br><p>This computes nDCG according to Jarvelin and Kekalainen (ACM ToIS v. 20, pp. 422-446, 2002). Gain values are the relevance values in the qrels file (i.e. label 0 corresponds to gain 0, label 1 to gain 1 and label 2 to gain 2).</p>
+ <h4>KUCS_EN_Run.1.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2354
+ndcg_cut_10           	all	0.2205
+ndcg_cut_15           	all	0.2073
+ndcg_cut_20           	all	0.2006
+ndcg_cut_30           	all	0.1937
+ndcg_cut_100          	all	0.2267
+ndcg_cut_200          	all	0.2554
+ndcg_cut_500          	all	0.2990
+ndcg_cut_1000         	all	0.3196
+</pre>
+ <h4>KUCS_EN_Run.2.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.2047
+ndcg_cut_10           	all	0.1980
+ndcg_cut_15           	all	0.1775
+ndcg_cut_20           	all	0.1646
+ndcg_cut_30           	all	0.1532
+ndcg_cut_100          	all	0.1716
+ndcg_cut_200          	all	0.1930
+ndcg_cut_500          	all	0.2246
+ndcg_cut_1000         	all	0.2579
+</pre>
+ <h4>KUCS_EN_Run.3.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.0248
+ndcg_cut_10           	all	0.0299
+ndcg_cut_15           	all	0.0326
+ndcg_cut_20           	all	0.0362
+ndcg_cut_30           	all	0.0401
+ndcg_cut_100          	all	0.0578
+ndcg_cut_200          	all	0.0813
+ndcg_cut_500          	all	0.1228
+ndcg_cut_1000         	all	0.1805
+</pre>
+ <h4>KUCS_EN_Run.4.dat</h4>
+            <pre>
+ndcg_cut_5            	all	0.0169
+ndcg_cut_10           	all	0.0163
+ndcg_cut_15           	all	0.0170
+ndcg_cut_20           	all	0.0174
+ndcg_cut_30           	all	0.0184
+ndcg_cut_100          	all	0.0438
+ndcg_cut_200          	all	0.0720
+ndcg_cut_500          	all	0.1262
+ndcg_cut_1000         	all	0.1978
+</pre>
+
+<h2>Readability-biased evaluation</h2>
+        <p>For this year task, we have considered the factor of understandability of information (or readability) within the evaluation of the submissions, along with the topicality factor (normally referred to as (topical) relevance). Thus, along with (topical) relevance assessments (qrels), we have collected readability assessments (qread). These assessments were provided by judges along with the relevance assessments; however readability was assumed to be assessed independently of (topical) relevance. To account for understandability/readability in the evaluation, we have computed an understandability biased measure, uRBP, as defined in Zuccon&Koopman, <a href="http://zuccon.net/publications/medIR2014_healthsearch_readability.pdf">"Integrating understandability in the evaluation of consumer health search engines"</a>, MedIR 2014. We refer to that publication for the motivations and the details of the measure; note however that we did not use automated readability measures to estimate readability - we instead had actual readability assessments from the relevance assessors. Readability assessments were given on a 4 point scale (from 0 to 3): It is very technical and difficult to read and understand (label 0), It is somewhat technical and difficult to read and understand (label 1), It is somewhat easy to read and understand (label 2), It is very easy to read and understand (label 3).</p><p>The results below have been obtained with the binary relevance assessments (i.e. qrels.clef2015.test.bin.txt) and the graded readability assessments (i.e. i.e. qread.clef2015.test.graded.txt), and ubire-v0.1.0 as distributed on <a href="https://github.com/ielab/ubire">GitHub</a>.</br>The tool was ran as follows:</p>
+<pre>java -jar /tools/ubire.0.1.jar --qrels-file=qrels/qrels.clef2015.test.bin.txt --qread-file=qrels/qread.clef2015.test.graded.txt --readability --rbp-p=0.8 --ranking-file=runName</pre></br><p>This computes RBP, and two versions of uRBP. The user persistence parameter <i>p</i> of RBP (and uRBP) was set to 0.8 following Park&Zhang, <a href="http://goanna.cs.rmit.edu.au/~aht/adcs2007/papers/17N.PDF">"On the distribution of user persistence for rank-biased precision"</a>, ADCS 2007.  uRBP has been computed by using user model 1 of Zuccon&Koopman with threshold=2, i.e. documents with a readability score of 0 or 1 where deemed not readable and thus had P(U|k)=0, while documents with a readability score of 2 or 3 where deemed readable and thus had P(U|k)=1. uRBPgr has been computed by mapping graded readability scores to different probability values, in particular: readability of 0 was assigned P(U|k)=0, readability of 1 was assigned P(U|k)=0.4, readability of 2 was assigned P(U|k)=0.8, readability of 3 was assigned P(U|k)=1.</br>Note that we are still experimenting with these readability-biased measures and thus observations made with the provided measures may not be conclusive.</p>
+ <h4>KUCS_EN_Run.1.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2785
+uRBP(0.8)	all      	0.2312
+uRBPgr(0.8)	all      	0.2251
+</pre>
+ <h4>KUCS_EN_Run.2.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.2562
+uRBP(0.8)	all      	0.1818
+uRBPgr(0.8)	all      	0.1906
+</pre>
+ <h4>KUCS_EN_Run.3.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.1679
+uRBP(0.8)	all      	0.1514
+uRBPgr(0.8)	all      	0.1425
+</pre>
+ <h4>KUCS_EN_Run.4.dat</h4>
+            <pre>
+RBP(0.8)	all      	0.0656
+uRBP(0.8)	all      	0.0600
+uRBPgr(0.8)	all      	0.0567
+</pre>
+
+<h2>Plots P@10</h2>
+<p>The plots below compare each of your runs against the median and best performance (p@10) across all systems  submitted to CLEF for each query topic. In particular, for each query, the height of a bar represents the gain/loss of your system and the best system (for that query) over the median system. The height of a bar is then given by:</p>
+<pre>grey bars:   height(q) = your_p@10(q) - median_p@10(q)
+white bars:  height(q) = best_p@10(q) - median_p@10(q)</pre>
+
+ <h4>KUCS_EN_Run.1.dat</h4>
+<img src="./img/KUCS_EN_Run.1.dat.p10.png"/>
+ <h4>KUCS_EN_Run.2.dat</h4>
+<img src="./img/KUCS_EN_Run.2.dat.p10.png"/>
+ <h4>KUCS_EN_Run.3.dat</h4>
+<img src="./img/KUCS_EN_Run.3.dat.p10.png"/>
+ <h4>KUCS_EN_Run.4.dat</h4>
+<img src="./img/KUCS_EN_Run.4.dat.p10.png"/>
+      </div>
+    </div>
+
+    <p></p><hr><p></p>
+    <footer class="row">
+        <div class="span6">
+           <p><a href="https://github.com/ielab/relevation">relevation</a> - Information Retrieval Relevance Judging System</p>
+      </div>
+    </footer>
+</div> <!-- container -->
+</body></html>

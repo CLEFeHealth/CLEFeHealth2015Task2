@@ -1,0 +1,32 @@
+<topics>
+    <top>
+        <num>clef2015.training.1</num>
+        <query>فقدان الشعر على فروة الرأس بمقدار اينش بشكل دائري</query>
+        <translation>Hair loss on the scalp in a circular motion by Lynch</translation>
+        <narr>المستندات يجب ان تحتوي على معلومات تسمح للمستخدم ان يعلم ان لديه حاصة</narr>
+    </top>
+    <top>
+        <num>clef2015.training.2</num>
+        <query>قرحات جلدية حول الفم</query>
+        <translation>Ulceration of the skin around the mouth</translation>
+        <narr>المستندات يجب ان تحتوي على معلومات تسمح للمستخدم ان يعلم ان لديه التهاب شفتين زاوي</narr>
+    </top>
+    <top>
+        <num>clef2015.training.3</num>
+        <query>ربلة الساق المؤلمة المتوزمة</query>
+        <translation>Calf painful Almmma</translation>
+        <narr>المستندات يجب ان تحتوي على معلومات تسمح للمستخدم ان يعلم ان لديه وزمة</narr>
+    </top>
+    <top>
+        <num>clef2015.training.4</num>
+        <query>تبارز كرتي العينين</query>
+        <translation>Protrusion Karti eyes</translation>
+        <narr>المستندات يجب ان تحتوي على معلومات تسمح للمستخدم ان يعلم ان لديه جحوظ</narr>
+    </top>
+    <top>
+        <num>clef2015.training.5</num>
+        <query>تحول بياض العين للون الاخضر</query>
+        <translation>Turning white of the eye green color</translation>
+        <narr>المستندات يجب ان تحتوي على معلومات تسمح للمستخدم ان يعلم ان لديه يرقان</narr>
+    </top>
+</topics>

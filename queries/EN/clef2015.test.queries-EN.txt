@@ -1,0 +1,266 @@
+<topics>
+	<top>
+		<num>clef2015.test.1</num>
+		<query>many red marks on legs after traveling from us</query>
+	</top>
+	<top>
+		<num>clef2015.test.2</num>
+		<query>lump with blood spots on nose</query>
+	</top>
+	<top>
+		<num>clef2015.test.3</num>
+		<query>dry red and scaly feet in children</query>
+	</top>
+	<top>
+		<num>clef2015.test.4</num>
+		<query>itchy lumps skin</query>
+	</top>
+	<top>
+		<num>clef2015.test.5</num>
+		<query>whistling noise and cough during sleeping + children</query>
+	</top>
+	<top>
+		<num>clef2015.test.6</num>
+		<query>child make hissing sound when breathing</query>
+	</top>
+	<top>
+		<num>clef2015.test.7</num>
+		<query>rosacea symptoms</query>
+	</top>
+	<top>
+		<num>clef2015.test.8</num>
+		<query>cloudy cornea and vision problem</query>
+	</top>
+	<top>
+		<num>clef2015.test.9</num>
+		<query>red itchy eyes</query>
+	</top>
+	<top>
+		<num>clef2015.test.10</num>
+		<query>crater type bite mark</query>
+	</top>
+	<top>
+		<num>clef2015.test.11</num>
+		<query>white patchiness in mouth</query>
+	</top>
+	<top>
+		<num>clef2015.test.12</num>
+		<query>baby has dry cough and has problem to swallow saliva</query>
+	</top>
+	<top>
+		<num>clef2015.test.13</num>
+		<query>cloudy pupil affecting vision</query>
+	</top>
+	<top>
+		<num>clef2015.test.14</num>
+		<query>infant difficulty breathing</query>
+	</top>
+	<top>
+		<num>clef2015.test.15</num>
+		<query>asthma attack</query>
+	</top>
+	<top>
+		<num>clef2015.test.16</num>
+		<query>red patchy bruising over legs</query>
+	</top>
+	<top>
+		<num>clef2015.test.17</num>
+		<query>scaly rash</query>
+	</top>
+	<top>
+		<num>clef2015.test.18</num>
+		<query>poor gait and balance with shaking</query>
+	</top>
+	<top>
+		<num>clef2015.test.19</num>
+		<query>bruised thumb nail</query>
+	</top>
+	<top>
+		<num>clef2015.test.20</num>
+		<query>movement difficulty with involuntary hand trembling</query>
+	</top>
+	<top>
+		<num>clef2015.test.21</num>
+		<query>common itchy skin rashes</query>
+	</top>
+	<top>
+		<num>clef2015.test.22</num>
+		<query>yellow thick eye leakage</query>
+	</top>
+	<top>
+		<num>clef2015.test.23</num>
+		<query>red bloodshot eyes</query>
+	</top>
+	<top>
+		<num>clef2015.test.24</num>
+		<query>yellow gunk coming from one eye itchy</query>
+	</top>
+	<top>
+		<num>clef2015.test.25</num>
+		<query>red rash baby face</query>
+	</top>
+	<top>
+		<num>clef2015.test.26</num>
+		<query>raised red lumps skin</query>
+	</top>
+	<top>
+		<num>clef2015.test.27</num>
+		<query>return from overseas with mean spots on legs</query>
+	</top>
+	<top>
+		<num>clef2015.test.28</num>
+		<query>baby skin fungal</query>
+	</top>
+	<top>
+		<num>clef2015.test.29</num>
+		<query>red patch on skin with blister and dry pus</query>
+	</top>
+	<top>
+		<num>clef2015.test.30</num>
+		<query>weird sounds when breathing</query>
+	</top>
+	<top>
+		<num>clef2015.test.31</num>
+		<query>toddler having squeaky breath</query>
+	</top>
+	<top>
+		<num>clef2015.test.32</num>
+		<query>red irritated skin on baby's face</query>
+	</top>
+	<top>
+		<num>clef2015.test.33</num>
+		<query>white infection in pharynx</query>
+	</top>
+	<top>
+		<num>clef2015.test.34</num>
+		<query>cavity problem</query>
+	</top>
+	<top>
+		<num>clef2015.test.35</num>
+		<query>lot of irritation with contact lenses</query>
+	</top>
+	<top>
+		<num>clef2015.test.36</num>
+		<query>eye are shaking</query>
+	</top>
+	<top>
+		<num>clef2015.test.37</num>
+		<query>scaly skin</query>
+	</top>
+	<top>
+		<num>clef2015.test.38</num>
+		<query>scaly red itchy feet in children</query>
+	</top>
+	<top>
+		<num>clef2015.test.39</num>
+		<query>skin eczema with blister and white pus</query>
+	</top>
+	<top>
+		<num>clef2015.test.40</num>
+		<query>baby red blotch on face</query>
+	</top>
+	<top>
+		<num>clef2015.test.41</num>
+		<query>eye iris large</query>
+	</top>
+	<top>
+		<num>clef2015.test.42</num>
+		<query>patchy bleeding under skin</query>
+	</top>
+	<top>
+		<num>clef2015.test.43</num>
+		<query>itchy raised bumps skin</query>
+	</top>
+	<top>
+		<num>clef2015.test.44</num>
+		<query>nail getting dark</query>
+	</top>
+	<top>
+		<num>clef2015.test.45</num>
+		<query>dry feel with irritation</query>
+	</top>
+	<top>
+		<num>clef2015.test.46</num>
+		<query>baby cough</query>
+	</top>
+	<top>
+		<num>clef2015.test.47</num>
+		<query>cavities</query>
+	</top>
+	<top>
+		<num>clef2015.test.48</num>
+		<query>cannot stop moving my eyes medical condition</query>
+	</top>
+	<top>
+		<num>clef2015.test.49</num>
+		<query>baby always breathing with mouth closed</query>
+	</top>
+	<top>
+		<num>clef2015.test.50</num>
+		<query>red spot baby face</query>
+	</top>
+	<top>
+		<num>clef2015.test.51</num>
+		<query>eyes red blood vessels</query>
+	</top>
+	<top>
+		<num>clef2015.test.52</num>
+		<query>white spotting on gums</query>
+	</top>
+	<top>
+		<num>clef2015.test.53</num>
+		<query>swollen legs</query>
+	</top>
+	<top>
+		<num>clef2015.test.54</num>
+		<query>red lumps on nose</query>
+	</top>
+	<top>
+		<num>clef2015.test.55</num>
+		<query>crate type mark in skin</query>
+	</top>
+	<top>
+		<num>clef2015.test.56</num>
+		<query>slouching when walking</query>
+	</top>
+	<top>
+		<num>clef2015.test.57</num>
+		<query>infant labored breathing and tight wheezing cough</query>
+	</top>
+	<top>
+		<num>clef2015.test.58</num>
+		<query>39 degree and chicken pox</query>
+	</top>
+	<top>
+		<num>clef2015.test.59</num>
+		<query>heavy and squeaky breath</query>
+	</top>
+	<top>
+		<num>clef2015.test.60</num>
+		<query>baby white dot in iris</query>
+	</top>
+	<top>
+		<num>clef2015.test.61</num>
+		<query>fingernail bruises</query>
+	</top>
+	<top>
+		<num>clef2015.test.63</num>
+		<query>crusty skin patches</query>
+	</top>
+	<top>
+		<num>clef2015.test.64</num>
+		<query>involuntary rapid left-right eye motion</query>
+	</top>
+	<top>
+		<num>clef2015.test.65</num>
+		<query>weird brown patches on skin</query>
+	</top>
+	<top>
+		<num>clef2015.test.66</num>
+		<query>treatment of coughs in babies</query>
+	</top>
+	<top>
+		<num>clef2015.test.67</num>
+		<query>black tooth</query>
+	</top>
+</topics>

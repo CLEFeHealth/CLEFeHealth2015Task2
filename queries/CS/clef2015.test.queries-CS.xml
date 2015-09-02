@@ -1,0 +1,266 @@
+<topics>
+    <top>
+        <num>clef2015.test.1</num>
+        <query>mnohočetné červené skvrny na dolních končetinách po cestě z USA</query>
+    </top>
+    <top>
+        <num>clef2015.test.2</num>
+        <query>bulka s krvavými skvrnami na nose</query>
+    </top>
+    <top>
+        <num>clef2015.test.3</num>
+        <query>suchá červená a šupinatá chodidla u dětí</query>
+    </top>
+    <top>
+        <num>clef2015.test.4</num>
+        <query>svědivé bulky kůže</query>
+    </top>
+    <top>
+        <num>clef2015.test.5</num>
+        <query>pískoty a kašel během spánku + děti</query>
+    </top>
+    <top>
+        <num>clef2015.test.6</num>
+        <query>dítě pískající při dýchání</query>
+    </top>
+    <top>
+        <num>clef2015.test.7</num>
+        <query>příznaky rosacey</query>
+    </top>
+    <top>
+        <num>clef2015.test.8</num>
+        <query>zakalená rohovka a problémy s viděním</query>
+    </top>
+    <top>
+        <num>clef2015.test.9</num>
+        <query>zarudlé svědící oči</query>
+    </top>
+    <top>
+        <num>clef2015.test.10</num>
+        <query>hluboká stopa po kousnutí </query>
+    </top>
+    <top>
+        <num>clef2015.test.11</num>
+        <query>bílé povlaky v dutině ústní</query>
+    </top>
+    <top>
+        <num>clef2015.test.12</num>
+        <query>kojenec suše kašle a má problémy s polykáním slin</query>
+    </top>
+    <top>
+        <num>clef2015.test.13</num>
+        <query>zakalená zornička ovlivňující zrak</query>
+    </top>
+    <top>
+        <num>clef2015.test.14</num>
+        <query>obtížně dýchající kojenec</query>
+    </top>
+    <top>
+        <num>clef2015.test.15</num>
+        <query>astmatický záchvat</query>
+    </top>
+    <top>
+        <num>clef2015.test.16</num>
+        <query>červené skvrnité prokrvácení dolních končetin</query>
+    </top>
+    <top>
+        <num>clef2015.test.17</num>
+        <query>šupinatá vyrážka</query>
+    </top>
+    <top>
+        <num>clef2015.test.18</num>
+        <query>špatné držení těla a rovnováha s třesem</query>
+    </top>
+    <top>
+        <num>clef2015.test.19</num>
+        <query>pohmožděný nehet palce u nohy</query>
+    </top>
+    <top>
+        <num>clef2015.test.20</num>
+        <query>pohybové obtíže s bezděčným třesem ruky</query>
+    </top>
+    <top>
+        <num>clef2015.test.21</num>
+        <query>běžné svědící kožní vyrážky</query>
+    </top>
+    <top>
+        <num>clef2015.test.22</num>
+        <query>hustý žlutý výtok z oka</query>
+    </top>
+    <top>
+        <num>clef2015.test.23</num>
+        <query>zarudlé krví podlité oči</query>
+    </top>
+    <top>
+        <num>clef2015.test.24</num>
+        <query>žlutý výtok vytékající z jednoho oka svědící</query>
+    </top>
+    <top>
+        <num>clef2015.test.25</num>
+        <query>červená vyrážka obličej kojence</query>
+    </top>
+    <top>
+        <num>clef2015.test.26</num>
+        <query>zarudlé bulky kůže</query>
+    </top>
+    <top>
+        <num>clef2015.test.27</num>
+        <query>návrat ze zahraničí se zvláštními pupínky na dolních končetinách</query>
+    </top>
+    <top>
+        <num>clef2015.test.28</num>
+        <query>kojenec kůže plíseň</query>
+    </top>
+    <top>
+        <num>clef2015.test.29</num>
+        <query>zarudlé skvrny na kůži s puchýři a hnisem</query>
+    </top>
+    <top>
+        <num>clef2015.test.30</num>
+        <query>zvláštní zvuky při dýchání</query>
+    </top>
+    <top>
+        <num>clef2015.test.31</num>
+        <query>batole se stridorem</query>
+    </top>
+    <top>
+        <num>clef2015.test.32</num>
+        <query>zarudlá podrážděná pokožka obličeje u kojence</query>
+    </top>
+    <top>
+        <num>clef2015.test.33</num>
+        <query>bílá infekce hltanu</query>
+    </top>
+    <top>
+        <num>clef2015.test.34</num>
+        <query>problém se zubním kazem</query>
+    </top>
+    <top>
+        <num>clef2015.test.35</num>
+        <query>výrazná iritace kontaktními čočkami</query>
+    </top>
+    <top>
+        <num>clef2015.test.36</num>
+        <query>pohybující se oči</query>
+    </top>
+    <top>
+        <num>clef2015.test.37</num>
+        <query>šupinatá kůže</query>
+    </top>
+    <top>
+        <num>clef2015.test.38</num>
+        <query>šupinatá zarudlá svědící chodidla u dětí</query>
+    </top>
+    <top>
+        <num>clef2015.test.39</num>
+        <query>kožní ekzém s puchýřky a hnisem</query>
+    </top>
+    <top>
+        <num>clef2015.test.40</num>
+        <query>kojenec rudá skvrna na obličeji</query>
+    </top>
+    <top>
+        <num>clef2015.test.41</num>
+        <query>oko duhovka velká</query>
+    </top>
+    <top>
+        <num>clef2015.test.42</num>
+        <query>skvrnité krvácení pod kůží</query>
+    </top>
+    <top>
+        <num>clef2015.test.43</num>
+        <query>svědivé bulky kůže</query>
+    </top>
+    <top>
+        <num>clef2015.test.44</num>
+        <query>zčernalý nehet</query>
+    </top>
+    <top>
+        <num>clef2015.test.45</num>
+        <query>pocit suchosti s podrážděním</query>
+    </top>
+    <top>
+        <num>clef2015.test.46</num>
+        <query>kašel kojence</query>
+    </top>
+    <top>
+        <num>clef2015.test.47</num>
+        <query>zubní kazy</query>
+    </top>
+    <top>
+        <num>clef2015.test.48</num>
+        <query>nemůžu zastavit pohyb mých očí onemocnění</query>
+    </top>
+    <top>
+        <num>clef2015.test.49</num>
+        <query>kojenec vždy dýchá se zavřenou pusou</query>
+    </top>
+    <top>
+        <num>clef2015.test.50</num>
+        <query>červená skvrna obličej kojence</query>
+    </top>
+    <top>
+        <num>clef2015.test.51</num>
+        <query>oči červené cévy</query>
+    </top>
+    <top>
+        <num>clef2015.test.52</num>
+        <query>bílé povlaky na dásních</query>
+    </top>
+    <top>
+        <num>clef2015.test.53</num>
+        <query>oteklé dolní končetiny</query>
+    </top>
+    <top>
+        <num>clef2015.test.54</num>
+        <query>červené zduřeniny na nose</query>
+    </top>
+    <top>
+        <num>clef2015.test.55</num>
+        <query>hluboká rána na kůži</query>
+    </top>
+    <top>
+        <num>clef2015.test.56</num>
+        <query>hrbící se při chůzi</query>
+    </top>
+    <top>
+        <num>clef2015.test.57</num>
+        <query>kojenec obtížné dýchání a pískavý kašel</query>
+    </top>
+    <top>
+        <num>clef2015.test.58</num>
+        <query>39 stupňů a neštovice</query>
+    </top>
+    <top>
+        <num>clef2015.test.59</num>
+        <query>těžký a pískavý dech</query>
+    </top>
+    <top>
+        <num>clef2015.test.60</num>
+        <query>kojenec bílá skvrna na duhovce</query>
+    </top>
+    <top>
+        <num>clef2015.test.61</num>
+        <query>krvácení pod nehty</query>
+    </top>
+    <top>
+        <num>clef2015.test.63</num>
+        <query>krustovitá ložiska na kůži</query>
+    </top>
+    <top>
+        <num>clef2015.test.64</num>
+        <query>bezděčné rychlé horizontální pohyby očí</query>
+    </top>
+    <top>
+        <num>clef2015.test.65</num>
+        <query>zvláštní hnědé skvrny na kůži</query>
+    </top>
+    <top>
+        <num>clef2015.test.66</num>
+        <query>léčba kašle u kojenců</query>
+    </top>
+    <top>
+        <num>clef2015.test.67</num>
+        <query>černý zub</query>
+    </top>
+</topics>
